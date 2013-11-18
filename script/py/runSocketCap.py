@@ -4,6 +4,9 @@ import win32api
 import win32con
 import time
 import string
+import os
+import win32ui,win32con,pythoncom,win32gui
+import sys
 
 from ctypes import *
 
@@ -135,15 +138,59 @@ def InputString(text):
     text=string.upper(text)
     for char in text:
         win32api.keybd_event(ord(char),0,0,0)
+		
+def SendData2Windows(times,name,psw):
+	pwin=win32gui.FindWindow(None,'SocksCap32 用户名/密码验证')
+	if pwin:			
+		first = win32gui.FindWindowEx(pwin, None, 'Edit', None)
+		'''
+		len = 100
+		buffer = win32gui.PyMakeBuffer(len)
+		nchars = win32gui.SendMessage(first, win32con.WM_GETTEXT, len, buffer) 
+		print '账号：',buffer
+		'''
+		if first:
+			#帐户
+			win32gui.SendMessage(first, win32con.WM_SETTEXT, 0,name)	
+			second = win32gui.FindWindowEx(pwin, first, 'Edit', None)
+			'''
+			print second
+			len = 100
+			len = 100
+			buffer = '0' *50
+			buffer = win32gui.PyMakeBuffer(len)
+			nchars = win32gui.SendMessage(second, win32con.WM_GETTEXT, len, buffer) 
+			print '密码：',buffer
+			'''
+			if second:
+				#密码
+				win32gui.SendMessage(second, win32con.WM_SETTEXT, 0,psw)
+				okbtn = win32gui.FindWindowEx(pwin, None, 'Button', None)
+				if okbtn:
+					win32gui.SendMessage(okbtn,win32con.BM_CLICK,0,0)
+	else:
+		times = times-1
+		time.sleep(1)
+		os.system('cls')
+		print times+1
+		if times > 0:
+			SendData2Windows(times,name,psw)
+		else:
+			print '没有找到PLSQL登录窗口'
+			os.system('pause')
+
 
 if __name__ == "__main__":
-    debugger = debugger()
-    debugger.load("C:\\Program Files\\SocksCapV2\\sc32.exe")
-
-time.sleep(0.5)
+	debugger = debugger()
+	debugger.load("C:\\Program Files\\SocksCapV2\\sc32.exe")
+SendData2Windows(15,'ipcc','l1527ff9c25d1l')
+#time.sleep(3)
+'''
 InputString('ipcc')
 #发送tab
 win32api.keybd_event(9,0,0,0)
 InputString('9c25d527ff')
 #发送Enter
 win32api.keybd_event(13,0,0,0)
+'''
+
