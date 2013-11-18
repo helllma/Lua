@@ -176,7 +176,7 @@ def SendData2Windows(times,name,psw):
 		if times > 0:
 			SendData2Windows(times,name,psw)
 		else:
-			print '没有找到PLSQL登录窗口'
+			print '没有找到登录窗口'
 			os.system('pause')
 
 
