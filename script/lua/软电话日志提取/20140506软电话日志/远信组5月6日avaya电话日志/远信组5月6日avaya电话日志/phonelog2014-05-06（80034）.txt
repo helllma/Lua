@@ -1,0 +1,566 @@
+2014-05-06 14:13:30-->数据库已连接！
+2014-05-06 14:13:58-->接收到ITSM的消息,document:/crossdomain.xml
+2014-05-06 14:13:58-->接收到ITSM的消息,document:/CZYLogin
+2014-05-06 14:13:58-->接收到ITSM的消息,params:ip=10.111.34.253&lockerurl=http://10.111.0.78:9084/pMonitor&user=16107&sysuserid=1008&sysusername=邱蓉&sysurl=itsm.yepg.com&orgid=203&phonegroup=yx|&buttonlist=&sysusernameencode=%E9%82%B1%E8%93%89
+2014-05-06 14:14:09-->话后强制就绪！当前话后时长：11
+2014-05-06 14:19:54-->allstate,ctcState:256,ctcEvent:6
+2014-05-06 14:19:54-->CncallCtc1InboundCall refId:12507 oldRefId:0 secOldRefId:0 thirdParty:(null) calledParty:40114 otherParty:40203 
+2014-05-06 14:19:54-->Have Called In AppData:08734857983 TTSGH:1 refID:12507
+2014-05-06 14:19:54-->通话开始时间：2014-05-06 14:22:44
+2014-05-06 14:19:54-->CncallCtc1InboundCall事件：开始振铃时刻:-686419533
+2014-05-06 14:19:55-->sql:select top 1 ucid from CallDetail where calling = '08734857983' and called = '40203' and skillnum = '40114' order by servicetime desc
+2014-05-06 14:19:55-->callid:00001125001399357756
+2014-05-06 14:19:55-->http://itsm.yepg.com/popWindow.jsp?para=08734857983%5E1008%5E%E9%82%B1%E8%93%89%5E00001125001399357756%5E20140506142244%5E203
+2014-05-06 14:19:57-->allstate,ctcState:2,ctcEvent:7
+2014-05-06 14:19:57-->Ctc1TpAnswered refId:12507 oldRefId:0 EnableTTSGH:1 RequestIVRTTS:0 ZJRequestSign:0 thirdParty:(null) calledParty:40114 otherParty:40203 CallType:呼入 CalledNum:(null)
+2014-05-06 14:19:57--> TpAnswered in StationJFSign:0 
+2014-05-06 14:19:57-->CncallCtc1TpAnswered事件：计算振铃时长，当前时间点:-686419529，                开始振铃时刻：-686419533,计算后振铃时长:4
+2014-05-06 14:19:57-->TpAnswered 正常呼入应答
+2014-05-06 14:19:57-->TPAnswer Transfer GH TO IVR:40409AppData:ivr^16107%AppData+flow:2100-
+2014-05-06 14:19:58--> TpAnswered out StationJFSign:1 RequestIVRTTS:1
+2014-05-06 14:19:58-->allstate,ctcState:2,ctcEvent:23
+2014-05-06 14:19:58-->allstate,ctcState:2,ctcEvent:3
+2014-05-06 14:19:58-->Ctc1OpAnswered refId:12507 oldRefId:0 EnableTTSGH:1 RequestIVRTTS:1 ZJRequestSign:0 HasTTSGH:0 thirdParty:08734857983 calledParty:40114 otherParty:40314 CallType:呼入 CalledNum:80034
+2014-05-06 14:19:58-->新录音加入后，开始应答会触发一次OpAnswer
+2014-05-06 14:19:58-->allstate,ctcState:2,ctcEvent:14
+2014-05-06 14:19:58-->allstate,ctcState:16,ctcEvent:17
+2014-05-06 14:19:58-->allstate,ctcState:32,ctcEvent:1
+2014-05-06 14:19:58-->in offhook evtent  StationJFSign:1 HasTTSGH：0 ZJRequestSign:0         Talking:21113606 DialNumber:80034 CalledID:80034 CallRecived:1
+2014-05-06 14:19:58-->Offhook para refId:12508 otherParty(null) thirdParty:(null)         calledParty:(null) 
+2014-05-06 14:19:58-->CncallCtc1Offhook事件，开始振铃时刻:-686419533
+2014-05-06 14:19:58-->allstate,ctcState:32,ctcEvent:1
+2014-05-06 14:19:58-->in offhook evtent  StationJFSign:1 HasTTSGH：0 ZJRequestSign:0         Talking:21113606 DialNumber:80034 CalledID:80034 CallRecived:1
+2014-05-06 14:19:58-->Offhook para refId:12508 otherParty(null) thirdParty:(null)         calledParty:40409 
+2014-05-06 14:19:58-->ivr tts gh CncallCtc1Offhook  return
+2014-05-06 14:19:58-->allstate,ctcState:4,ctcEvent:2
+2014-05-06 14:19:58-->allstate,ctcState:2,ctcEvent:13
+2014-05-06 14:19:58-->allstate,ctcState:2,ctcEvent:3
+2014-05-06 14:19:58-->Ctc1OpAnswered refId:12508 oldRefId:0 EnableTTSGH:1 RequestIVRTTS:0 ZJRequestSign:0 HasTTSGH:0 thirdParty:80034 calledParty:40409 otherParty:40240 CallType:呼入 CalledNum:80034
+2014-05-06 14:19:58--> OpAnswered in StationJFSign:1 
+2014-05-06 14:19:58--> OpAnswered out StationJFSign:1 RequestIVRTTS:0
+2014-05-06 14:20:01-->allstate,ctcState:128,ctcEvent:4
+2014-05-06 14:20:01--> TpDisconnected in StationJFSign:1 JFSign:1 ZJRequestSign:0 EnableTTSGH:1 refId:12508 oldRefId:0
+2014-05-06 14:20:01--> TpDisconnected otherParty:(null), thirdParty:(null), calledParty:(null)
+2014-05-06 14:20:01-->通话结束时间：2014-05-06 14:22:50
+2014-05-06 14:20:01-->setjsk  Caller: 08734857983 JFSign:1 StationJFSign:1
+2014-05-06 14:20:01-->座席记录：  Caller:08734857983 CalledNum:80034 CallType:呼入 MSI_StationOwner:16107
+2014-05-06 14:20:01-->AgentModeChange:挂机后，非就绪
+2014-05-06 14:20:01--> TpDisconnected out StationJFSign:0  
+2014-05-06 14:20:11-->话后强制就绪！当前话后时长：11
+2014-05-06 14:23:39-->allstate,ctcState:256,ctcEvent:6
+2014-05-06 14:23:39-->CncallCtc1InboundCall refId:12568 oldRefId:0 secOldRefId:0 thirdParty:(null) calledParty:40114 otherParty:40230 
+2014-05-06 14:23:39-->Have Called In AppData:63067868 TTSGH:1 refID:12568
+2014-05-06 14:23:39-->通话开始时间：2014-05-06 14:26:28
+2014-05-06 14:23:39-->CncallCtc1InboundCall事件：开始振铃时刻:-686419308
+2014-05-06 14:23:39-->sql:select top 1 ucid from CallDetail where calling = '63067868' and called = '40230' and skillnum = '40114' order by servicetime desc
+2014-05-06 14:23:39-->callid:00001125641399357990
+2014-05-06 14:23:39-->http://itsm.yepg.com/popWindow.jsp?para=63067868%5E1008%5E%E9%82%B1%E8%93%89%5E00001125641399357990%5E20140506142629%5E203
+2014-05-06 14:23:45-->allstate,ctcState:2,ctcEvent:7
+2014-05-06 14:23:45-->Ctc1TpAnswered refId:12568 oldRefId:0 EnableTTSGH:1 RequestIVRTTS:0 ZJRequestSign:0 thirdParty:(null) calledParty:40114 otherParty:40230 CallType:呼入 CalledNum:80034
+2014-05-06 14:23:45--> TpAnswered in StationJFSign:0 
+2014-05-06 14:23:45-->CncallCtc1TpAnswered事件：计算振铃时长，当前时间点:-686419302，                开始振铃时刻：-686419308,计算后振铃时长:6
+2014-05-06 14:23:45-->TpAnswered 正常呼入应答
+2014-05-06 14:23:45-->TPAnswer Transfer GH TO IVR:40409AppData:ivr^16107%AppData+flow:2100-
+2014-05-06 14:23:46--> TpAnswered out StationJFSign:1 RequestIVRTTS:1
+2014-05-06 14:23:46-->allstate,ctcState:2,ctcEvent:23
+2014-05-06 14:23:46-->allstate,ctcState:2,ctcEvent:3
+2014-05-06 14:23:46-->Ctc1OpAnswered refId:12568 oldRefId:0 EnableTTSGH:1 RequestIVRTTS:1 ZJRequestSign:0 HasTTSGH:0 thirdParty:63067868 calledParty:40114 otherParty:40322 CallType:呼入 CalledNum:80034
+2014-05-06 14:23:46-->新录音加入后，开始应答会触发一次OpAnswer
+2014-05-06 14:23:46-->allstate,ctcState:2,ctcEvent:14
+2014-05-06 14:23:46-->allstate,ctcState:16,ctcEvent:17
+2014-05-06 14:23:46-->allstate,ctcState:32,ctcEvent:1
+2014-05-06 14:23:46-->in offhook evtent  StationJFSign:1 HasTTSGH：0 ZJRequestSign:0         Talking:21113606 DialNumber:80034 CalledID:80034 CallRecived:1
+2014-05-06 14:23:46-->Offhook para refId:12572 otherParty(null) thirdParty:(null)         calledParty:(null) 
+2014-05-06 14:23:46-->CncallCtc1Offhook事件，开始振铃时刻:-686419308
+2014-05-06 14:23:46-->allstate,ctcState:32,ctcEvent:1
+2014-05-06 14:23:46-->in offhook evtent  StationJFSign:1 HasTTSGH：0 ZJRequestSign:0         Talking:21113606 DialNumber:80034 CalledID:80034 CallRecived:1
+2014-05-06 14:23:46-->Offhook para refId:12572 otherParty(null) thirdParty:(null)         calledParty:40409 
+2014-05-06 14:23:46-->ivr tts gh CncallCtc1Offhook  return
+2014-05-06 14:23:46-->allstate,ctcState:4,ctcEvent:2
+2014-05-06 14:23:46-->allstate,ctcState:2,ctcEvent:3
+2014-05-06 14:23:46-->Ctc1OpAnswered refId:12572 oldRefId:0 EnableTTSGH:1 RequestIVRTTS:0 ZJRequestSign:0 HasTTSGH:0 thirdParty:80034 calledParty:40409 otherParty:40245 CallType:呼入 CalledNum:80034
+2014-05-06 14:23:46--> OpAnswered in StationJFSign:1 
+2014-05-06 14:23:46--> OpAnswered out StationJFSign:1 RequestIVRTTS:0
+2014-05-06 14:23:46-->allstate,ctcState:2,ctcEvent:13
+2014-05-06 14:23:52-->allstate,ctcState:2,ctcEvent:5
+2014-05-06 14:23:52--> OpDisconnected in StationJFSign:1 JFSign:1 ZJRequestSign:0,otherParty:40245, thirdParty:(null), calledParty:(null) refId:12572 oldRefId:0
+2014-05-06 14:23:52-->ivr tts gh  hangup return
+2014-05-06 14:26:52-->ivr^1256413993%AppData+flow:2400-
+2014-05-06 14:26:52-->allstate,ctcState:16,ctcEvent:17
+2014-05-06 14:26:52-->allstate,ctcState:32,ctcEvent:1
+2014-05-06 14:26:52-->in offhook evtent  StationJFSign:1 HasTTSGH：0 ZJRequestSign:0         Talking:21113602 DialNumber:80034 CalledID:80034 CallRecived:3
+2014-05-06 14:26:52-->Offhook para refId:12612 otherParty(null) thirdParty:(null)         calledParty:(null) 
+2014-05-06 14:26:52-->是转接评价触发的offhook，不做处理。
+2014-05-06 14:26:52-->allstate,ctcState:32,ctcEvent:1
+2014-05-06 14:26:52-->in offhook evtent  StationJFSign:1 HasTTSGH：0 ZJRequestSign:0         Talking:21113602 DialNumber:80034 CalledID:80034 CallRecived:3
+2014-05-06 14:26:52-->Offhook para refId:12612 otherParty(null) thirdParty:(null)         calledParty:40408 
+2014-05-06 14:26:52-->是转接评价触发的offhook，不做处理。
+2014-05-06 14:26:52-->allstate,ctcState:4,ctcEvent:2
+2014-05-06 14:26:52-->allstate,ctcState:2,ctcEvent:3
+2014-05-06 14:26:52-->Ctc1OpAnswered refId:12612 oldRefId:0 EnableTTSGH:1 RequestIVRTTS:0 ZJRequestSign:0 HasTTSGH:0 thirdParty:80034 calledParty:40408 otherParty:40242 CallType:呼入 CalledNum:80034
+2014-05-06 14:26:52--> OpAnswered in StationJFSign:1 
+2014-05-06 14:26:52-->进入转接评价呼叫
+2014-05-06 14:26:55-->OpAnswered:isZJPJ
+2014-05-06 14:26:55-->通话结束时间：2014-05-06 14:29:44
+2014-05-06 14:26:55-->setjsk  Caller: 63067868 JFSign:1 StationJFSign:1
+2014-05-06 14:26:55-->座席记录：  Caller:63067868 CalledNum:80034 CallType:呼入 MSI_StationOwner:16107
+2014-05-06 14:26:56-->allstate,ctcState:16,ctcEvent:5
+2014-05-06 14:26:56--> OpDisconnected in StationJFSign:0 JFSign:0 ZJRequestSign:0,otherParty:40322, thirdParty:(null), calledParty:(null) refId:12572 oldRefId:0
+2014-05-06 14:26:56-->新录音加入后，开始应答会触发一次OpDisconnected
+2014-05-06 14:26:56-->allstate,ctcState:16,ctcEvent:5
+2014-05-06 14:26:56--> OpDisconnected in StationJFSign:0 JFSign:0 ZJRequestSign:0,otherParty:63067868, thirdParty:(null), calledParty:(null) refId:12572 oldRefId:0
+2014-05-06 14:26:56-->调用StationTimeCount时通话开始时间已经为0，不能写数据库
+2014-05-06 14:26:56--> OpDisconnected out StationJFSign: 0
+2014-05-06 14:26:56-->allstate,ctcState:128,ctcEvent:4
+2014-05-06 14:26:56--> TpDisconnected in StationJFSign:0 JFSign:0 ZJRequestSign:0 EnableTTSGH:1 refId:12572 oldRefId:0
+2014-05-06 14:26:56--> TpDisconnected otherParty:(null), thirdParty:(null), calledParty:(null)
+2014-05-06 14:26:56-->调用StationTimeCount时通话开始时间已经为0，不能写数据库
+2014-05-06 14:26:56--> TpDisconnected out StationJFSign:0  
+2014-05-06 14:26:56-->allstate,ctcState:128,ctcEvent:4
+2014-05-06 14:26:56--> TpDisconnected in StationJFSign:0 JFSign:0 ZJRequestSign:0 EnableTTSGH:1 refId:12612 oldRefId:0
+2014-05-06 14:26:56--> TpDisconnected otherParty:(null), thirdParty:(null), calledParty:(null)
+2014-05-06 14:26:56-->调用StationTimeCount时通话开始时间已经为0，不能写数据库
+2014-05-06 14:26:56--> TpDisconnected out StationJFSign:0  
+2014-05-06 14:27:06-->话后强制就绪！当前话后时长：11
+2014-05-06 14:28:51-->allstate,ctcState:256,ctcEvent:6
+2014-05-06 14:28:51-->CncallCtc1InboundCall refId:12646 oldRefId:0 secOldRefId:0 thirdParty:(null) calledParty:40114 otherParty:40240 
+2014-05-06 14:28:51-->Have Called In AppData:8107 TTSGH:1 refID:12646
+2014-05-06 14:28:51-->通话开始时间：2014-05-06 14:31:40
+2014-05-06 14:28:51-->CncallCtc1InboundCall事件：开始振铃时刻:-686418996
+2014-05-06 14:28:52-->sql:select top 1 ucid from CallDetail where calling = '8107' and called = '40240' and skillnum = '40114' order by servicetime desc
+2014-05-06 14:28:52-->callid:00001126381399358308
+2014-05-06 14:28:52-->http://itsm.yepg.com/popWindow.jsp?para=8107%5E1008%5E%E9%82%B1%E8%93%89%5E00001126381399358308%5E20140506143141%5E203
+2014-05-06 14:28:55-->allstate,ctcState:2,ctcEvent:7
+2014-05-06 14:28:55-->Ctc1TpAnswered refId:12646 oldRefId:0 EnableTTSGH:1 RequestIVRTTS:0 ZJRequestSign:0 thirdParty:(null) calledParty:40114 otherParty:40240 CallType:呼入 CalledNum:80034
+2014-05-06 14:28:55--> TpAnswered in StationJFSign:0 
+2014-05-06 14:28:55-->CncallCtc1TpAnswered事件：计算振铃时长，当前时间点:-686418992，                开始振铃时刻：-686418996,计算后振铃时长:4
+2014-05-06 14:28:55-->TpAnswered 正常呼入应答
+2014-05-06 14:28:55-->TPAnswer Transfer GH TO IVR:40409AppData:ivr^16107%AppData+flow:2100-
+2014-05-06 14:28:56--> TpAnswered out StationJFSign:1 RequestIVRTTS:1
+2014-05-06 14:28:56-->allstate,ctcState:2,ctcEvent:23
+2014-05-06 14:28:56-->allstate,ctcState:2,ctcEvent:3
+2014-05-06 14:28:56-->Ctc1OpAnswered refId:12646 oldRefId:0 EnableTTSGH:1 RequestIVRTTS:1 ZJRequestSign:0 HasTTSGH:0 thirdParty:8107 calledParty:40114 otherParty:40304 CallType:呼入 CalledNum:80034
+2014-05-06 14:28:56-->新录音加入后，开始应答会触发一次OpAnswer
+2014-05-06 14:28:56-->allstate,ctcState:2,ctcEvent:14
+2014-05-06 14:28:56-->allstate,ctcState:16,ctcEvent:17
+2014-05-06 14:28:56-->allstate,ctcState:32,ctcEvent:1
+2014-05-06 14:28:56-->in offhook evtent  StationJFSign:1 HasTTSGH：0 ZJRequestSign:0         Talking:21113606 DialNumber:80034 CalledID:80034 CallRecived:1
+2014-05-06 14:28:56-->Offhook para refId:12647 otherParty(null) thirdParty:(null)         calledParty:(null) 
+2014-05-06 14:28:56-->CncallCtc1Offhook事件，开始振铃时刻:-686418996
+2014-05-06 14:28:56-->allstate,ctcState:32,ctcEvent:1
+2014-05-06 14:28:56-->in offhook evtent  StationJFSign:1 HasTTSGH：0 ZJRequestSign:0         Talking:21113606 DialNumber:80034 CalledID:80034 CallRecived:1
+2014-05-06 14:28:56-->Offhook para refId:12647 otherParty(null) thirdParty:(null)         calledParty:40409 
+2014-05-06 14:28:56-->ivr tts gh CncallCtc1Offhook  return
+2014-05-06 14:28:56-->allstate,ctcState:4,ctcEvent:2
+2014-05-06 14:28:56-->allstate,ctcState:2,ctcEvent:13
+2014-05-06 14:28:56-->allstate,ctcState:2,ctcEvent:3
+2014-05-06 14:28:56-->Ctc1OpAnswered refId:12647 oldRefId:0 EnableTTSGH:1 RequestIVRTTS:0 ZJRequestSign:0 HasTTSGH:0 thirdParty:80034 calledParty:40409 otherParty:40226 CallType:呼入 CalledNum:80034
+2014-05-06 14:28:56--> OpAnswered in StationJFSign:1 
+2014-05-06 14:28:56--> OpAnswered out StationJFSign:1 RequestIVRTTS:0
+2014-05-06 14:29:02-->allstate,ctcState:2,ctcEvent:5
+2014-05-06 14:29:02--> OpDisconnected in StationJFSign:1 JFSign:1 ZJRequestSign:0,otherParty:40226, thirdParty:(null), calledParty:(null) refId:12647 oldRefId:0
+2014-05-06 14:29:02-->ivr tts gh  hangup return
+2014-05-06 14:30:25-->allstate,ctcState:2,ctcEvent:5
+2014-05-06 14:30:25--> OpDisconnected in StationJFSign:1 JFSign:1 ZJRequestSign:0,otherParty:8107, thirdParty:(null), calledParty:(null) refId:12647 oldRefId:0
+2014-05-06 14:30:25-->通话结束时间：2014-05-06 14:33:14
+2014-05-06 14:30:25-->setjsk  Caller: 8107 JFSign:1 StationJFSign:1
+2014-05-06 14:30:25-->座席记录：  Caller:8107 CalledNum:40409 CallType:呼入 MSI_StationOwner:16107
+2014-05-06 14:30:25-->AgentModeChange:挂机后，非就绪
+2014-05-06 14:30:26--> OpDisconnected out StationJFSign: 0
+2014-05-06 14:30:26-->allstate,ctcState:128,ctcEvent:4
+2014-05-06 14:30:26--> TpDisconnected in StationJFSign:0 JFSign:0 ZJRequestSign:0 EnableTTSGH:1 refId:12647 oldRefId:0
+2014-05-06 14:30:26--> TpDisconnected otherParty:(null), thirdParty:(null), calledParty:(null)
+2014-05-06 14:30:26-->调用StationTimeCount时通话开始时间已经为0，不能写数据库
+2014-05-06 14:30:26-->AgentModeChange:挂机后，非就绪
+2014-05-06 14:30:26--> TpDisconnected out StationJFSign:0  
+2014-05-06 14:30:26-->allstate,ctcState:128,ctcEvent:4
+2014-05-06 14:30:26--> TpDisconnected in StationJFSign:0 JFSign:0 ZJRequestSign:0 EnableTTSGH:1 refId:12679 oldRefId:0
+2014-05-06 14:30:26--> TpDisconnected otherParty:(null), thirdParty:(null), calledParty:(null)
+2014-05-06 14:30:26-->调用StationTimeCount时通话开始时间已经为0，不能写数据库
+2014-05-06 14:30:26--> TpDisconnected out StationJFSign:0  
+2014-05-06 14:30:36-->话后强制就绪！当前话后时长：11
+2014-05-06 14:31:58-->allstate,ctcState:256,ctcEvent:6
+2014-05-06 14:31:58-->CncallCtc1InboundCall refId:12704 oldRefId:0 secOldRefId:0 thirdParty:(null) calledParty:40114 otherParty:40248 
+2014-05-06 14:31:58-->Have Called In AppData:013888590658 TTSGH:1 refID:12704
+2014-05-06 14:31:58-->通话开始时间：2014-05-06 14:34:48
+2014-05-06 14:31:58-->CncallCtc1InboundCall事件：开始振铃时刻:-686418808
+2014-05-06 14:31:59-->sql:select top 1 ucid from CallDetail where calling = '013888590658' and called = '40248' and skillnum = '40114' order by servicetime desc
+2014-05-06 14:31:59-->callid:00001126961399358487
+2014-05-06 14:31:59-->http://itsm.yepg.com/popWindow.jsp?para=013888590658%5E1008%5E%E9%82%B1%E8%93%89%5E00001126961399358487%5E20140506143448%5E203
+2014-05-06 14:32:01-->allstate,ctcState:2,ctcEvent:7
+2014-05-06 14:32:01-->Ctc1TpAnswered refId:12704 oldRefId:0 EnableTTSGH:1 RequestIVRTTS:0 ZJRequestSign:0 thirdParty:(null) calledParty:40114 otherParty:40248 CallType:呼入 CalledNum:40409
+2014-05-06 14:32:01--> TpAnswered in StationJFSign:0 
+2014-05-06 14:32:01-->CncallCtc1TpAnswered事件：计算振铃时长，当前时间点:-686418805，                开始振铃时刻：-686418808,计算后振铃时长:3
+2014-05-06 14:32:01-->TpAnswered 正常呼入应答
+2014-05-06 14:32:01-->TPAnswer Transfer GH TO IVR:40409AppData:ivr^16107%AppData+flow:2100-
+2014-05-06 14:32:02--> TpAnswered out StationJFSign:1 RequestIVRTTS:1
+2014-05-06 14:32:02-->allstate,ctcState:2,ctcEvent:23
+2014-05-06 14:32:02-->allstate,ctcState:2,ctcEvent:3
+2014-05-06 14:32:02-->Ctc1OpAnswered refId:12704 oldRefId:0 EnableTTSGH:1 RequestIVRTTS:1 ZJRequestSign:0 HasTTSGH:0 thirdParty:013888590658 calledParty:40114 otherParty:40331 CallType:呼入 CalledNum:80034
+2014-05-06 14:32:02-->新录音加入后，开始应答会触发一次OpAnswer
+2014-05-06 14:32:02-->allstate,ctcState:2,ctcEvent:14
+2014-05-06 14:32:02-->allstate,ctcState:16,ctcEvent:17
+2014-05-06 14:32:02-->allstate,ctcState:32,ctcEvent:1
+2014-05-06 14:32:02-->in offhook evtent  StationJFSign:1 HasTTSGH：0 ZJRequestSign:0         Talking:21113606 DialNumber:80034 CalledID:80034 CallRecived:1
+2014-05-06 14:32:02-->Offhook para refId:12708 otherParty(null) thirdParty:(null)         calledParty:(null) 
+2014-05-06 14:32:02-->CncallCtc1Offhook事件，开始振铃时刻:-686418808
+2014-05-06 14:32:02-->allstate,ctcState:32,ctcEvent:1
+2014-05-06 14:32:02-->in offhook evtent  StationJFSign:1 HasTTSGH：0 ZJRequestSign:0         Talking:21113606 DialNumber:80034 CalledID:80034 CallRecived:1
+2014-05-06 14:32:02-->Offhook para refId:12708 otherParty(null) thirdParty:(null)         calledParty:40409 
+2014-05-06 14:32:02-->ivr tts gh CncallCtc1Offhook  return
+2014-05-06 14:32:02-->allstate,ctcState:4,ctcEvent:2
+2014-05-06 14:32:02-->allstate,ctcState:2,ctcEvent:13
+2014-05-06 14:32:02-->allstate,ctcState:2,ctcEvent:3
+2014-05-06 14:32:02-->Ctc1OpAnswered refId:12708 oldRefId:0 EnableTTSGH:1 RequestIVRTTS:0 ZJRequestSign:0 HasTTSGH:0 thirdParty:80034 calledParty:40409 otherParty:40238 CallType:呼入 CalledNum:80034
+2014-05-06 14:32:02--> OpAnswered in StationJFSign:1 
+2014-05-06 14:32:02--> OpAnswered out StationJFSign:1 RequestIVRTTS:0
+2014-05-06 14:32:09-->allstate,ctcState:2,ctcEvent:5
+2014-05-06 14:32:09--> OpDisconnected in StationJFSign:1 JFSign:1 ZJRequestSign:0,otherParty:40238, thirdParty:(null), calledParty:(null) refId:12708 oldRefId:0
+2014-05-06 14:32:09-->ivr tts gh  hangup return
+2014-05-06 14:35:59-->allstate,ctcState:2,ctcEvent:5
+2014-05-06 14:35:59--> OpDisconnected in StationJFSign:1 JFSign:1 ZJRequestSign:0,otherParty:013888590658, thirdParty:(null), calledParty:(null) refId:12708 oldRefId:0
+2014-05-06 14:35:59-->通话结束时间：2014-05-06 14:38:48
+2014-05-06 14:35:59-->setjsk  Caller: 013888590658 JFSign:1 StationJFSign:1
+2014-05-06 14:35:59-->座席记录：  Caller:013888590658 CalledNum:80034 CallType:呼入 MSI_StationOwner:16107
+2014-05-06 14:35:59-->AgentModeChange:挂机后，非就绪
+2014-05-06 14:35:59--> OpDisconnected out StationJFSign: 0
+2014-05-06 14:35:59-->allstate,ctcState:128,ctcEvent:4
+2014-05-06 14:35:59--> TpDisconnected in StationJFSign:0 JFSign:0 ZJRequestSign:0 EnableTTSGH:1 refId:12708 oldRefId:0
+2014-05-06 14:35:59--> TpDisconnected otherParty:(null), thirdParty:(null), calledParty:(null)
+2014-05-06 14:35:59-->调用StationTimeCount时通话开始时间已经为0，不能写数据库
+2014-05-06 14:35:59-->AgentModeChange:挂机后，非就绪
+2014-05-06 14:36:00--> TpDisconnected out StationJFSign:0  
+2014-05-06 14:36:00-->allstate,ctcState:128,ctcEvent:4
+2014-05-06 14:36:00--> TpDisconnected in StationJFSign:0 JFSign:0 ZJRequestSign:0 EnableTTSGH:1 refId:12784 oldRefId:0
+2014-05-06 14:36:00--> TpDisconnected otherParty:(null), thirdParty:(null), calledParty:(null)
+2014-05-06 14:36:00-->调用StationTimeCount时通话开始时间已经为0，不能写数据库
+2014-05-06 14:36:00--> TpDisconnected out StationJFSign:0  
+2014-05-06 14:36:10-->话后强制就绪！当前话后时长：11
+2014-05-06 14:36:40-->allstate,ctcState:256,ctcEvent:6
+2014-05-06 14:36:40-->CncallCtc1InboundCall refId:12798 oldRefId:0 secOldRefId:0 thirdParty:(null) calledParty:40114 otherParty:40220 
+2014-05-06 14:36:40-->Have Called In AppData:67476817 TTSGH:1 refID:12798
+2014-05-06 14:36:40-->通话开始时间：2014-05-06 14:39:30
+2014-05-06 14:36:40-->CncallCtc1InboundCall事件：开始振铃时刻:-686418526
+2014-05-06 14:36:41-->sql:select top 1 ucid from CallDetail where calling = '67476817' and called = '40220' and skillnum = '40114' order by servicetime desc
+2014-05-06 14:36:41-->callid:00001127871399358757
+2014-05-06 14:36:41-->http://itsm.yepg.com/popWindow.jsp?para=67476817%5E1008%5E%E9%82%B1%E8%93%89%5E00001127871399358757%5E20140506143930%5E203
+2014-05-06 14:36:43-->allstate,ctcState:2,ctcEvent:7
+2014-05-06 14:36:43-->Ctc1TpAnswered refId:12798 oldRefId:0 EnableTTSGH:1 RequestIVRTTS:0 ZJRequestSign:0 thirdParty:(null) calledParty:40114 otherParty:40220 CallType:呼入 CalledNum:80034
+2014-05-06 14:36:43--> TpAnswered in StationJFSign:0 
+2014-05-06 14:36:43-->CncallCtc1TpAnswered事件：计算振铃时长，当前时间点:-686418523，                开始振铃时刻：-686418526,计算后振铃时长:3
+2014-05-06 14:36:43-->TpAnswered 正常呼入应答
+2014-05-06 14:36:43-->TPAnswer Transfer GH TO IVR:40409AppData:ivr^16107%AppData+flow:2100-
+2014-05-06 14:36:44--> TpAnswered out StationJFSign:1 RequestIVRTTS:1
+2014-05-06 14:36:44-->allstate,ctcState:2,ctcEvent:23
+2014-05-06 14:36:44-->allstate,ctcState:2,ctcEvent:3
+2014-05-06 14:36:44-->Ctc1OpAnswered refId:12798 oldRefId:0 EnableTTSGH:1 RequestIVRTTS:1 ZJRequestSign:0 HasTTSGH:0 thirdParty:67476817 calledParty:40114 otherParty:40337 CallType:呼入 CalledNum:80034
+2014-05-06 14:36:44-->新录音加入后，开始应答会触发一次OpAnswer
+2014-05-06 14:36:44-->allstate,ctcState:2,ctcEvent:14
+2014-05-06 14:36:44-->allstate,ctcState:16,ctcEvent:17
+2014-05-06 14:36:44-->allstate,ctcState:32,ctcEvent:1
+2014-05-06 14:36:44-->in offhook evtent  StationJFSign:1 HasTTSGH：0 ZJRequestSign:0         Talking:21113606 DialNumber:80034 CalledID:80034 CallRecived:1
+2014-05-06 14:36:44-->Offhook para refId:12803 otherParty(null) thirdParty:(null)         calledParty:(null) 
+2014-05-06 14:36:44-->CncallCtc1Offhook事件，开始振铃时刻:-686418526
+2014-05-06 14:36:44-->等待报号返回：500豪秒×1
+2014-05-06 14:36:44-->allstate,ctcState:32,ctcEvent:1
+2014-05-06 14:36:44-->in offhook evtent  StationJFSign:1 HasTTSGH：0 ZJRequestSign:0         Talking:21113606 DialNumber:80034 CalledID:80034 CallRecived:1
+2014-05-06 14:36:44-->Offhook para refId:12803 otherParty(null) thirdParty:(null)         calledParty:40409 
+2014-05-06 14:36:44-->ivr tts gh CncallCtc1Offhook  return
+2014-05-06 14:36:44-->allstate,ctcState:4,ctcEvent:2
+2014-05-06 14:36:44-->allstate,ctcState:2,ctcEvent:13
+2014-05-06 14:36:44-->allstate,ctcState:2,ctcEvent:3
+2014-05-06 14:36:44-->Ctc1OpAnswered refId:12803 oldRefId:0 EnableTTSGH:1 RequestIVRTTS:0 ZJRequestSign:0 HasTTSGH:0 thirdParty:80034 calledParty:40409 otherParty:40201 CallType:呼入 CalledNum:80034
+2014-05-06 14:36:44--> OpAnswered in StationJFSign:1 
+2014-05-06 14:36:44--> OpAnswered out StationJFSign:1 RequestIVRTTS:0
+2014-05-06 14:36:51-->allstate,ctcState:2,ctcEvent:5
+2014-05-06 14:36:51--> OpDisconnected in StationJFSign:1 JFSign:1 ZJRequestSign:0,otherParty:40201, thirdParty:(null), calledParty:(null) refId:12803 oldRefId:0
+2014-05-06 14:36:51-->ivr tts gh  hangup return
+2014-05-06 14:37:30-->allstate,ctcState:2,ctcEvent:5
+2014-05-06 14:37:30--> OpDisconnected in StationJFSign:1 JFSign:1 ZJRequestSign:0,otherParty:67476817, thirdParty:(null), calledParty:(null) refId:12803 oldRefId:0
+2014-05-06 14:37:30-->通话结束时间：2014-05-06 14:40:19
+2014-05-06 14:37:30-->setjsk  Caller: 67476817 JFSign:1 StationJFSign:1
+2014-05-06 14:37:30-->座席记录：  Caller:67476817 CalledNum:80034 CallType:呼入 MSI_StationOwner:16107
+2014-05-06 14:37:30-->AgentModeChange:挂机后，非就绪
+2014-05-06 14:37:31--> OpDisconnected out StationJFSign: 0
+2014-05-06 14:37:31-->allstate,ctcState:128,ctcEvent:4
+2014-05-06 14:37:31--> TpDisconnected in StationJFSign:0 JFSign:0 ZJRequestSign:0 EnableTTSGH:1 refId:12803 oldRefId:0
+2014-05-06 14:37:31--> TpDisconnected otherParty:(null), thirdParty:(null), calledParty:(null)
+2014-05-06 14:37:31-->调用StationTimeCount时通话开始时间已经为0，不能写数据库
+2014-05-06 14:37:31-->AgentModeChange:挂机后，非就绪
+2014-05-06 14:37:31--> TpDisconnected out StationJFSign:0  
+2014-05-06 14:37:31-->allstate,ctcState:128,ctcEvent:4
+2014-05-06 14:37:31--> TpDisconnected in StationJFSign:0 JFSign:0 ZJRequestSign:0 EnableTTSGH:1 refId:12818 oldRefId:0
+2014-05-06 14:37:31--> TpDisconnected otherParty:(null), thirdParty:(null), calledParty:(null)
+2014-05-06 14:37:31-->调用StationTimeCount时通话开始时间已经为0，不能写数据库
+2014-05-06 14:37:31--> TpDisconnected out StationJFSign:0  
+2014-05-06 14:37:41-->话后强制就绪！当前话后时长：11
+2014-05-06 14:37:41-->allstate,ctcState:256,ctcEvent:6
+2014-05-06 14:37:41-->CncallCtc1InboundCall refId:12828 oldRefId:0 secOldRefId:0 thirdParty:40114 calledParty:40114 otherParty:40250 
+2014-05-06 14:37:41-->Have Called In AppData:6897618 TTSGH:1 refID:12828
+2014-05-06 14:37:41-->通话开始时间：2014-05-06 14:40:30
+2014-05-06 14:37:41-->CncallCtc1InboundCall事件：开始振铃时刻:-686418466
+2014-05-06 14:37:42-->sql:select top 1 ucid from CallDetail where calling = '6897618' and called = '40250' and skillnum = '40114' order by servicetime desc
+2014-05-06 14:37:42-->callid:00001128201399358840
+2014-05-06 14:37:42-->http://itsm.yepg.com/popWindow.jsp?para=6897618%5E1008%5E%E9%82%B1%E8%93%89%5E00001128201399358840%5E20140506144031%5E203
+2014-05-06 14:37:47-->allstate,ctcState:2,ctcEvent:7
+2014-05-06 14:37:47-->Ctc1TpAnswered refId:12828 oldRefId:0 EnableTTSGH:1 RequestIVRTTS:0 ZJRequestSign:0 thirdParty:40114 calledParty:40114 otherParty:40250 CallType:呼入 CalledNum:80034
+2014-05-06 14:37:47--> TpAnswered in StationJFSign:0 
+2014-05-06 14:37:47-->CncallCtc1TpAnswered事件：计算振铃时长，当前时间点:-686418460，                开始振铃时刻：-686418466,计算后振铃时长:6
+2014-05-06 14:37:47-->TpAnswered 正常呼入应答
+2014-05-06 14:37:47-->TPAnswer Transfer GH TO IVR:40409AppData:ivr^16107%AppData+flow:2100-
+2014-05-06 14:37:47--> TpAnswered out StationJFSign:1 RequestIVRTTS:1
+2014-05-06 14:37:47-->allstate,ctcState:2,ctcEvent:23
+2014-05-06 14:37:47-->allstate,ctcState:2,ctcEvent:3
+2014-05-06 14:37:47-->Ctc1OpAnswered refId:12828 oldRefId:0 EnableTTSGH:1 RequestIVRTTS:1 ZJRequestSign:0 HasTTSGH:0 thirdParty:6897618 calledParty:40114 otherParty:40313 CallType:呼入 CalledNum:80034
+2014-05-06 14:37:47-->新录音加入后，开始应答会触发一次OpAnswer
+2014-05-06 14:37:47-->allstate,ctcState:2,ctcEvent:14
+2014-05-06 14:37:47-->allstate,ctcState:16,ctcEvent:17
+2014-05-06 14:37:47-->allstate,ctcState:32,ctcEvent:1
+2014-05-06 14:37:47-->in offhook evtent  StationJFSign:1 HasTTSGH：0 ZJRequestSign:0         Talking:21113606 DialNumber:80034 CalledID:80034 CallRecived:1
+2014-05-06 14:37:47-->Offhook para refId:12834 otherParty(null) thirdParty:(null)         calledParty:(null) 
+2014-05-06 14:37:47-->CncallCtc1Offhook事件，开始振铃时刻:-686418466
+2014-05-06 14:37:47-->allstate,ctcState:32,ctcEvent:1
+2014-05-06 14:37:47-->in offhook evtent  StationJFSign:1 HasTTSGH：0 ZJRequestSign:0         Talking:21113606 DialNumber:80034 CalledID:80034 CallRecived:1
+2014-05-06 14:37:47-->Offhook para refId:12834 otherParty(null) thirdParty:(null)         calledParty:40409 
+2014-05-06 14:37:48-->ivr tts gh CncallCtc1Offhook  return
+2014-05-06 14:37:48-->allstate,ctcState:4,ctcEvent:2
+2014-05-06 14:37:48-->allstate,ctcState:2,ctcEvent:13
+2014-05-06 14:37:48-->allstate,ctcState:2,ctcEvent:3
+2014-05-06 14:37:48-->Ctc1OpAnswered refId:12834 oldRefId:0 EnableTTSGH:1 RequestIVRTTS:0 ZJRequestSign:0 HasTTSGH:0 thirdParty:80034 calledParty:40409 otherParty:40238 CallType:呼入 CalledNum:80034
+2014-05-06 14:37:48--> OpAnswered in StationJFSign:1 
+2014-05-06 14:37:48--> OpAnswered out StationJFSign:1 RequestIVRTTS:0
+2014-05-06 14:37:54-->allstate,ctcState:2,ctcEvent:5
+2014-05-06 14:37:54--> OpDisconnected in StationJFSign:1 JFSign:1 ZJRequestSign:0,otherParty:40238, thirdParty:(null), calledParty:(null) refId:12834 oldRefId:0
+2014-05-06 14:37:54-->ivr tts gh  hangup return
+2014-05-06 14:39:19-->allstate,ctcState:2,ctcEvent:5
+2014-05-06 14:39:19--> OpDisconnected in StationJFSign:1 JFSign:1 ZJRequestSign:0,otherParty:6897618, thirdParty:(null), calledParty:(null) refId:12834 oldRefId:0
+2014-05-06 14:39:19-->通话结束时间：2014-05-06 14:42:08
+2014-05-06 14:39:19-->setjsk  Caller: 6897618 JFSign:1 StationJFSign:1
+2014-05-06 14:39:19-->座席记录：  Caller:6897618 CalledNum:80034 CallType:呼入 MSI_StationOwner:16107
+2014-05-06 14:39:19-->AgentModeChange:挂机后，非就绪
+2014-05-06 14:39:19--> OpDisconnected out StationJFSign: 0
+2014-05-06 14:39:19-->allstate,ctcState:128,ctcEvent:4
+2014-05-06 14:39:19--> TpDisconnected in StationJFSign:0 JFSign:0 ZJRequestSign:0 EnableTTSGH:1 refId:12834 oldRefId:0
+2014-05-06 14:39:19--> TpDisconnected otherParty:(null), thirdParty:(null), calledParty:(null)
+2014-05-06 14:39:19-->调用StationTimeCount时通话开始时间已经为0，不能写数据库
+2014-05-06 14:39:19-->AgentModeChange:挂机后，非就绪
+2014-05-06 14:39:20--> TpDisconnected out StationJFSign:0  
+2014-05-06 14:39:20-->allstate,ctcState:128,ctcEvent:4
+2014-05-06 14:39:20--> TpDisconnected in StationJFSign:0 JFSign:0 ZJRequestSign:0 EnableTTSGH:1 refId:12877 oldRefId:0
+2014-05-06 14:39:20--> TpDisconnected otherParty:(null), thirdParty:(null), calledParty:(null)
+2014-05-06 14:39:20-->调用StationTimeCount时通话开始时间已经为0，不能写数据库
+2014-05-06 14:39:20--> TpDisconnected out StationJFSign:0  
+2014-05-06 14:39:30-->话后强制就绪！当前话后时长：11
+2014-05-06 14:39:30-->登出 !
+2014-05-06 14:51:53-->话后强制就绪！当前话后时长：11
+2014-05-06 14:54:55-->allstate,ctcState:256,ctcEvent:6
+2014-05-06 14:54:55-->CncallCtc1InboundCall refId:13190 oldRefId:0 secOldRefId:0 thirdParty:(null) calledParty:40114 otherParty:40219 
+2014-05-06 14:54:55-->Have Called In AppData:63012550 TTSGH:1 refID:13190
+2014-05-06 14:54:55-->通话开始时间：2014-05-06 14:57:44
+2014-05-06 14:54:55-->CncallCtc1InboundCall事件：开始振铃时刻:-686417432
+2014-05-06 14:54:56-->sql:select top 1 ucid from CallDetail where calling = '63012550' and called = '40219' and skillnum = '40114' order by servicetime desc
+2014-05-06 14:54:56-->callid:00001131861399359873
+2014-05-06 14:54:56-->http://itsm.yepg.com/popWindow.jsp?para=63012550%5E1008%5E%E9%82%B1%E8%93%89%5E00001131861399359873%5E20140506145745%5E203
+2014-05-06 14:54:58-->allstate,ctcState:2,ctcEvent:7
+2014-05-06 14:54:58-->Ctc1TpAnswered refId:13190 oldRefId:0 EnableTTSGH:1 RequestIVRTTS:0 ZJRequestSign:0 thirdParty:(null) calledParty:40114 otherParty:40219 CallType:呼入 CalledNum:80034
+2014-05-06 14:54:58--> TpAnswered in StationJFSign:0 
+2014-05-06 14:54:58-->CncallCtc1TpAnswered事件：计算振铃时长，当前时间点:-686417430，                开始振铃时刻：-686417432,计算后振铃时长:2
+2014-05-06 14:54:58-->TpAnswered 正常呼入应答
+2014-05-06 14:54:58-->TPAnswer Transfer GH TO IVR:40409AppData:ivr^16107%AppData+flow:2100-
+2014-05-06 14:54:59--> TpAnswered out StationJFSign:1 RequestIVRTTS:1
+2014-05-06 14:54:59-->allstate,ctcState:2,ctcEvent:23
+2014-05-06 14:54:59-->allstate,ctcState:2,ctcEvent:3
+2014-05-06 14:54:59-->Ctc1OpAnswered refId:13190 oldRefId:0 EnableTTSGH:1 RequestIVRTTS:1 ZJRequestSign:0 HasTTSGH:0 thirdParty:63012550 calledParty:40114 otherParty:40309 CallType:呼入 CalledNum:80034
+2014-05-06 14:54:59-->新录音加入后，开始应答会触发一次OpAnswer
+2014-05-06 14:54:59-->allstate,ctcState:2,ctcEvent:14
+2014-05-06 14:54:59-->allstate,ctcState:16,ctcEvent:17
+2014-05-06 14:54:59-->allstate,ctcState:32,ctcEvent:1
+2014-05-06 14:54:59-->in offhook evtent  StationJFSign:1 HasTTSGH：0 ZJRequestSign:0         Talking:21113606 DialNumber:80034 CalledID:80034 CallRecived:1
+2014-05-06 14:54:59-->Offhook para refId:13191 otherParty(null) thirdParty:(null)         calledParty:(null) 
+2014-05-06 14:54:59-->CncallCtc1Offhook事件，开始振铃时刻:-686417432
+2014-05-06 14:54:59-->allstate,ctcState:32,ctcEvent:1
+2014-05-06 14:54:59-->in offhook evtent  StationJFSign:1 HasTTSGH：0 ZJRequestSign:0         Talking:21113606 DialNumber:80034 CalledID:80034 CallRecived:1
+2014-05-06 14:54:59-->Offhook para refId:13191 otherParty(null) thirdParty:(null)         calledParty:40409 
+2014-05-06 14:54:59-->ivr tts gh CncallCtc1Offhook  return
+2014-05-06 14:54:59-->allstate,ctcState:4,ctcEvent:2
+2014-05-06 14:54:59-->allstate,ctcState:2,ctcEvent:13
+2014-05-06 14:54:59-->allstate,ctcState:2,ctcEvent:3
+2014-05-06 14:54:59-->Ctc1OpAnswered refId:13191 oldRefId:0 EnableTTSGH:1 RequestIVRTTS:0 ZJRequestSign:0 HasTTSGH:0 thirdParty:80034 calledParty:40409 otherParty:40243 CallType:呼入 CalledNum:80034
+2014-05-06 14:54:59--> OpAnswered in StationJFSign:1 
+2014-05-06 14:54:59--> OpAnswered out StationJFSign:1 RequestIVRTTS:0
+2014-05-06 14:55:06-->allstate,ctcState:2,ctcEvent:5
+2014-05-06 14:55:06--> OpDisconnected in StationJFSign:1 JFSign:1 ZJRequestSign:0,otherParty:40243, thirdParty:(null), calledParty:(null) refId:13191 oldRefId:0
+2014-05-06 14:55:06-->ivr tts gh  hangup return
+2014-05-06 14:56:20-->allstate,ctcState:2,ctcEvent:5
+2014-05-06 14:56:20--> OpDisconnected in StationJFSign:1 JFSign:1 ZJRequestSign:0,otherParty:63012550, thirdParty:(null), calledParty:(null) refId:13191 oldRefId:0
+2014-05-06 14:56:20-->通话结束时间：2014-05-06 14:59:09
+2014-05-06 14:56:20-->setjsk  Caller: 63012550 JFSign:1 StationJFSign:1
+2014-05-06 14:56:20-->座席记录：  Caller:63012550 CalledNum:80034 CallType:呼入 MSI_StationOwner:16107
+2014-05-06 14:56:20-->AgentModeChange:挂机后，非就绪
+2014-05-06 14:56:21--> OpDisconnected out StationJFSign: 0
+2014-05-06 14:56:21-->allstate,ctcState:128,ctcEvent:4
+2014-05-06 14:56:21--> TpDisconnected in StationJFSign:0 JFSign:0 ZJRequestSign:0 EnableTTSGH:1 refId:13191 oldRefId:0
+2014-05-06 14:56:21--> TpDisconnected otherParty:(null), thirdParty:(null), calledParty:(null)
+2014-05-06 14:56:21-->调用StationTimeCount时通话开始时间已经为0，不能写数据库
+2014-05-06 14:56:21-->AgentModeChange:挂机后，非就绪
+2014-05-06 14:56:21--> TpDisconnected out StationJFSign:0  
+2014-05-06 14:56:21-->allstate,ctcState:128,ctcEvent:4
+2014-05-06 14:56:21--> TpDisconnected in StationJFSign:0 JFSign:0 ZJRequestSign:0 EnableTTSGH:1 refId:13219 oldRefId:0
+2014-05-06 14:56:21--> TpDisconnected otherParty:(null), thirdParty:(null), calledParty:(null)
+2014-05-06 14:56:21-->调用StationTimeCount时通话开始时间已经为0，不能写数据库
+2014-05-06 14:56:21--> TpDisconnected out StationJFSign:0  
+2014-05-06 14:56:31-->话后强制就绪！当前话后时长：11
+2014-05-06 15:00:55-->allstate,ctcState:256,ctcEvent:6
+2014-05-06 15:00:55-->CncallCtc1InboundCall refId:13282 oldRefId:0 secOldRefId:0 thirdParty:(null) calledParty:40114 otherParty:40225 
+2014-05-06 15:00:55-->Have Called In AppData:08797221183 TTSGH:1 refID:13282
+2014-05-06 15:00:55-->通话开始时间：2014-05-06 15:03:44
+2014-05-06 15:00:55-->CncallCtc1InboundCall事件：开始振铃时刻:-686417072
+2014-05-06 15:00:56-->sql:select top 1 ucid from CallDetail where calling = '08797221183' and called = '40225' and skillnum = '40114' order by servicetime desc
+2014-05-06 15:00:56-->callid:00001132801399360226
+2014-05-06 15:00:56-->http://itsm.yepg.com/popWindow.jsp?para=08797221183%5E1008%5E%E9%82%B1%E8%93%89%5E00001132801399360226%5E20140506150345%5E203
+2014-05-06 15:00:59-->allstate,ctcState:2,ctcEvent:7
+2014-05-06 15:00:59-->Ctc1TpAnswered refId:13282 oldRefId:0 EnableTTSGH:1 RequestIVRTTS:0 ZJRequestSign:0 thirdParty:(null) calledParty:40114 otherParty:40225 CallType:呼入 CalledNum:80034
+2014-05-06 15:00:59--> TpAnswered in StationJFSign:0 
+2014-05-06 15:00:59-->CncallCtc1TpAnswered事件：计算振铃时长，当前时间点:-686417068，                开始振铃时刻：-686417072,计算后振铃时长:4
+2014-05-06 15:00:59-->TpAnswered 正常呼入应答
+2014-05-06 15:00:59-->TPAnswer Transfer GH TO IVR:40409AppData:ivr^16107%AppData+flow:2100-
+2014-05-06 15:01:00--> TpAnswered out StationJFSign:1 RequestIVRTTS:1
+2014-05-06 15:01:00-->allstate,ctcState:2,ctcEvent:23
+2014-05-06 15:01:00-->allstate,ctcState:2,ctcEvent:3
+2014-05-06 15:01:00-->Ctc1OpAnswered refId:13282 oldRefId:0 EnableTTSGH:1 RequestIVRTTS:1 ZJRequestSign:0 HasTTSGH:0 thirdParty:08797221183 calledParty:40114 otherParty:40306 CallType:呼入 CalledNum:80034
+2014-05-06 15:01:00-->新录音加入后，开始应答会触发一次OpAnswer
+2014-05-06 15:01:00-->allstate,ctcState:2,ctcEvent:14
+2014-05-06 15:01:00-->allstate,ctcState:16,ctcEvent:17
+2014-05-06 15:01:00-->allstate,ctcState:32,ctcEvent:1
+2014-05-06 15:01:00-->in offhook evtent  StationJFSign:1 HasTTSGH：0 ZJRequestSign:0         Talking:21113606 DialNumber:80034 CalledID:80034 CallRecived:1
+2014-05-06 15:01:00-->Offhook para refId:13287 otherParty(null) thirdParty:(null)         calledParty:(null) 
+2014-05-06 15:01:00-->CncallCtc1Offhook事件，开始振铃时刻:-686417072
+2014-05-06 15:01:00-->allstate,ctcState:32,ctcEvent:1
+2014-05-06 15:01:00-->in offhook evtent  StationJFSign:1 HasTTSGH：0 ZJRequestSign:0         Talking:21113606 DialNumber:80034 CalledID:80034 CallRecived:1
+2014-05-06 15:01:00-->Offhook para refId:13287 otherParty(null) thirdParty:(null)         calledParty:40409 
+2014-05-06 15:01:00-->ivr tts gh CncallCtc1Offhook  return
+2014-05-06 15:01:00-->allstate,ctcState:4,ctcEvent:2
+2014-05-06 15:01:00-->allstate,ctcState:2,ctcEvent:13
+2014-05-06 15:01:00-->allstate,ctcState:2,ctcEvent:3
+2014-05-06 15:01:00-->Ctc1OpAnswered refId:13287 oldRefId:0 EnableTTSGH:1 RequestIVRTTS:0 ZJRequestSign:0 HasTTSGH:0 thirdParty:80034 calledParty:40409 otherParty:40239 CallType:呼入 CalledNum:80034
+2014-05-06 15:01:00--> OpAnswered in StationJFSign:1 
+2014-05-06 15:01:00--> OpAnswered out StationJFSign:1 RequestIVRTTS:0
+2014-05-06 15:01:06-->allstate,ctcState:2,ctcEvent:5
+2014-05-06 15:01:06--> OpDisconnected in StationJFSign:1 JFSign:1 ZJRequestSign:0,otherParty:40239, thirdParty:(null), calledParty:(null) refId:13287 oldRefId:0
+2014-05-06 15:01:06-->ivr tts gh  hangup return
+2014-05-06 15:06:40-->allstate,ctcState:2,ctcEvent:5
+2014-05-06 15:06:40--> OpDisconnected in StationJFSign:1 JFSign:1 ZJRequestSign:0,otherParty:08797221183, thirdParty:(null), calledParty:(null) refId:13287 oldRefId:0
+2014-05-06 15:06:40-->通话结束时间：2014-05-06 15:09:29
+2014-05-06 15:06:40-->setjsk  Caller: 08797221183 JFSign:1 StationJFSign:1
+2014-05-06 15:06:40-->座席记录：  Caller:08797221183 CalledNum:80034 CallType:呼入 MSI_StationOwner:16107
+2014-05-06 15:06:40-->AgentModeChange:挂机后，非就绪
+2014-05-06 15:06:40--> OpDisconnected out StationJFSign: 0
+2014-05-06 15:06:40-->allstate,ctcState:128,ctcEvent:4
+2014-05-06 15:06:40--> TpDisconnected in StationJFSign:0 JFSign:0 ZJRequestSign:0 EnableTTSGH:1 refId:13287 oldRefId:0
+2014-05-06 15:06:40--> TpDisconnected otherParty:(null), thirdParty:(null), calledParty:(null)
+2014-05-06 15:06:40-->调用StationTimeCount时通话开始时间已经为0，不能写数据库
+2014-05-06 15:06:40-->AgentModeChange:挂机后，非就绪
+2014-05-06 15:06:41--> TpDisconnected out StationJFSign:0  
+2014-05-06 15:06:41-->allstate,ctcState:128,ctcEvent:4
+2014-05-06 15:06:41--> TpDisconnected in StationJFSign:0 JFSign:0 ZJRequestSign:0 EnableTTSGH:1 refId:13395 oldRefId:0
+2014-05-06 15:06:41--> TpDisconnected otherParty:(null), thirdParty:(null), calledParty:(null)
+2014-05-06 15:06:41-->调用StationTimeCount时通话开始时间已经为0，不能写数据库
+2014-05-06 15:06:41--> TpDisconnected out StationJFSign:0  
+2014-05-06 15:06:51-->话后强制就绪！当前话后时长：11
+2014-05-06 15:06:57-->allstate,ctcState:32,ctcEvent:1
+2014-05-06 15:06:57-->in offhook evtent  StationJFSign:0 HasTTSGH：0 ZJRequestSign:0         Talking:21113606 DialNumber:80034 CalledID:6897618 CallRecived:2
+2014-05-06 15:06:57-->Offhook para refId:13402 otherParty(null) thirdParty:(null)         calledParty:(null) 
+2014-05-06 15:06:57-->通话开始时间：2014-05-06 15:09:46
+2014-05-06 15:06:57-->CncallCtc1Offhook事件，开始振铃时刻:-686416710
+2014-05-06 15:06:57-->allstate,ctcState:32,ctcEvent:1
+2014-05-06 15:06:57-->in offhook evtent  StationJFSign:0 HasTTSGH：0 ZJRequestSign:0         Talking:21113606 DialNumber:80034 CalledID:6897618 CallRecived:2
+2014-05-06 15:06:57-->Offhook para refId:13402 otherParty(null) thirdParty:(null)         calledParty:6897618 
+2014-05-06 15:06:57-->CncallCtc1Offhook事件，开始振铃时刻:-686416710
+2014-05-06 15:06:57-->allstate,ctcState:4,ctcEvent:2
+2014-05-06 15:07:02-->allstate,ctcState:2,ctcEvent:3
+2014-05-06 15:07:02-->Ctc1OpAnswered refId:13402 oldRefId:0 EnableTTSGH:1 RequestIVRTTS:0 ZJRequestSign:0 HasTTSGH:0 thirdParty:80034 calledParty:6897618 otherParty:6897618 CallType:呼出 CalledNum:6897618
+2014-05-06 15:07:02--> OpAnswered in StationJFSign:0 
+2014-05-06 15:07:02-->OpAnswered 正常呼出应答
+2014-05-06 15:07:02-->CncallCtc1OpAnswered事件：计算振铃时长，当前时间点:-686416705，            开始振铃时刻：-686416710,计算后振铃时长:5
+2014-05-06 15:07:02--> OpAnswered out StationJFSign:1 RequestIVRTTS:0
+2014-05-06 15:07:02-->allstate,ctcState:2,ctcEvent:3
+2014-05-06 15:07:02-->Ctc1OpAnswered refId:13402 oldRefId:0 EnableTTSGH:1 RequestIVRTTS:0 ZJRequestSign:0 HasTTSGH:0 thirdParty:80034 calledParty:6897618 otherParty:40312 CallType:呼出 CalledNum:6897618
+2014-05-06 15:07:02-->新录音加入后，开始应答会触发一次OpAnswer
+2014-05-06 15:07:02-->allstate,ctcState:2,ctcEvent:14
+2014-05-06 15:07:37-->allstate,ctcState:2,ctcEvent:5
+2014-05-06 15:07:37--> OpDisconnected in StationJFSign:1 JFSign:1 ZJRequestSign:0,otherParty:6897618, thirdParty:(null), calledParty:(null) refId:13402 oldRefId:0
+2014-05-06 15:07:37-->通话结束时间：2014-05-06 15:10:26
+2014-05-06 15:07:37-->setjsk  Caller: 80034 JFSign:1 StationJFSign:1
+2014-05-06 15:07:37-->座席记录：  Caller:80034 CalledNum:6897618 CallType:呼出 MSI_StationOwner:16107
+2014-05-06 15:07:37-->AgentModeChange:挂机后，非就绪
+2014-05-06 15:07:37--> OpDisconnected out StationJFSign: 0
+2014-05-06 15:07:37-->allstate,ctcState:128,ctcEvent:4
+2014-05-06 15:07:37--> TpDisconnected in StationJFSign:0 JFSign:0 ZJRequestSign:0 EnableTTSGH:1 refId:13402 oldRefId:0
+2014-05-06 15:07:37--> TpDisconnected otherParty:(null), thirdParty:(null), calledParty:(null)
+2014-05-06 15:07:37-->调用StationTimeCount时通话开始时间已经为0，不能写数据库
+2014-05-06 15:07:37-->AgentModeChange:挂机后，非就绪
+2014-05-06 15:07:38--> TpDisconnected out StationJFSign:0  
+2014-05-06 15:07:38-->allstate,ctcState:128,ctcEvent:4
+2014-05-06 15:07:38--> TpDisconnected in StationJFSign:0 JFSign:0 ZJRequestSign:0 EnableTTSGH:1 refId:13410 oldRefId:0
+2014-05-06 15:07:38--> TpDisconnected otherParty:(null), thirdParty:(null), calledParty:(null)
+2014-05-06 15:07:38-->调用StationTimeCount时通话开始时间已经为0，不能写数据库
+2014-05-06 15:07:38--> TpDisconnected out StationJFSign:0  
+2014-05-06 15:07:48-->话后强制就绪！当前话后时长：11
+2014-05-06 15:19:45-->allstate,ctcState:256,ctcEvent:6
+2014-05-06 15:19:45-->CncallCtc1InboundCall refId:13532 oldRefId:0 secOldRefId:0 thirdParty:(null) calledParty:40114 otherParty:40227 
+2014-05-06 15:19:45-->Have Called In AppData:3067642 TTSGH:1 refID:13532
+2014-05-06 15:19:45-->通话开始时间：2014-05-06 15:22:34
+2014-05-06 15:19:45-->CncallCtc1InboundCall事件：开始振铃时刻:-686415942
+2014-05-06 15:19:45-->sql:select top 1 ucid from CallDetail where calling = '3067642' and called = '40227' and skillnum = '40114' order by servicetime desc
+2014-05-06 15:19:45-->callid:00001135241399361350
+2014-05-06 15:19:45-->http://itsm.yepg.com/popWindow.jsp?para=3067642%5E1008%5E%E9%82%B1%E8%93%89%5E00001135241399361350%5E20140506152234%5E203
+2014-05-06 15:19:47-->allstate,ctcState:2,ctcEvent:7
+2014-05-06 15:19:47-->Ctc1TpAnswered refId:13532 oldRefId:0 EnableTTSGH:1 RequestIVRTTS:0 ZJRequestSign:0 thirdParty:(null) calledParty:40114 otherParty:40227 CallType:呼入 CalledNum:6897618
+2014-05-06 15:19:47--> TpAnswered in StationJFSign:0 
+2014-05-06 15:19:47-->CncallCtc1TpAnswered事件：计算振铃时长，当前时间点:-686415940，                开始振铃时刻：-686415942,计算后振铃时长:2
+2014-05-06 15:19:47-->TpAnswered 正常呼入应答
+2014-05-06 15:19:47-->TPAnswer Transfer GH TO IVR:40409AppData:ivr^16107%AppData+flow:2100-
+2014-05-06 15:19:48--> TpAnswered out StationJFSign:1 RequestIVRTTS:1
+2014-05-06 15:19:48-->allstate,ctcState:2,ctcEvent:23
+2014-05-06 15:19:48-->allstate,ctcState:2,ctcEvent:3
+2014-05-06 15:19:48-->Ctc1OpAnswered refId:13532 oldRefId:0 EnableTTSGH:1 RequestIVRTTS:1 ZJRequestSign:0 HasTTSGH:0 thirdParty:3067642 calledParty:40114 otherParty:40330 CallType:呼入 CalledNum:80034
+2014-05-06 15:19:48-->新录音加入后，开始应答会触发一次OpAnswer
+2014-05-06 15:19:48-->allstate,ctcState:2,ctcEvent:14
+2014-05-06 15:19:48-->allstate,ctcState:16,ctcEvent:17
+2014-05-06 15:19:48-->allstate,ctcState:32,ctcEvent:1
+2014-05-06 15:19:48-->in offhook evtent  StationJFSign:1 HasTTSGH：0 ZJRequestSign:0         Talking:21113606 DialNumber:80034 CalledID:80034 CallRecived:1
+2014-05-06 15:19:48-->Offhook para refId:13533 otherParty(null) thirdParty:(null)         calledParty:(null) 
+2014-05-06 15:19:48-->CncallCtc1Offhook事件，开始振铃时刻:-686415942
+2014-05-06 15:19:48-->allstate,ctcState:32,ctcEvent:1
+2014-05-06 15:19:48-->in offhook evtent  StationJFSign:1 HasTTSGH：0 ZJRequestSign:0         Talking:21113606 DialNumber:80034 CalledID:80034 CallRecived:1
+2014-05-06 15:19:48-->Offhook para refId:13533 otherParty(null) thirdParty:(null)         calledParty:40409 
+2014-05-06 15:19:48-->ivr tts gh CncallCtc1Offhook  return
+2014-05-06 15:19:48-->allstate,ctcState:4,ctcEvent:2
+2014-05-06 15:19:48-->allstate,ctcState:2,ctcEvent:13
+2014-05-06 15:19:48-->allstate,ctcState:2,ctcEvent:3
+2014-05-06 15:19:48-->Ctc1OpAnswered refId:13533 oldRefId:0 EnableTTSGH:1 RequestIVRTTS:0 ZJRequestSign:0 HasTTSGH:0 thirdParty:80034 calledParty:40409 otherParty:40236 CallType:呼入 CalledNum:80034
+2014-05-06 15:19:48--> OpAnswered in StationJFSign:1 
+2014-05-06 15:19:48--> OpAnswered out StationJFSign:1 RequestIVRTTS:0
+2014-05-06 15:19:55-->allstate,ctcState:2,ctcEvent:5
+2014-05-06 15:19:55--> OpDisconnected in StationJFSign:1 JFSign:1 ZJRequestSign:0,otherParty:40236, thirdParty:(null), calledParty:(null) refId:13533 oldRefId:0
+2014-05-06 15:19:55-->ivr tts gh  hangup return
+2014-05-06 15:24:20-->allstate,ctcState:2,ctcEvent:5
+2014-05-06 15:24:20--> OpDisconnected in StationJFSign:1 JFSign:1 ZJRequestSign:0,otherParty:3067642, thirdParty:(null), calledParty:(null) refId:13533 oldRefId:0
+2014-05-06 15:24:20-->通话结束时间：2014-05-06 15:27:10
+2014-05-06 15:24:20-->setjsk  Caller: 3067642 JFSign:1 StationJFSign:1
+2014-05-06 15:24:20-->座席记录：  Caller:3067642 CalledNum:80034 CallType:呼入 MSI_StationOwner:16107
+2014-05-06 15:24:20-->AgentModeChange:挂机后，非就绪
+2014-05-06 15:24:21--> OpDisconnected out StationJFSign: 0
+2014-05-06 15:24:21-->allstate,ctcState:128,ctcEvent:4
+2014-05-06 15:24:21--> TpDisconnected in StationJFSign:0 JFSign:0 ZJRequestSign:0 EnableTTSGH:1 refId:13533 oldRefId:0
+2014-05-06 15:24:21--> TpDisconnected otherParty:(null), thirdParty:(null), calledParty:(null)
+2014-05-06 15:24:21-->调用StationTimeCount时通话开始时间已经为0，不能写数据库
+2014-05-06 15:24:21-->AgentModeChange:挂机后，非就绪
+2014-05-06 15:24:22--> TpDisconnected out StationJFSign:0  
+2014-05-06 15:24:22-->allstate,ctcState:128,ctcEvent:4
+2014-05-06 15:24:22--> TpDisconnected in StationJFSign:0 JFSign:0 ZJRequestSign:0 EnableTTSGH:1 refId:13590 oldRefId:0
+2014-05-06 15:24:22--> TpDisconnected otherParty:(null), thirdParty:(null), calledParty:(null)
+2014-05-06 15:24:22-->调用StationTimeCount时通话开始时间已经为0，不能写数据库
+2014-05-06 15:24:22--> TpDisconnected out StationJFSign:0  
+2014-05-06 15:24:32-->话后强制就绪！当前话后时长：11
+2014-05-06 15:25:09-->登出 !

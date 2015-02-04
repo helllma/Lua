@@ -1,0 +1,81 @@
+2014-05-06 09:11:09-->数据库已连接！
+2014-05-06 09:13:14-->接收到ITSM的消息,document:/crossdomain.xml
+2014-05-06 09:13:14-->接收到ITSM的消息,document:/CZYLogin
+2014-05-06 09:13:14-->接收到ITSM的消息,params:ip=10.111.34.253&lockerurl=http://10.111.0.78:9084/pMonitor&user=14088&sysuserid=881&sysusername=李敏&sysurl=10.111.2.66&orgid=12&phonegroup=tfpms|&buttonlist=7777^回总台|&sysusernameencode=%E6%9D%8E%E6%95%8F
+2014-05-06 09:13:17-->登出 !
+2014-05-06 11:00:45-->接收到ITSM的消息,document:/crossdomain.xml
+2014-05-06 11:00:46-->接收到ITSM的消息,document:/CZYLogin
+2014-05-06 11:00:46-->接收到ITSM的消息,params:ip=10.111.34.253&lockerurl=http://10.111.0.78:9084/pMonitor&user=14088&sysuserid=881&sysusername=%C0%EE%C3%F4&sysurl=itsm.yepg.com&orgid=12&phonegroup=tfpms|&buttonlist=7777^%BB%D8%D7%DC%CC%A8|&sysusernameencode=%E6%9D%8E%E6%95%8F
+2014-05-06 11:00:46-->执行sql失败：Insert into agentstatus(dtime,status,agentnumber ,agentname, sdbz)             values(getdate(),'话后','14088','李敏','0')
+2014-05-06 11:00:48-->登出 !
+2014-05-06 11:00:48-->执行sql失败：Insert into agentstatus(dtime,status,agentnumber ,agentname, sdbz)             values(getdate(),'登出','14088','李敏','0')
+2014-05-06 12:55:21-->执行sql失败：Insert into agentstatus(dtime,status,agentnumber ,agentname, sdbz)             values(getdate(),'话后','14088','李敏','0')
+2014-05-06 12:55:21-->执行sql失败：Insert into agentstatus(dtime,status,agentnumber ,agentname, sdbz)             values(getdate(),'登录','14088','李敏','1')
+2014-05-06 12:55:22-->执行sql失败：Insert into agentstatus(dtime,status,agentnumber ,agentname, sdbz)             values(getdate(),'就绪','14088','李敏','1')
+2014-05-06 12:55:43-->执行sql失败：Insert into agentstatus(dtime,status,agentnumber ,agentname, sdbz)             values(getdate(),'就绪','14088','李敏','0')
+2014-05-06 12:55:51-->登出 !
+2014-05-06 12:55:51-->执行sql失败：Insert into agentstatus(dtime,status,agentnumber ,agentname, sdbz)             values(getdate(),'登出','14088','李敏','0')
+2014-05-06 14:06:15-->执行sql失败：Insert into agentstatus(dtime,status,agentnumber ,agentname, sdbz)             values(getdate(),'呼出','14088','李敏','1')
+2014-05-06 14:06:15-->allstate,ctcState:32,ctcEvent:1
+2014-05-06 14:06:15-->in offhook evtent  StationJFSign:0 HasTTSGH：0 ZJRequestSign:0         Talking:30878470 DialNumber:80018 CalledID:6218165 CallRecived:2
+2014-05-06 14:06:15-->Offhook para refId:12291 otherParty(null) thirdParty:(null)         calledParty:(null) 
+2014-05-06 14:06:15-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-06 14:06:15-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-06 14:06:15-->通话开始时间：2014-05-06 14:06:15
+2014-05-06 14:06:15-->CncallCtc1Offhook事件，开始振铃时刻:-686420521
+2014-05-06 14:06:15-->allstate,ctcState:32,ctcEvent:1
+2014-05-06 14:06:15-->in offhook evtent  StationJFSign:0 HasTTSGH：0 ZJRequestSign:0         Talking:30878470 DialNumber:80018 CalledID:6218165 CallRecived:2
+2014-05-06 14:06:15-->Offhook para refId:12291 otherParty(null) thirdParty:(null)         calledParty:6218165 
+2014-05-06 14:06:15-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-06 14:06:15-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-06 14:06:15-->CncallCtc1Offhook事件，开始振铃时刻:-686420521
+2014-05-06 14:06:15-->allstate,ctcState:4,ctcEvent:2
+2014-05-06 14:06:29-->allstate,ctcState:2,ctcEvent:3
+2014-05-06 14:06:29-->Ctc1OpAnswered refId:12291 oldRefId:0 EnableTTSGH:1 RequestIVRTTS:0 ZJRequestSign:0 HasTTSGH:0 thirdParty:80018 calledParty:6218165 otherParty:(null) CallType:呼出 CalledNum:6218165
+2014-05-06 14:06:29-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-06 14:06:29--> OpAnswered in StationJFSign:0 
+2014-05-06 14:06:29-->OpAnswered 正常呼出应答
+2014-05-06 14:06:29-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-06 14:06:29-->CncallCtc1OpAnswered事件：计算振铃时长，当前时间点:-686420507，            开始振铃时刻：-686420521,计算后振铃时长:14
+2014-05-06 14:06:29--> OpAnswered out StationJFSign:1 RequestIVRTTS:0
+2014-05-06 14:06:29-->allstate,ctcState:2,ctcEvent:3
+2014-05-06 14:06:29-->Ctc1OpAnswered refId:12291 oldRefId:0 EnableTTSGH:1 RequestIVRTTS:0 ZJRequestSign:0 HasTTSGH:0 thirdParty:80018 calledParty:6218165 otherParty:40318 CallType:呼出 CalledNum:6218165
+2014-05-06 14:06:29-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-06 14:06:29-->新录音加入后，开始应答会触发一次OpAnswer
+2014-05-06 14:06:29-->allstate,ctcState:2,ctcEvent:14
+2014-05-06 14:06:58-->allstate,ctcState:2,ctcEvent:5
+2014-05-06 14:06:58--> OpDisconnected in StationJFSign:1 JFSign:1 ZJRequestSign:0,otherParty:(null), thirdParty:(null), calledParty:(null) refId:12291 oldRefId:0
+2014-05-06 14:06:58-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-06 14:06:58-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-06 14:06:58-->通话结束时间：2014-05-06 14:06:58
+2014-05-06 14:06:58-->setjsk  Caller: 80018 JFSign:1 StationJFSign:1
+2014-05-06 14:06:58-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-06 14:06:58-->执行sql失败：Insert into agentcdr(servicedate,servicetime,servicetimelen,ringstimelen ,agentname,stopdate,              stoptime,agentnumber,caller,called,calltype,orgnum,callid)              values('2014-05-06','14:06:15','43','14','李敏','2014-05-06','14:06:58','14088','80018','6218165','呼出','12','12291')
+2014-05-06 14:06:58-->座席记录：  Caller:80018 CalledNum:6218165 CallType:呼出 MSI_StationOwner:14088
+2014-05-06 14:06:58-->AgentModeChange:挂机后，非就绪
+2014-05-06 14:06:59--> OpDisconnected out StationJFSign: 0
+2014-05-06 14:06:59-->allstate,ctcState:128,ctcEvent:4
+2014-05-06 14:06:59--> TpDisconnected in StationJFSign:0 JFSign:0 ZJRequestSign:0 EnableTTSGH:1 refId:12291 oldRefId:0
+2014-05-06 14:06:59--> TpDisconnected otherParty:(null), thirdParty:(null), calledParty:(null)
+2014-05-06 14:06:59-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-06 14:06:59-->调用StationTimeCount时通话开始时间已经为0，不能写数据库
+2014-05-06 14:06:59-->AgentModeChange:挂机后，非就绪
+2014-05-06 14:06:59-->执行sql失败：Insert into agentstatus(dtime,status,agentnumber ,agentname, sdbz)             values(getdate(),'挂机','14088','李敏','0')
+2014-05-06 14:06:59-->执行sql失败：Insert into agentstatus(dtime,status,agentnumber ,agentname, sdbz)             values(getdate(),'话后','14088','李敏','0')
+2014-05-06 14:06:59--> TpDisconnected out StationJFSign:0  
+2014-05-06 14:06:59-->allstate,ctcState:128,ctcEvent:4
+2014-05-06 14:06:59--> TpDisconnected in StationJFSign:0 JFSign:0 ZJRequestSign:0 EnableTTSGH:1 refId:12307 oldRefId:0
+2014-05-06 14:06:59--> TpDisconnected otherParty:(null), thirdParty:(null), calledParty:(null)
+2014-05-06 14:06:59-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-06 14:06:59-->调用StationTimeCount时通话开始时间已经为0，不能写数据库
+2014-05-06 14:06:59-->执行sql失败：Insert into agentstatus(dtime,status,agentnumber ,agentname, sdbz)             values(getdate(),'挂机','14088','李敏','0')
+2014-05-06 14:06:59-->执行sql失败：Insert into agentstatus(dtime,status,agentnumber ,agentname, sdbz)             values(getdate(),'话后','14088','李敏','0')
+2014-05-06 14:06:59--> TpDisconnected out StationJFSign:0  
+2014-05-06 14:07:05-->登出 !
+2014-05-06 14:07:05-->执行sql失败：Insert into agentstatus(dtime,status,agentnumber ,agentname, sdbz)             values(getdate(),'登出','14088','李敏','0')
+2014-05-06 17:52:37-->接收到ITSM的消息,document:/crossdomain.xml
+2014-05-06 17:52:37-->接收到ITSM的消息,document:/CZYLogin
+2014-05-06 17:52:37-->接收到ITSM的消息,params:ip=10.111.34.253&lockerurl=http://10.111.0.78:9084/pMonitor&user=14088&sysuserid=881&sysusername=%C0%EE%C3%F4&sysurl=itsm.yepg.com&orgid=12&phonegroup=tfpms|&buttonlist=7777^%BB%D8%D7%DC%CC%A8|&sysusernameencode=%E6%9D%8E%E6%95%8F
+2014-05-06 17:52:38-->执行sql失败：Insert into agentstatus(dtime,status,agentnumber ,agentname, sdbz)             values(getdate(),'话后','14088','李敏','0')
+2014-05-06 17:52:38-->登出 !
+2014-05-06 17:52:38-->执行sql失败：Insert into agentstatus(dtime,status,agentnumber ,agentname, sdbz)             values(getdate(),'登出','14088','李敏','0')

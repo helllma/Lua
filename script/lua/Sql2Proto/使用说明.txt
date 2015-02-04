@@ -1,0 +1,4 @@
+编辑“生成proto.bat”如：
+lua5.1.exe SqlToProto.lua sql.sql test.proto
+sql.sql是待转换的sql文件。
+test.proto是生成后的proto文件。

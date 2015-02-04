@@ -1,0 +1,50 @@
+2014-05-14 09:02:33-->数据库已连接！
+2014-05-14 09:02:35-->80013 login !
+2014-05-14 09:02:43-->数据库已连接！
+2014-05-14 09:03:09-->80013 login !
+2014-05-14 09:03:33-->接收到ITSM的消息,document:/crossdomain.xml
+2014-05-14 09:03:33-->接收到ITSM的消息,document:/CZYLogin
+2014-05-14 09:03:33-->接收到ITSM的消息,params:ip=10.111.34.253&lockerurl=http://10.111.0.78:9084/pMonitor&user=14070&sysuserid=701&sysusername=刘雪&sysurl=10.111.2.66&orgid=12&phonegroup=tfpms|&buttonlist=7777^回总台|&sysusernameencode=%E5%88%98%E9%9B%AA
+2014-05-14 09:04:42-->数据库已连接！
+2014-05-14 09:05:28-->数据库已连接！
+2014-05-14 09:05:35-->80013 login !
+2014-05-14 09:06:11-->数据库已连接！
+2014-05-14 09:06:26-->allstate,ctcState:32,ctcEvent:1
+2014-05-14 09:06:26-->in offhook evtent  StationJFSign:0 HasTTSGH：0 ZJRequestSign:0         Talking:30747394 DialNumber:80013 CalledID:(null) CallRecived:0
+2014-05-14 09:06:26-->Offhook para refId:6142 otherParty(null) thirdParty:(null)         calledParty:(null) 
+2014-05-14 09:06:26-->通话开始时间：2014-05-14 09:09:23
+2014-05-14 09:06:26-->CncallCtc1Offhook事件，开始振铃时刻:-685747133
+2014-05-14 09:06:26-->allstate,ctcState:128,ctcEvent:4
+2014-05-14 09:06:26--> TpDisconnected in StationJFSign:0 JFSign:1 ZJRequestSign:0 EnableTTSGH:1 refId:6142 oldRefId:0
+2014-05-14 09:06:26--> TpDisconnected otherParty:(null), thirdParty:(null), calledParty:(null)
+2014-05-14 09:06:26-->未登陆或登出，不做处理
+2014-05-14 09:06:27-->allstate,ctcState:32,ctcEvent:1
+2014-05-14 09:06:27-->in offhook evtent  StationJFSign:0 HasTTSGH：0 ZJRequestSign:0         Talking:30747394 DialNumber:80013 CalledID:(null) CallRecived:0
+2014-05-14 09:06:27-->Offhook para refId:6143 otherParty(null) thirdParty:(null)         calledParty:(null) 
+2014-05-14 09:06:27-->CncallCtc1Offhook事件，开始振铃时刻:-685747132
+2014-05-14 09:06:37-->数据库已连接！
+2014-05-14 09:06:57-->allstate,ctcState:8,ctcEvent:10
+2014-05-14 09:07:01-->接收到ITSM的消息,document:/crossdomain.xml
+2014-05-14 09:07:01-->接收到ITSM的消息,document:/CZYLogin
+2014-05-14 09:07:01-->接收到ITSM的消息,params:ip=10.111.34.253&lockerurl=http://10.111.0.78:9084/pMonitor&user=14070&sysuserid=701&sysusername=刘雪&sysurl=10.111.2.66&orgid=12&phonegroup=tfpms|&buttonlist=7777^回总台|&sysusernameencode=%E5%88%98%E9%9B%AA
+2014-05-14 09:07:18-->数据库已连接！
+2014-05-14 09:07:27-->allstate,ctcState:128,ctcEvent:4
+2014-05-14 09:07:27--> TpDisconnected in StationJFSign:0 JFSign:0 ZJRequestSign:0 EnableTTSGH:1 refId:6143 oldRefId:0
+2014-05-14 09:07:27--> TpDisconnected otherParty:(null), thirdParty:(null), calledParty:(null)
+2014-05-14 09:07:27-->未登陆或登出，不做处理
+2014-05-14 09:07:32-->接收到ITSM的消息,document:/crossdomain.xml
+2014-05-14 09:07:32-->接收到ITSM的消息,document:/CZYLogin
+2014-05-14 09:07:32-->接收到ITSM的消息,params:ip=10.111.34.253&lockerurl=http://10.111.0.78:9084/pMonitor&user=14070&sysuserid=701&sysusername=刘雪&sysurl=10.111.0.79:9080&orgid=12&phonegroup=tfpms|&buttonlist=7777^回总台|&sysusernameencode=%E5%88%98%E9%9B%AA
+2014-05-14 09:08:07-->数据库已连接！
+2014-05-14 09:08:12-->allstate,ctcState:128,ctcEvent:4
+2014-05-14 09:08:12--> TpDisconnected in StationJFSign:0 JFSign:0 ZJRequestSign:0 EnableTTSGH:1 refId:6156 oldRefId:0
+2014-05-14 09:08:12--> TpDisconnected otherParty:(null), thirdParty:(null), calledParty:(null)
+2014-05-14 09:08:12-->未登陆或登出，不做处理
+2014-05-14 09:08:23-->接收到ITSM的消息,document:/crossdomain.xml
+2014-05-14 09:08:23-->接收到ITSM的消息,document:/CZYLogin
+2014-05-14 09:08:23-->接收到ITSM的消息,params:ip=10.111.34.253&lockerurl=http://10.111.0.78:9084/pMonitor&user=14070&sysuserid=701&sysusername=刘雪&sysurl=10.111.2.66&orgid=12&phonegroup=tfpms|&buttonlist=7777^回总台|&sysusernameencode=%E5%88%98%E9%9B%AA
+2014-05-14 09:08:27-->登出 !
+2014-05-14 09:08:38-->登出 !
+2014-05-14 13:07:55-->CncallCtc1CtiServerDown
+2014-05-14 13:07:55-->Event:CncallCtc1MonitoringStopped
+2014-05-14 13:07:55-->CTI Server is down

@@ -1,0 +1,2185 @@
+2014-05-12 09:20:51-->数据库已连接！
+2014-05-12 09:22:39-->接收到ITSM的消息,document:/crossdomain.xml
+2014-05-12 09:22:39-->接收到ITSM的消息,document:/CZYLogin
+2014-05-12 09:22:39-->接收到ITSM的消息,params:ip=10.111.34.253&lockerurl=http://10.111.0.78:9084/pMonitor&user=13890&sysuserid=123&sysusername=李云&sysurl=10.111.0.79:9080&orgid=12&phonegroup=tfoms|&buttonlist=7777^回总台|&sysusernameencode=%E6%9D%8E%E4%BA%91
+2014-05-12 09:22:52-->话后强制就绪！当前话后时长：11
+2014-05-12 09:24:19-->allstate,ctcState:256,ctcEvent:6
+2014-05-12 09:24:19-->CncallCtc1InboundCall refId:6618 oldRefId:0 secOldRefId:0 thirdParty:(null) calledParty:13890 otherParty:80010 
+2014-05-12 09:24:19-->Have Called In AppData:63068947 TTSGH:1 refID:6618
+2014-05-12 09:24:19-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 09:24:19-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 09:24:19-->通话开始时间：2014-05-12 09:24:19
+2014-05-12 09:24:19-->CncallCtc1InboundCall事件：开始振铃时刻:-685919037
+2014-05-12 09:24:20-->sql:select top 1 ucid from CallDetail where calling = '63068947' and agentnum = '80010' order by servicetime desc
+2014-05-12 09:24:20-->callid:00001065791399858394
+2014-05-12 09:24:20-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 09:24:20-->http://10.111.0.79:9080/popWindow.jsp?para=63068947%5E123%5E%E6%9D%8E%E4%BA%91%5E00001065791399858394%5E20140512092420%5E12
+2014-05-12 09:24:25-->allstate,ctcState:2,ctcEvent:7
+2014-05-12 09:24:25-->Ctc1TpAnswered refId:6618 oldRefId:0 EnableTTSGH:1 RequestIVRTTS:0 ZJRequestSign:0 thirdParty:(null) calledParty:13890 otherParty:80010 CallType:转入 CalledNum:(null)
+2014-05-12 09:24:25-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 09:24:25--> TpAnswered in StationJFSign:0 
+2014-05-12 09:24:25-->CncallCtc1TpAnswered事件：计算振铃时长，当前时间点:-685919031，                开始振铃时刻：-685919037,计算后振铃时长:6
+2014-05-12 09:24:25-->TpAnswered 正常呼入应答
+2014-05-12 09:24:25-->TPAnswer Transfer GH TO IVR:40409AppData:ivr^13890%AppData+flow:2100-
+2014-05-12 09:24:26--> TpAnswered out StationJFSign:1 RequestIVRTTS:1
+2014-05-12 09:24:26-->allstate,ctcState:2,ctcEvent:23
+2014-05-12 09:24:26-->allstate,ctcState:2,ctcEvent:3
+2014-05-12 09:24:26-->Ctc1OpAnswered refId:6618 oldRefId:0 EnableTTSGH:1 RequestIVRTTS:1 ZJRequestSign:0 HasTTSGH:0 thirdParty:63068947 calledParty:13890 otherParty:40333 CallType:转入 CalledNum:80008
+2014-05-12 09:24:26-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 09:24:26-->新录音加入后，开始应答会触发一次OpAnswer
+2014-05-12 09:24:26-->allstate,ctcState:2,ctcEvent:14
+2014-05-12 09:24:26-->allstate,ctcState:16,ctcEvent:17
+2014-05-12 09:24:26-->allstate,ctcState:32,ctcEvent:1
+2014-05-12 09:24:26-->in offhook evtent  StationJFSign:1 HasTTSGH：0 ZJRequestSign:0         Talking:11021062 DialNumber:80008 CalledID:80008 CallRecived:1
+2014-05-12 09:24:26-->Offhook para refId:6621 otherParty(null) thirdParty:(null)         calledParty:(null) 
+2014-05-12 09:24:26-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 09:24:26-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 09:24:26-->CncallCtc1Offhook事件，开始振铃时刻:-685919037
+2014-05-12 09:24:26-->allstate,ctcState:32,ctcEvent:1
+2014-05-12 09:24:26-->in offhook evtent  StationJFSign:1 HasTTSGH：0 ZJRequestSign:0         Talking:11021062 DialNumber:80008 CalledID:80008 CallRecived:1
+2014-05-12 09:24:26-->Offhook para refId:6621 otherParty(null) thirdParty:(null)         calledParty:40409 
+2014-05-12 09:24:26-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 09:24:26-->ivr tts gh CncallCtc1Offhook  return
+2014-05-12 09:24:26-->allstate,ctcState:4,ctcEvent:2
+2014-05-12 09:24:26-->allstate,ctcState:2,ctcEvent:13
+2014-05-12 09:24:26-->allstate,ctcState:2,ctcEvent:3
+2014-05-12 09:24:26-->Ctc1OpAnswered refId:6621 oldRefId:0 EnableTTSGH:1 RequestIVRTTS:0 ZJRequestSign:0 HasTTSGH:0 thirdParty:80008 calledParty:40409 otherParty:40230 CallType:转入 CalledNum:80008
+2014-05-12 09:24:26-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 09:24:26--> OpAnswered in StationJFSign:1 
+2014-05-12 09:24:26--> OpAnswered out StationJFSign:1 RequestIVRTTS:0
+2014-05-12 09:24:36-->allstate,ctcState:2,ctcEvent:5
+2014-05-12 09:24:36--> OpDisconnected in StationJFSign:1 JFSign:1 ZJRequestSign:0,otherParty:40230, thirdParty:(null), calledParty:(null) refId:6621 oldRefId:0
+2014-05-12 09:24:36-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 09:24:36-->ivr tts gh  hangup return
+2014-05-12 09:25:28-->ivr^0657913998%AppData+flow:2400-
+2014-05-12 09:25:28-->allstate,ctcState:16,ctcEvent:17
+2014-05-12 09:25:28-->allstate,ctcState:32,ctcEvent:1
+2014-05-12 09:25:28-->in offhook evtent  StationJFSign:1 HasTTSGH：0 ZJRequestSign:0         Talking:11021058 DialNumber:80008 CalledID:80008 CallRecived:3
+2014-05-12 09:25:28-->Offhook para refId:6645 otherParty(null) thirdParty:(null)         calledParty:(null) 
+2014-05-12 09:25:28-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 09:25:28-->是转接评价触发的offhook，不做处理。
+2014-05-12 09:25:28-->allstate,ctcState:32,ctcEvent:1
+2014-05-12 09:25:28-->in offhook evtent  StationJFSign:1 HasTTSGH：0 ZJRequestSign:0         Talking:11021058 DialNumber:80008 CalledID:80008 CallRecived:3
+2014-05-12 09:25:28-->Offhook para refId:6645 otherParty(null) thirdParty:(null)         calledParty:40408 
+2014-05-12 09:25:28-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 09:25:28-->是转接评价触发的offhook，不做处理。
+2014-05-12 09:25:28-->allstate,ctcState:4,ctcEvent:2
+2014-05-12 09:25:28-->allstate,ctcState:2,ctcEvent:3
+2014-05-12 09:25:28-->Ctc1OpAnswered refId:6645 oldRefId:0 EnableTTSGH:1 RequestIVRTTS:0 ZJRequestSign:0 HasTTSGH:0 thirdParty:80008 calledParty:40408 otherParty:40221 CallType:转入 CalledNum:80008
+2014-05-12 09:25:28-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 09:25:28--> OpAnswered in StationJFSign:1 
+2014-05-12 09:25:28-->进入转接评价呼叫
+2014-05-12 09:25:30-->OpAnswered:isZJPJ
+2014-05-12 09:25:30-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 09:25:30-->通话结束时间：2014-05-12 09:25:30
+2014-05-12 09:25:30-->setjsk  Caller: 63068947 JFSign:1 StationJFSign:1
+2014-05-12 09:25:30-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 09:25:30-->座席记录：  Caller:63068947 CalledNum:80008 CallType:转入 MSI_StationOwner:13890
+2014-05-12 09:25:32-->allstate,ctcState:16,ctcEvent:5
+2014-05-12 09:25:32--> OpDisconnected in StationJFSign:0 JFSign:0 ZJRequestSign:0,otherParty:40333, thirdParty:(null), calledParty:(null) refId:6621 oldRefId:0
+2014-05-12 09:25:32-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 09:25:32-->新录音加入后，开始应答会触发一次OpDisconnected
+2014-05-12 09:25:32-->allstate,ctcState:16,ctcEvent:5
+2014-05-12 09:25:32--> OpDisconnected in StationJFSign:0 JFSign:0 ZJRequestSign:0,otherParty:63068947, thirdParty:(null), calledParty:(null) refId:6621 oldRefId:0
+2014-05-12 09:25:32-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 09:25:32-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 09:25:32-->调用StationTimeCount时通话开始时间已经为0，不能写数据库
+2014-05-12 09:25:32--> OpDisconnected out StationJFSign: 0
+2014-05-12 09:25:32-->allstate,ctcState:128,ctcEvent:4
+2014-05-12 09:25:32--> TpDisconnected in StationJFSign:0 JFSign:0 ZJRequestSign:0 EnableTTSGH:1 refId:6621 oldRefId:0
+2014-05-12 09:25:32--> TpDisconnected otherParty:(null), thirdParty:(null), calledParty:(null)
+2014-05-12 09:25:32-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 09:25:32-->调用StationTimeCount时通话开始时间已经为0，不能写数据库
+2014-05-12 09:25:32--> TpDisconnected out StationJFSign:0  
+2014-05-12 09:25:32-->allstate,ctcState:128,ctcEvent:4
+2014-05-12 09:25:32--> TpDisconnected in StationJFSign:0 JFSign:0 ZJRequestSign:0 EnableTTSGH:1 refId:6645 oldRefId:0
+2014-05-12 09:25:32--> TpDisconnected otherParty:(null), thirdParty:(null), calledParty:(null)
+2014-05-12 09:25:32-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 09:25:32-->调用StationTimeCount时通话开始时间已经为0，不能写数据库
+2014-05-12 09:25:32--> TpDisconnected out StationJFSign:0  
+2014-05-12 09:25:42-->话后强制就绪！当前话后时长：11
+2014-05-12 09:30:39-->allstate,ctcState:256,ctcEvent:6
+2014-05-12 09:30:39-->CncallCtc1InboundCall refId:6773 oldRefId:0 secOldRefId:0 thirdParty:(null) calledParty:40113 otherParty:40246 
+2014-05-12 09:30:39-->Have Called In AppData:015750328001 TTSGH:1 refID:6773
+2014-05-12 09:30:39-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 09:30:39-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 09:30:39-->通话开始时间：2014-05-12 09:30:39
+2014-05-12 09:30:39-->CncallCtc1InboundCall事件：开始振铃时刻:-685918657
+2014-05-12 09:30:40-->sql:select top 1 ucid from CallDetail where calling = '015750328001' and called = '40246' and skillnum = '40113' order by servicetime desc
+2014-05-12 09:30:40-->callid:00001067631399858828
+2014-05-12 09:30:40-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 09:30:40-->http://10.111.0.79:9080/popWindow.jsp?para=015750328001%5E123%5E%E6%9D%8E%E4%BA%91%5E00001067631399858828%5E20140512093040%5E12
+2014-05-12 09:30:44-->allstate,ctcState:2,ctcEvent:7
+2014-05-12 09:30:44-->Ctc1TpAnswered refId:6773 oldRefId:0 EnableTTSGH:1 RequestIVRTTS:0 ZJRequestSign:0 thirdParty:(null) calledParty:40113 otherParty:40246 CallType:呼入 CalledNum:80008
+2014-05-12 09:30:44-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 09:30:44--> TpAnswered in StationJFSign:0 
+2014-05-12 09:30:44-->CncallCtc1TpAnswered事件：计算振铃时长，当前时间点:-685918652，                开始振铃时刻：-685918657,计算后振铃时长:5
+2014-05-12 09:30:44-->TpAnswered 正常呼入应答
+2014-05-12 09:30:44-->TPAnswer Transfer GH TO IVR:40409AppData:ivr^13890%AppData+flow:2100-
+2014-05-12 09:30:45--> TpAnswered out StationJFSign:1 RequestIVRTTS:1
+2014-05-12 09:30:45-->allstate,ctcState:2,ctcEvent:23
+2014-05-12 09:30:45-->allstate,ctcState:2,ctcEvent:3
+2014-05-12 09:30:45-->Ctc1OpAnswered refId:6773 oldRefId:0 EnableTTSGH:1 RequestIVRTTS:1 ZJRequestSign:0 HasTTSGH:0 thirdParty:015750328001 calledParty:40113 otherParty:40302 CallType:呼入 CalledNum:80008
+2014-05-12 09:30:45-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 09:30:45-->新录音加入后，开始应答会触发一次OpAnswer
+2014-05-12 09:30:45-->allstate,ctcState:2,ctcEvent:14
+2014-05-12 09:30:45-->allstate,ctcState:16,ctcEvent:17
+2014-05-12 09:30:45-->allstate,ctcState:32,ctcEvent:1
+2014-05-12 09:30:45-->in offhook evtent  StationJFSign:1 HasTTSGH：0 ZJRequestSign:0         Talking:11021062 DialNumber:80008 CalledID:80008 CallRecived:1
+2014-05-12 09:30:45-->Offhook para refId:6778 otherParty(null) thirdParty:(null)         calledParty:(null) 
+2014-05-12 09:30:45-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 09:30:45-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 09:30:45-->CncallCtc1Offhook事件，开始振铃时刻:-685918657
+2014-05-12 09:30:45-->等待报号返回：500豪秒×1
+2014-05-12 09:30:45-->allstate,ctcState:32,ctcEvent:1
+2014-05-12 09:30:45-->in offhook evtent  StationJFSign:1 HasTTSGH：0 ZJRequestSign:0         Talking:11021062 DialNumber:80008 CalledID:80008 CallRecived:1
+2014-05-12 09:30:45-->Offhook para refId:6778 otherParty(null) thirdParty:(null)         calledParty:40409 
+2014-05-12 09:30:45-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 09:30:45-->ivr tts gh CncallCtc1Offhook  return
+2014-05-12 09:30:45-->allstate,ctcState:4,ctcEvent:2
+2014-05-12 09:30:45-->allstate,ctcState:2,ctcEvent:13
+2014-05-12 09:30:45-->allstate,ctcState:2,ctcEvent:3
+2014-05-12 09:30:45-->Ctc1OpAnswered refId:6778 oldRefId:0 EnableTTSGH:1 RequestIVRTTS:0 ZJRequestSign:0 HasTTSGH:0 thirdParty:80008 calledParty:40409 otherParty:40201 CallType:呼入 CalledNum:80008
+2014-05-12 09:30:45-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 09:30:45--> OpAnswered in StationJFSign:1 
+2014-05-12 09:30:45--> OpAnswered out StationJFSign:1 RequestIVRTTS:0
+2014-05-12 09:30:55-->allstate,ctcState:2,ctcEvent:5
+2014-05-12 09:30:55--> OpDisconnected in StationJFSign:1 JFSign:1 ZJRequestSign:0,otherParty:40201, thirdParty:(null), calledParty:(null) refId:6778 oldRefId:0
+2014-05-12 09:30:55-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 09:30:55-->ivr tts gh  hangup return
+2014-05-12 09:31:19-->allstate,ctcState:16,ctcEvent:17
+2014-05-12 09:31:19-->allstate,ctcState:32,ctcEvent:1
+2014-05-12 09:31:19-->in offhook evtent  StationJFSign:1 HasTTSGH：0 ZJRequestSign:0         Talking:11021063 DialNumber:80008 CalledID:80008 CallRecived:1
+2014-05-12 09:31:19-->Offhook para refId:6793 otherParty(null) thirdParty:(null)         calledParty:(null) 
+2014-05-12 09:31:19-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 09:31:19-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 09:31:19-->CncallCtc1Offhook事件，开始振铃时刻:-685918657
+2014-05-12 09:31:19-->allstate,ctcState:32,ctcEvent:1
+2014-05-12 09:31:19-->in offhook evtent  StationJFSign:1 HasTTSGH：0 ZJRequestSign:0         Talking:11021063 DialNumber:80008 CalledID:80008 CallRecived:1
+2014-05-12 09:31:19-->Offhook para refId:6793 otherParty(null) thirdParty:(null)         calledParty:13871 
+2014-05-12 09:31:19-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 09:31:19-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 09:31:19-->CncallCtc1Offhook事件，开始振铃时刻:-685918657
+2014-05-12 09:31:19-->allstate,ctcState:4,ctcEvent:2
+2014-05-12 09:31:20-->allstate,ctcState:16,ctcEvent:5
+2014-05-12 09:31:20--> OpDisconnected in StationJFSign:1 JFSign:1 ZJRequestSign:0,otherParty:40302, thirdParty:(null), calledParty:(null) refId:6778 oldRefId:0
+2014-05-12 09:31:20-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 09:31:20-->新录音加入后，开始应答会触发一次OpDisconnected
+2014-05-12 09:31:26-->allstate,ctcState:2,ctcEvent:3
+2014-05-12 09:31:26-->Ctc1OpAnswered refId:6793 oldRefId:0 EnableTTSGH:1 RequestIVRTTS:0 ZJRequestSign:0 HasTTSGH:0 thirdParty:80008 calledParty:13871 otherParty:80011 CallType:转接 CalledNum:80008
+2014-05-12 09:31:26-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 09:31:26--> OpAnswered in StationJFSign:1 
+2014-05-12 09:31:26-->OpAnswered 转接呼叫
+2014-05-12 09:31:26-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 09:31:26-->通话结束时间：2014-05-12 09:31:26
+2014-05-12 09:31:26-->setjsk  Caller: 015750328001 JFSign:1 StationJFSign:1
+2014-05-12 09:31:26-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 09:31:26-->座席记录：  Caller:015750328001 CalledNum:80008 CallType:转接 MSI_StationOwner:13890
+2014-05-12 09:31:27--> OpAnswered out StationJFSign:0 RequestIVRTTS:0
+2014-05-12 09:31:27-->allstate,ctcState:128,ctcEvent:4
+2014-05-12 09:31:27--> TpDisconnected in StationJFSign:0 JFSign:0 ZJRequestSign:0 EnableTTSGH:1 refId:6793 oldRefId:6778
+2014-05-12 09:31:27--> TpDisconnected otherParty:80011, thirdParty:(null), calledParty:(null)
+2014-05-12 09:31:27-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 09:31:27-->调用StationTimeCount时通话开始时间已经为0，不能写数据库
+2014-05-12 09:31:27-->AgentModeChange:挂机后，非就绪
+2014-05-12 09:31:28--> TpDisconnected out StationJFSign:0  
+2014-05-12 09:31:28-->allstate,ctcState:128,ctcEvent:4
+2014-05-12 09:31:28--> TpDisconnected in StationJFSign:0 JFSign:0 ZJRequestSign:0 EnableTTSGH:1 refId:6797 oldRefId:0
+2014-05-12 09:31:28--> TpDisconnected otherParty:(null), thirdParty:(null), calledParty:(null)
+2014-05-12 09:31:28-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 09:31:28-->调用StationTimeCount时通话开始时间已经为0，不能写数据库
+2014-05-12 09:31:28--> TpDisconnected out StationJFSign:0  
+2014-05-12 09:31:38-->话后强制就绪！当前话后时长：11
+2014-05-12 09:31:46-->allstate,ctcState:256,ctcEvent:6
+2014-05-12 09:31:46-->CncallCtc1InboundCall refId:6808 oldRefId:0 secOldRefId:0 thirdParty:(null) calledParty:40113 otherParty:40237 
+2014-05-12 09:31:46-->Have Called In AppData:08788711197 TTSGH:1 refID:6808
+2014-05-12 09:31:46-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 09:31:46-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 09:31:46-->通话开始时间：2014-05-12 09:31:46
+2014-05-12 09:31:46-->CncallCtc1InboundCall事件：开始振铃时刻:-685918590
+2014-05-12 09:31:46-->sql:select top 1 ucid from CallDetail where calling = '08788711197' and called = '40237' and skillnum = '40113' order by servicetime desc
+2014-05-12 09:31:46-->callid:00001067941399858898
+2014-05-12 09:31:46-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 09:31:46-->http://10.111.0.79:9080/popWindow.jsp?para=08788711197%5E123%5E%E6%9D%8E%E4%BA%91%5E00001067941399858898%5E20140512093146%5E12
+2014-05-12 09:31:51-->allstate,ctcState:2,ctcEvent:7
+2014-05-12 09:31:51-->Ctc1TpAnswered refId:6808 oldRefId:0 EnableTTSGH:1 RequestIVRTTS:0 ZJRequestSign:0 thirdParty:(null) calledParty:40113 otherParty:40237 CallType:呼入 CalledNum:80008
+2014-05-12 09:31:51-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 09:31:51--> TpAnswered in StationJFSign:0 
+2014-05-12 09:31:51-->CncallCtc1TpAnswered事件：计算振铃时长，当前时间点:-685918585，                开始振铃时刻：-685918590,计算后振铃时长:5
+2014-05-12 09:31:51-->TpAnswered 正常呼入应答
+2014-05-12 09:31:51-->TPAnswer Transfer GH TO IVR:40409AppData:ivr^13890%AppData+flow:2100-
+2014-05-12 09:31:51--> TpAnswered out StationJFSign:1 RequestIVRTTS:1
+2014-05-12 09:31:51-->allstate,ctcState:2,ctcEvent:23
+2014-05-12 09:31:51-->allstate,ctcState:2,ctcEvent:3
+2014-05-12 09:31:51-->Ctc1OpAnswered refId:6808 oldRefId:0 EnableTTSGH:1 RequestIVRTTS:1 ZJRequestSign:0 HasTTSGH:0 thirdParty:08788711197 calledParty:40113 otherParty:40311 CallType:呼入 CalledNum:80008
+2014-05-12 09:31:51-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 09:31:51-->新录音加入后，开始应答会触发一次OpAnswer
+2014-05-12 09:31:51-->allstate,ctcState:2,ctcEvent:14
+2014-05-12 09:31:51-->allstate,ctcState:16,ctcEvent:17
+2014-05-12 09:31:51-->allstate,ctcState:32,ctcEvent:1
+2014-05-12 09:31:51-->in offhook evtent  StationJFSign:1 HasTTSGH：0 ZJRequestSign:0         Talking:11021062 DialNumber:80008 CalledID:80008 CallRecived:1
+2014-05-12 09:31:51-->Offhook para refId:6815 otherParty(null) thirdParty:(null)         calledParty:(null) 
+2014-05-12 09:31:51-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 09:31:51-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 09:31:51-->CncallCtc1Offhook事件，开始振铃时刻:-685918590
+2014-05-12 09:31:51-->allstate,ctcState:32,ctcEvent:1
+2014-05-12 09:31:51-->in offhook evtent  StationJFSign:1 HasTTSGH：0 ZJRequestSign:0         Talking:11021062 DialNumber:80008 CalledID:80008 CallRecived:1
+2014-05-12 09:31:51-->Offhook para refId:6815 otherParty(null) thirdParty:(null)         calledParty:40409 
+2014-05-12 09:31:51-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 09:31:51-->ivr tts gh CncallCtc1Offhook  return
+2014-05-12 09:31:51-->allstate,ctcState:4,ctcEvent:2
+2014-05-12 09:31:51-->allstate,ctcState:2,ctcEvent:13
+2014-05-12 09:31:51-->allstate,ctcState:2,ctcEvent:3
+2014-05-12 09:31:51-->Ctc1OpAnswered refId:6815 oldRefId:0 EnableTTSGH:1 RequestIVRTTS:0 ZJRequestSign:0 HasTTSGH:0 thirdParty:80008 calledParty:40409 otherParty:40209 CallType:呼入 CalledNum:80008
+2014-05-12 09:31:51-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 09:31:51--> OpAnswered in StationJFSign:1 
+2014-05-12 09:31:51--> OpAnswered out StationJFSign:1 RequestIVRTTS:0
+2014-05-12 09:32:01-->allstate,ctcState:2,ctcEvent:5
+2014-05-12 09:32:01--> OpDisconnected in StationJFSign:1 JFSign:1 ZJRequestSign:0,otherParty:40209, thirdParty:(null), calledParty:(null) refId:6815 oldRefId:0
+2014-05-12 09:32:01-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 09:32:01-->ivr tts gh  hangup return
+2014-05-12 09:35:31-->allstate,ctcState:16,ctcEvent:17
+2014-05-12 09:35:31-->allstate,ctcState:32,ctcEvent:1
+2014-05-12 09:35:31-->in offhook evtent  StationJFSign:1 HasTTSGH：0 ZJRequestSign:0         Talking:11021063 DialNumber:80008 CalledID:80008 CallRecived:1
+2014-05-12 09:35:31-->Offhook para refId:6911 otherParty(null) thirdParty:(null)         calledParty:(null) 
+2014-05-12 09:35:31-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 09:35:31-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 09:35:31-->CncallCtc1Offhook事件，开始振铃时刻:-685918590
+2014-05-12 09:35:31-->allstate,ctcState:32,ctcEvent:1
+2014-05-12 09:35:31-->in offhook evtent  StationJFSign:1 HasTTSGH：0 ZJRequestSign:0         Talking:11021063 DialNumber:80008 CalledID:80008 CallRecived:1
+2014-05-12 09:35:31-->Offhook para refId:6911 otherParty(null) thirdParty:(null)         calledParty:40115 
+2014-05-12 09:35:31-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 09:35:31-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 09:35:31-->CncallCtc1Offhook事件，开始振铃时刻:-685918590
+2014-05-12 09:35:31-->allstate,ctcState:64,ctcEvent:24
+2014-05-12 09:35:31-->allstate,ctcState:4,ctcEvent:2
+2014-05-12 09:35:31-->allstate,ctcState:16,ctcEvent:5
+2014-05-12 09:35:31--> OpDisconnected in StationJFSign:1 JFSign:1 ZJRequestSign:0,otherParty:40311, thirdParty:(null), calledParty:(null) refId:6815 oldRefId:0
+2014-05-12 09:35:31-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 09:35:31-->新录音加入后，开始应答会触发一次OpDisconnected
+2014-05-12 09:35:34-->allstate,ctcState:2,ctcEvent:3
+2014-05-12 09:35:34-->Ctc1OpAnswered refId:6911 oldRefId:0 EnableTTSGH:1 RequestIVRTTS:0 ZJRequestSign:0 HasTTSGH:0 thirdParty:80008 calledParty:40115 otherParty:80044 CallType:转接 CalledNum:80008
+2014-05-12 09:35:34-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 09:35:34--> OpAnswered in StationJFSign:1 
+2014-05-12 09:35:34-->OpAnswered 转接呼叫
+2014-05-12 09:35:34-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 09:35:34-->通话结束时间：2014-05-12 09:35:34
+2014-05-12 09:35:34-->setjsk  Caller: 08788711197 JFSign:1 StationJFSign:1
+2014-05-12 09:35:34-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 09:35:34-->座席记录：  Caller:08788711197 CalledNum:80008 CallType:转接 MSI_StationOwner:13890
+2014-05-12 09:35:35--> OpAnswered out StationJFSign:0 RequestIVRTTS:0
+2014-05-12 09:35:35-->allstate,ctcState:128,ctcEvent:4
+2014-05-12 09:35:35--> TpDisconnected in StationJFSign:0 JFSign:0 ZJRequestSign:0 EnableTTSGH:1 refId:6911 oldRefId:6815
+2014-05-12 09:35:35--> TpDisconnected otherParty:80044, thirdParty:(null), calledParty:(null)
+2014-05-12 09:35:35-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 09:35:35-->调用StationTimeCount时通话开始时间已经为0，不能写数据库
+2014-05-12 09:35:35-->AgentModeChange:挂机后，非就绪
+2014-05-12 09:35:35--> TpDisconnected out StationJFSign:0  
+2014-05-12 09:35:35-->allstate,ctcState:128,ctcEvent:4
+2014-05-12 09:35:35--> TpDisconnected in StationJFSign:0 JFSign:0 ZJRequestSign:0 EnableTTSGH:1 refId:6912 oldRefId:0
+2014-05-12 09:35:35--> TpDisconnected otherParty:(null), thirdParty:(null), calledParty:(null)
+2014-05-12 09:35:35-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 09:35:35-->调用StationTimeCount时通话开始时间已经为0，不能写数据库
+2014-05-12 09:35:35--> TpDisconnected out StationJFSign:0  
+2014-05-12 09:35:45-->话后强制就绪！当前话后时长：11
+2014-05-12 09:39:25-->allstate,ctcState:256,ctcEvent:6
+2014-05-12 09:39:25-->CncallCtc1InboundCall refId:6998 oldRefId:0 secOldRefId:0 thirdParty:(null) calledParty:40113 otherParty:40239 
+2014-05-12 09:39:25-->Have Called In AppData:08736222876 TTSGH:1 refID:6998
+2014-05-12 09:39:25-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 09:39:25-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 09:39:25-->通话开始时间：2014-05-12 09:39:25
+2014-05-12 09:39:25-->CncallCtc1InboundCall事件：开始振铃时刻:-685918131
+2014-05-12 09:39:26-->sql:select top 1 ucid from CallDetail where calling = '08736222876' and called = '40239' and skillnum = '40113' order by servicetime desc
+2014-05-12 09:39:26-->callid:00001069821399859357
+2014-05-12 09:39:26-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 09:39:26-->http://10.111.0.79:9080/popWindow.jsp?para=08736222876%5E123%5E%E6%9D%8E%E4%BA%91%5E00001069821399859357%5E20140512093926%5E12
+2014-05-12 09:39:34-->allstate,ctcState:2,ctcEvent:7
+2014-05-12 09:39:34-->Ctc1TpAnswered refId:6998 oldRefId:0 EnableTTSGH:1 RequestIVRTTS:0 ZJRequestSign:0 thirdParty:(null) calledParty:40113 otherParty:40239 CallType:呼入 CalledNum:80008
+2014-05-12 09:39:34-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 09:39:34--> TpAnswered in StationJFSign:0 
+2014-05-12 09:39:34-->CncallCtc1TpAnswered事件：计算振铃时长，当前时间点:-685918122，                开始振铃时刻：-685918131,计算后振铃时长:9
+2014-05-12 09:39:34-->TpAnswered 正常呼入应答
+2014-05-12 09:39:34-->TPAnswer Transfer GH TO IVR:40409AppData:ivr^13890%AppData+flow:2100-
+2014-05-12 09:39:35--> TpAnswered out StationJFSign:1 RequestIVRTTS:1
+2014-05-12 09:39:35-->allstate,ctcState:2,ctcEvent:23
+2014-05-12 09:39:35-->allstate,ctcState:2,ctcEvent:3
+2014-05-12 09:39:35-->Ctc1OpAnswered refId:6998 oldRefId:0 EnableTTSGH:1 RequestIVRTTS:1 ZJRequestSign:0 HasTTSGH:0 thirdParty:08736222876 calledParty:40113 otherParty:40334 CallType:呼入 CalledNum:80008
+2014-05-12 09:39:35-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 09:39:35-->新录音加入后，开始应答会触发一次OpAnswer
+2014-05-12 09:39:35-->allstate,ctcState:2,ctcEvent:14
+2014-05-12 09:39:35-->allstate,ctcState:16,ctcEvent:17
+2014-05-12 09:39:35-->allstate,ctcState:32,ctcEvent:1
+2014-05-12 09:39:35-->in offhook evtent  StationJFSign:1 HasTTSGH：0 ZJRequestSign:0         Talking:11021062 DialNumber:80008 CalledID:80008 CallRecived:1
+2014-05-12 09:39:35-->Offhook para refId:7003 otherParty(null) thirdParty:(null)         calledParty:(null) 
+2014-05-12 09:39:35-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 09:39:35-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 09:39:35-->CncallCtc1Offhook事件，开始振铃时刻:-685918131
+2014-05-12 09:39:35-->allstate,ctcState:32,ctcEvent:1
+2014-05-12 09:39:35-->in offhook evtent  StationJFSign:1 HasTTSGH：0 ZJRequestSign:0         Talking:11021062 DialNumber:80008 CalledID:80008 CallRecived:1
+2014-05-12 09:39:35-->Offhook para refId:7003 otherParty(null) thirdParty:(null)         calledParty:40409 
+2014-05-12 09:39:35-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 09:39:35-->ivr tts gh CncallCtc1Offhook  return
+2014-05-12 09:39:35-->allstate,ctcState:4,ctcEvent:2
+2014-05-12 09:39:35-->allstate,ctcState:2,ctcEvent:13
+2014-05-12 09:39:35-->allstate,ctcState:2,ctcEvent:3
+2014-05-12 09:39:35-->Ctc1OpAnswered refId:7003 oldRefId:0 EnableTTSGH:1 RequestIVRTTS:0 ZJRequestSign:0 HasTTSGH:0 thirdParty:80008 calledParty:40409 otherParty:40211 CallType:呼入 CalledNum:80008
+2014-05-12 09:39:35-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 09:39:35--> OpAnswered in StationJFSign:1 
+2014-05-12 09:39:35--> OpAnswered out StationJFSign:1 RequestIVRTTS:0
+2014-05-12 09:39:45-->allstate,ctcState:2,ctcEvent:5
+2014-05-12 09:39:45--> OpDisconnected in StationJFSign:1 JFSign:1 ZJRequestSign:0,otherParty:40211, thirdParty:(null), calledParty:(null) refId:7003 oldRefId:0
+2014-05-12 09:39:45-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 09:39:45-->ivr tts gh  hangup return
+2014-05-12 09:41:16-->allstate,ctcState:2,ctcEvent:5
+2014-05-12 09:41:16--> OpDisconnected in StationJFSign:1 JFSign:1 ZJRequestSign:0,otherParty:08736222876, thirdParty:(null), calledParty:(null) refId:7003 oldRefId:0
+2014-05-12 09:41:16-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 09:41:16-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 09:41:16-->通话结束时间：2014-05-12 09:41:16
+2014-05-12 09:41:16-->setjsk  Caller: 08736222876 JFSign:1 StationJFSign:1
+2014-05-12 09:41:16-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 09:41:16-->座席记录：  Caller:08736222876 CalledNum:80008 CallType:呼入 MSI_StationOwner:13890
+2014-05-12 09:41:16-->AgentModeChange:挂机后，非就绪
+2014-05-12 09:41:16--> OpDisconnected out StationJFSign: 0
+2014-05-12 09:41:16-->allstate,ctcState:128,ctcEvent:4
+2014-05-12 09:41:16--> TpDisconnected in StationJFSign:0 JFSign:0 ZJRequestSign:0 EnableTTSGH:1 refId:7003 oldRefId:0
+2014-05-12 09:41:16--> TpDisconnected otherParty:(null), thirdParty:(null), calledParty:(null)
+2014-05-12 09:41:16-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 09:41:16-->调用StationTimeCount时通话开始时间已经为0，不能写数据库
+2014-05-12 09:41:16-->AgentModeChange:挂机后，非就绪
+2014-05-12 09:41:17--> TpDisconnected out StationJFSign:0  
+2014-05-12 09:41:17-->allstate,ctcState:128,ctcEvent:4
+2014-05-12 09:41:17--> TpDisconnected in StationJFSign:0 JFSign:0 ZJRequestSign:0 EnableTTSGH:1 refId:7038 oldRefId:0
+2014-05-12 09:41:17--> TpDisconnected otherParty:(null), thirdParty:(null), calledParty:(null)
+2014-05-12 09:41:17-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 09:41:17-->调用StationTimeCount时通话开始时间已经为0，不能写数据库
+2014-05-12 09:41:17--> TpDisconnected out StationJFSign:0  
+2014-05-12 09:41:27-->话后强制就绪！当前话后时长：11
+2014-05-12 09:46:21-->allstate,ctcState:256,ctcEvent:6
+2014-05-12 09:46:21-->CncallCtc1InboundCall refId:7145 oldRefId:0 secOldRefId:0 thirdParty:(null) calledParty:13890 otherParty:80015 
+2014-05-12 09:46:21-->Have Called In AppData:013808798507 TTSGH:1 refID:7145
+2014-05-12 09:46:21-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 09:46:21-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 09:46:21-->通话开始时间：2014-05-12 09:46:21
+2014-05-12 09:46:21-->CncallCtc1InboundCall事件：开始振铃时刻:-685917715
+2014-05-12 09:46:22-->sql:select top 1 ucid from CallDetail where calling = '013808798507' and agentnum = '80015' order by servicetime desc
+2014-05-12 09:46:22-->callid:00001071181399859721
+2014-05-12 09:46:22-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 09:46:22-->http://10.111.0.79:9080/popWindow.jsp?para=013808798507%5E123%5E%E6%9D%8E%E4%BA%91%5E00001071181399859721%5E20140512094622%5E12
+2014-05-12 09:46:23-->allstate,ctcState:2,ctcEvent:7
+2014-05-12 09:46:23-->Ctc1TpAnswered refId:7145 oldRefId:0 EnableTTSGH:1 RequestIVRTTS:0 ZJRequestSign:0 thirdParty:(null) calledParty:13890 otherParty:80015 CallType:转入 CalledNum:80008
+2014-05-12 09:46:23-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 09:46:23--> TpAnswered in StationJFSign:0 
+2014-05-12 09:46:23-->CncallCtc1TpAnswered事件：计算振铃时长，当前时间点:-685917713，                开始振铃时刻：-685917715,计算后振铃时长:2
+2014-05-12 09:46:23-->TpAnswered 正常呼入应答
+2014-05-12 09:46:23-->TPAnswer Transfer GH TO IVR:40409AppData:ivr^13890%AppData+flow:2100-
+2014-05-12 09:46:24--> TpAnswered out StationJFSign:1 RequestIVRTTS:1
+2014-05-12 09:46:24-->allstate,ctcState:2,ctcEvent:23
+2014-05-12 09:46:24-->allstate,ctcState:2,ctcEvent:3
+2014-05-12 09:46:24-->Ctc1OpAnswered refId:7145 oldRefId:0 EnableTTSGH:1 RequestIVRTTS:1 ZJRequestSign:0 HasTTSGH:0 thirdParty:013808798507 calledParty:13890 otherParty:40327 CallType:转入 CalledNum:80008
+2014-05-12 09:46:24-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 09:46:24-->新录音加入后，开始应答会触发一次OpAnswer
+2014-05-12 09:46:24-->allstate,ctcState:2,ctcEvent:14
+2014-05-12 09:46:24-->allstate,ctcState:16,ctcEvent:17
+2014-05-12 09:46:24-->allstate,ctcState:32,ctcEvent:1
+2014-05-12 09:46:24-->in offhook evtent  StationJFSign:1 HasTTSGH：0 ZJRequestSign:0         Talking:11021062 DialNumber:80008 CalledID:80008 CallRecived:1
+2014-05-12 09:46:24-->Offhook para refId:7148 otherParty(null) thirdParty:(null)         calledParty:(null) 
+2014-05-12 09:46:24-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 09:46:24-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 09:46:24-->CncallCtc1Offhook事件，开始振铃时刻:-685917715
+2014-05-12 09:46:24-->allstate,ctcState:32,ctcEvent:1
+2014-05-12 09:46:24-->in offhook evtent  StationJFSign:1 HasTTSGH：0 ZJRequestSign:0         Talking:11021062 DialNumber:80008 CalledID:80008 CallRecived:1
+2014-05-12 09:46:24-->Offhook para refId:7148 otherParty(null) thirdParty:(null)         calledParty:40409 
+2014-05-12 09:46:24-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 09:46:24-->ivr tts gh CncallCtc1Offhook  return
+2014-05-12 09:46:24-->allstate,ctcState:4,ctcEvent:2
+2014-05-12 09:46:24-->allstate,ctcState:2,ctcEvent:13
+2014-05-12 09:46:24-->allstate,ctcState:2,ctcEvent:3
+2014-05-12 09:46:24-->Ctc1OpAnswered refId:7148 oldRefId:0 EnableTTSGH:1 RequestIVRTTS:0 ZJRequestSign:0 HasTTSGH:0 thirdParty:80008 calledParty:40409 otherParty:40219 CallType:转入 CalledNum:80008
+2014-05-12 09:46:24-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 09:46:24--> OpAnswered in StationJFSign:1 
+2014-05-12 09:46:24--> OpAnswered out StationJFSign:1 RequestIVRTTS:0
+2014-05-12 09:46:34-->allstate,ctcState:2,ctcEvent:5
+2014-05-12 09:46:34--> OpDisconnected in StationJFSign:1 JFSign:1 ZJRequestSign:0,otherParty:40219, thirdParty:(null), calledParty:(null) refId:7148 oldRefId:0
+2014-05-12 09:46:34-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 09:46:34-->ivr tts gh  hangup return
+2014-05-12 09:47:44-->ivr^0711813998%AppData+flow:2400-
+2014-05-12 09:47:44-->allstate,ctcState:16,ctcEvent:17
+2014-05-12 09:47:44-->allstate,ctcState:32,ctcEvent:1
+2014-05-12 09:47:44-->in offhook evtent  StationJFSign:1 HasTTSGH：0 ZJRequestSign:0         Talking:11021058 DialNumber:80008 CalledID:80008 CallRecived:3
+2014-05-12 09:47:44-->Offhook para refId:7170 otherParty(null) thirdParty:(null)         calledParty:(null) 
+2014-05-12 09:47:44-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 09:47:44-->是转接评价触发的offhook，不做处理。
+2014-05-12 09:47:44-->allstate,ctcState:32,ctcEvent:1
+2014-05-12 09:47:44-->in offhook evtent  StationJFSign:1 HasTTSGH：0 ZJRequestSign:0         Talking:11021058 DialNumber:80008 CalledID:80008 CallRecived:3
+2014-05-12 09:47:44-->Offhook para refId:7170 otherParty(null) thirdParty:(null)         calledParty:40408 
+2014-05-12 09:47:44-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 09:47:44-->是转接评价触发的offhook，不做处理。
+2014-05-12 09:47:44-->allstate,ctcState:4,ctcEvent:2
+2014-05-12 09:47:44-->allstate,ctcState:2,ctcEvent:3
+2014-05-12 09:47:44-->Ctc1OpAnswered refId:7170 oldRefId:0 EnableTTSGH:1 RequestIVRTTS:0 ZJRequestSign:0 HasTTSGH:0 thirdParty:80008 calledParty:40408 otherParty:40222 CallType:转入 CalledNum:80008
+2014-05-12 09:47:44-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 09:47:44--> OpAnswered in StationJFSign:1 
+2014-05-12 09:47:44-->进入转接评价呼叫
+2014-05-12 09:47:46-->OpAnswered:isZJPJ
+2014-05-12 09:47:46-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 09:47:46-->通话结束时间：2014-05-12 09:47:46
+2014-05-12 09:47:46-->setjsk  Caller: 013808798507 JFSign:1 StationJFSign:1
+2014-05-12 09:47:46-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 09:47:46-->座席记录：  Caller:013808798507 CalledNum:80008 CallType:转入 MSI_StationOwner:13890
+2014-05-12 09:47:48-->allstate,ctcState:16,ctcEvent:5
+2014-05-12 09:47:48--> OpDisconnected in StationJFSign:0 JFSign:0 ZJRequestSign:0,otherParty:40327, thirdParty:(null), calledParty:(null) refId:7148 oldRefId:0
+2014-05-12 09:47:48-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 09:47:48-->新录音加入后，开始应答会触发一次OpDisconnected
+2014-05-12 09:47:48-->allstate,ctcState:128,ctcEvent:4
+2014-05-12 09:47:48--> TpDisconnected in StationJFSign:0 JFSign:0 ZJRequestSign:0 EnableTTSGH:1 refId:7170 oldRefId:7148
+2014-05-12 09:47:48--> TpDisconnected otherParty:40222, thirdParty:(null), calledParty:(null)
+2014-05-12 09:47:48-->IVR与坐席中断，可能是转评价后评价的IVR与坐席结束通话，不处理
+2014-05-12 09:47:48-->allstate,ctcState:128,ctcEvent:4
+2014-05-12 09:47:48--> TpDisconnected in StationJFSign:0 JFSign:0 ZJRequestSign:0 EnableTTSGH:1 refId:7171 oldRefId:0
+2014-05-12 09:47:48--> TpDisconnected otherParty:(null), thirdParty:(null), calledParty:(null)
+2014-05-12 09:47:48-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 09:47:48-->调用StationTimeCount时通话开始时间已经为0，不能写数据库
+2014-05-12 09:47:48--> TpDisconnected out StationJFSign:0  
+2014-05-12 09:47:57-->话后强制就绪！当前话后时长：11
+2014-05-12 09:48:22-->allstate,ctcState:256,ctcEvent:6
+2014-05-12 09:48:22-->CncallCtc1InboundCall refId:7189 oldRefId:0 secOldRefId:0 thirdParty:(null) calledParty:13890 otherParty:80015 
+2014-05-12 09:48:22-->Have Called In AppData:63069730 TTSGH:1 refID:7189
+2014-05-12 09:48:22-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 09:48:22-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 09:48:22-->通话开始时间：2014-05-12 09:48:22
+2014-05-12 09:48:22-->CncallCtc1InboundCall事件：开始振铃时刻:-685917594
+2014-05-12 09:48:23-->sql:select top 1 ucid from CallDetail where calling = '63069730' and agentnum = '80015' order by servicetime desc
+2014-05-12 09:48:23-->callid:00001071611399859856
+2014-05-12 09:48:23-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 09:48:23-->http://10.111.0.79:9080/popWindow.jsp?para=63069730%5E123%5E%E6%9D%8E%E4%BA%91%5E00001071611399859856%5E20140512094823%5E12
+2014-05-12 09:48:31-->allstate,ctcState:2,ctcEvent:7
+2014-05-12 09:48:31-->Ctc1TpAnswered refId:7189 oldRefId:0 EnableTTSGH:1 RequestIVRTTS:0 ZJRequestSign:0 thirdParty:(null) calledParty:13890 otherParty:80015 CallType:转入 CalledNum:80008
+2014-05-12 09:48:31-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 09:48:31--> TpAnswered in StationJFSign:0 
+2014-05-12 09:48:31-->CncallCtc1TpAnswered事件：计算振铃时长，当前时间点:-685917585，                开始振铃时刻：-685917594,计算后振铃时长:9
+2014-05-12 09:48:31-->TpAnswered 正常呼入应答
+2014-05-12 09:48:31-->TPAnswer Transfer GH TO IVR:40409AppData:ivr^13890%AppData+flow:2100-
+2014-05-12 09:48:32--> TpAnswered out StationJFSign:1 RequestIVRTTS:1
+2014-05-12 09:48:32-->allstate,ctcState:2,ctcEvent:23
+2014-05-12 09:48:32-->allstate,ctcState:2,ctcEvent:3
+2014-05-12 09:48:32-->Ctc1OpAnswered refId:7189 oldRefId:0 EnableTTSGH:1 RequestIVRTTS:1 ZJRequestSign:0 HasTTSGH:0 thirdParty:63069730 calledParty:13890 otherParty:40306 CallType:转入 CalledNum:80008
+2014-05-12 09:48:32-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 09:48:32-->新录音加入后，开始应答会触发一次OpAnswer
+2014-05-12 09:48:32-->allstate,ctcState:2,ctcEvent:14
+2014-05-12 09:48:32-->allstate,ctcState:16,ctcEvent:17
+2014-05-12 09:48:32-->allstate,ctcState:32,ctcEvent:1
+2014-05-12 09:48:32-->in offhook evtent  StationJFSign:1 HasTTSGH：0 ZJRequestSign:0         Talking:11021062 DialNumber:80008 CalledID:80008 CallRecived:1
+2014-05-12 09:48:32-->Offhook para refId:7197 otherParty(null) thirdParty:(null)         calledParty:(null) 
+2014-05-12 09:48:32-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 09:48:32-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 09:48:32-->CncallCtc1Offhook事件，开始振铃时刻:-685917594
+2014-05-12 09:48:32-->allstate,ctcState:32,ctcEvent:1
+2014-05-12 09:48:32-->in offhook evtent  StationJFSign:1 HasTTSGH：0 ZJRequestSign:0         Talking:11021062 DialNumber:80008 CalledID:80008 CallRecived:1
+2014-05-12 09:48:32-->Offhook para refId:7197 otherParty(null) thirdParty:(null)         calledParty:40409 
+2014-05-12 09:48:32-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 09:48:32-->ivr tts gh CncallCtc1Offhook  return
+2014-05-12 09:48:32-->allstate,ctcState:4,ctcEvent:2
+2014-05-12 09:48:32-->allstate,ctcState:2,ctcEvent:13
+2014-05-12 09:48:32-->allstate,ctcState:2,ctcEvent:3
+2014-05-12 09:48:32-->Ctc1OpAnswered refId:7197 oldRefId:0 EnableTTSGH:1 RequestIVRTTS:0 ZJRequestSign:0 HasTTSGH:0 thirdParty:80008 calledParty:40409 otherParty:40247 CallType:转入 CalledNum:80008
+2014-05-12 09:48:32-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 09:48:32--> OpAnswered in StationJFSign:1 
+2014-05-12 09:48:32--> OpAnswered out StationJFSign:1 RequestIVRTTS:0
+2014-05-12 09:48:42-->allstate,ctcState:2,ctcEvent:5
+2014-05-12 09:48:42--> OpDisconnected in StationJFSign:1 JFSign:1 ZJRequestSign:0,otherParty:40247, thirdParty:(null), calledParty:(null) refId:7197 oldRefId:0
+2014-05-12 09:48:42-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 09:48:42-->ivr tts gh  hangup return
+2014-05-12 09:50:59-->ivr^0716113998%AppData+flow:2400-
+2014-05-12 09:50:59-->allstate,ctcState:16,ctcEvent:17
+2014-05-12 09:50:59-->allstate,ctcState:32,ctcEvent:1
+2014-05-12 09:50:59-->in offhook evtent  StationJFSign:1 HasTTSGH：0 ZJRequestSign:0         Talking:11021058 DialNumber:80008 CalledID:80008 CallRecived:3
+2014-05-12 09:50:59-->Offhook para refId:7231 otherParty(null) thirdParty:(null)         calledParty:(null) 
+2014-05-12 09:50:59-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 09:50:59-->是转接评价触发的offhook，不做处理。
+2014-05-12 09:50:59-->allstate,ctcState:32,ctcEvent:1
+2014-05-12 09:50:59-->in offhook evtent  StationJFSign:1 HasTTSGH：0 ZJRequestSign:0         Talking:11021058 DialNumber:80008 CalledID:80008 CallRecived:3
+2014-05-12 09:50:59-->Offhook para refId:7231 otherParty(null) thirdParty:(null)         calledParty:40408 
+2014-05-12 09:50:59-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 09:50:59-->是转接评价触发的offhook，不做处理。
+2014-05-12 09:50:59-->allstate,ctcState:4,ctcEvent:2
+2014-05-12 09:50:59-->allstate,ctcState:16,ctcEvent:5
+2014-05-12 09:50:59--> OpDisconnected in StationJFSign:1 JFSign:1 ZJRequestSign:0,otherParty:63069730, thirdParty:(null), calledParty:(null) refId:7197 oldRefId:0
+2014-05-12 09:50:59-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 09:50:59-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 09:50:59-->通话结束时间：2014-05-12 09:50:59
+2014-05-12 09:50:59-->setjsk  Caller: 63069730 JFSign:1 StationJFSign:1
+2014-05-12 09:50:59-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 09:50:59-->座席记录：  Caller:63069730 CalledNum:80008 CallType:转入 MSI_StationOwner:13890
+2014-05-12 09:50:59-->AgentModeChange:挂机后，非就绪
+2014-05-12 09:50:59--> OpDisconnected out StationJFSign: 0
+2014-05-12 09:50:59-->allstate,ctcState:128,ctcEvent:4
+2014-05-12 09:50:59--> TpDisconnected in StationJFSign:0 JFSign:0 ZJRequestSign:0 EnableTTSGH:1 refId:7197 oldRefId:0
+2014-05-12 09:50:59--> TpDisconnected otherParty:(null), thirdParty:(null), calledParty:(null)
+2014-05-12 09:50:59-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 09:50:59-->调用StationTimeCount时通话开始时间已经为0，不能写数据库
+2014-05-12 09:50:59-->AgentModeChange:挂机后，非就绪
+2014-05-12 09:51:00--> TpDisconnected out StationJFSign:0  
+2014-05-12 09:51:00-->allstate,ctcState:2,ctcEvent:3
+2014-05-12 09:51:00-->Ctc1OpAnswered refId:7231 oldRefId:0 EnableTTSGH:1 RequestIVRTTS:0 ZJRequestSign:0 HasTTSGH:0 thirdParty:80008 calledParty:40408 otherParty:40225 CallType:转入 CalledNum:80008
+2014-05-12 09:51:00-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 09:51:00--> OpAnswered in StationJFSign:0 
+2014-05-12 09:51:00-->进入转接评价呼叫
+2014-05-12 09:51:02-->OpAnswered:isZJPJ
+2014-05-12 09:51:02-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 09:51:02-->调用StationTimeCount时通话开始时间已经为0，不能写数据库
+2014-05-12 09:51:03-->allstate,ctcState:128,ctcEvent:4
+2014-05-12 09:51:03--> TpDisconnected in StationJFSign:0 JFSign:0 ZJRequestSign:0 EnableTTSGH:1 refId:7231 oldRefId:0
+2014-05-12 09:51:03--> TpDisconnected otherParty:(null), thirdParty:(null), calledParty:(null)
+2014-05-12 09:51:03-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 09:51:03-->调用StationTimeCount时通话开始时间已经为0，不能写数据库
+2014-05-12 09:51:03--> TpDisconnected out StationJFSign:0  
+2014-05-12 09:59:06-->allstate,ctcState:32,ctcEvent:1
+2014-05-12 09:59:06-->in offhook evtent  StationJFSign:0 HasTTSGH：0 ZJRequestSign:0         Talking:11021062 DialNumber:80008 CalledID:63069730 CallRecived:2
+2014-05-12 09:59:06-->Offhook para refId:7386 otherParty(null) thirdParty:(null)         calledParty:(null) 
+2014-05-12 09:59:06-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 09:59:06-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 09:59:06-->通话开始时间：2014-05-12 09:59:06
+2014-05-12 09:59:06-->CncallCtc1Offhook事件，开始振铃时刻:-685916950
+2014-05-12 09:59:06-->allstate,ctcState:32,ctcEvent:1
+2014-05-12 09:59:06-->in offhook evtent  StationJFSign:0 HasTTSGH：0 ZJRequestSign:0         Talking:11021062 DialNumber:80008 CalledID:63069730 CallRecived:2
+2014-05-12 09:59:06-->Offhook para refId:7386 otherParty(null) thirdParty:(null)         calledParty:63069730 
+2014-05-12 09:59:06-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 09:59:06-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 09:59:06-->CncallCtc1Offhook事件，开始振铃时刻:-685916950
+2014-05-12 09:59:07-->allstate,ctcState:4,ctcEvent:2
+2014-05-12 10:00:07-->allstate,ctcState:8,ctcEvent:8
+2014-05-12 10:00:07-->allstate,ctcState:512,ctcEvent:5
+2014-05-12 10:00:07--> OpDisconnected in StationJFSign:0 JFSign:1 ZJRequestSign:0,otherParty:(null), thirdParty:(null), calledParty:(null) refId:7386 oldRefId:0
+2014-05-12 10:00:07-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 10:00:07-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 10:00:07-->通话结束时间：2014-05-12 10:00:07
+2014-05-12 10:00:07-->setjsk  Caller: 80008 JFSign:1 StationJFSign:0
+2014-05-12 10:00:07-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 10:00:07-->SetJSK触发，电话未接时：计算振铃时长，当前时间点:-685916889，            开始振铃时刻：-685916950,计算后振铃时长:61
+2014-05-12 10:00:07-->座席记录：  Caller:80008 CalledNum:63069730 CallType:呼出 MSI_StationOwner:13890
+2014-05-12 10:00:07-->AgentModeChange:挂机后，非就绪
+2014-05-12 10:00:08--> OpDisconnected out StationJFSign: 0
+2014-05-12 10:00:09-->allstate,ctcState:2,ctcEvent:4
+2014-05-12 10:00:09--> TpDisconnected in StationJFSign:0 JFSign:0 ZJRequestSign:0 EnableTTSGH:1 refId:7386 oldRefId:0
+2014-05-12 10:00:09--> TpDisconnected otherParty:(null), thirdParty:(null), calledParty:(null)
+2014-05-12 10:00:09-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 10:00:09-->调用StationTimeCount时通话开始时间已经为0，不能写数据库
+2014-05-12 10:00:09-->AgentModeChange:挂机后，非就绪
+2014-05-12 10:00:09--> TpDisconnected out StationJFSign:0  
+2014-05-12 10:00:20-->话后强制就绪！当前话后时长：11
+2014-05-12 10:00:28-->allstate,ctcState:256,ctcEvent:6
+2014-05-12 10:00:28-->CncallCtc1InboundCall refId:7410 oldRefId:0 secOldRefId:0 thirdParty:(null) calledParty:40113 otherParty:40206 
+2014-05-12 10:00:28-->Have Called In AppData:08728525072 TTSGH:1 refID:7410
+2014-05-12 10:00:28-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 10:00:28-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 10:00:28-->通话开始时间：2014-05-12 10:00:28
+2014-05-12 10:00:28-->CncallCtc1InboundCall事件：开始振铃时刻:-685916868
+2014-05-12 10:00:28-->sql:select top 1 ucid from CallDetail where calling = '08728525072' and called = '40206' and skillnum = '40113' order by servicetime desc
+2014-05-12 10:00:28-->callid:00001074011399860601
+2014-05-12 10:00:28-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 10:00:28-->http://10.111.0.79:9080/popWindow.jsp?para=08728525072%5E123%5E%E6%9D%8E%E4%BA%91%5E00001074011399860601%5E20140512100028%5E12
+2014-05-12 10:00:31-->allstate,ctcState:2,ctcEvent:7
+2014-05-12 10:00:31-->Ctc1TpAnswered refId:7410 oldRefId:0 EnableTTSGH:1 RequestIVRTTS:0 ZJRequestSign:0 thirdParty:(null) calledParty:40113 otherParty:40206 CallType:呼入 CalledNum:63069730
+2014-05-12 10:00:31-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 10:00:31--> TpAnswered in StationJFSign:0 
+2014-05-12 10:00:31-->CncallCtc1TpAnswered事件：计算振铃时长，当前时间点:-685916865，                开始振铃时刻：-685916868,计算后振铃时长:3
+2014-05-12 10:00:31-->TpAnswered 正常呼入应答
+2014-05-12 10:00:31-->TPAnswer Transfer GH TO IVR:40409AppData:ivr^13890%AppData+flow:2100-
+2014-05-12 10:00:31--> TpAnswered out StationJFSign:1 RequestIVRTTS:1
+2014-05-12 10:00:31-->allstate,ctcState:2,ctcEvent:23
+2014-05-12 10:00:31-->allstate,ctcState:2,ctcEvent:3
+2014-05-12 10:00:31-->Ctc1OpAnswered refId:7410 oldRefId:0 EnableTTSGH:1 RequestIVRTTS:1 ZJRequestSign:0 HasTTSGH:0 thirdParty:08728525072 calledParty:40113 otherParty:40334 CallType:呼入 CalledNum:80008
+2014-05-12 10:00:31-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 10:00:31-->新录音加入后，开始应答会触发一次OpAnswer
+2014-05-12 10:00:31-->allstate,ctcState:2,ctcEvent:14
+2014-05-12 10:00:31-->allstate,ctcState:16,ctcEvent:17
+2014-05-12 10:00:31-->allstate,ctcState:32,ctcEvent:1
+2014-05-12 10:00:31-->in offhook evtent  StationJFSign:1 HasTTSGH：0 ZJRequestSign:0         Talking:11021062 DialNumber:80008 CalledID:80008 CallRecived:1
+2014-05-12 10:00:31-->Offhook para refId:7411 otherParty(null) thirdParty:(null)         calledParty:(null) 
+2014-05-12 10:00:31-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 10:00:31-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 10:00:31-->CncallCtc1Offhook事件，开始振铃时刻:-685916868
+2014-05-12 10:00:31-->allstate,ctcState:32,ctcEvent:1
+2014-05-12 10:00:31-->in offhook evtent  StationJFSign:1 HasTTSGH：0 ZJRequestSign:0         Talking:11021062 DialNumber:80008 CalledID:80008 CallRecived:1
+2014-05-12 10:00:31-->Offhook para refId:7411 otherParty(null) thirdParty:(null)         calledParty:40409 
+2014-05-12 10:00:31-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 10:00:31-->ivr tts gh CncallCtc1Offhook  return
+2014-05-12 10:00:31-->allstate,ctcState:4,ctcEvent:2
+2014-05-12 10:00:31-->allstate,ctcState:2,ctcEvent:13
+2014-05-12 10:00:31-->allstate,ctcState:2,ctcEvent:3
+2014-05-12 10:00:31-->Ctc1OpAnswered refId:7411 oldRefId:0 EnableTTSGH:1 RequestIVRTTS:0 ZJRequestSign:0 HasTTSGH:0 thirdParty:80008 calledParty:40409 otherParty:40231 CallType:呼入 CalledNum:80008
+2014-05-12 10:00:31-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 10:00:31--> OpAnswered in StationJFSign:1 
+2014-05-12 10:00:31--> OpAnswered out StationJFSign:1 RequestIVRTTS:0
+2014-05-12 10:00:41-->allstate,ctcState:2,ctcEvent:5
+2014-05-12 10:00:41--> OpDisconnected in StationJFSign:1 JFSign:1 ZJRequestSign:0,otherParty:40231, thirdParty:(null), calledParty:(null) refId:7411 oldRefId:0
+2014-05-12 10:00:41-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 10:00:41-->ivr tts gh  hangup return
+2014-05-12 10:00:59-->allstate,ctcState:16,ctcEvent:17
+2014-05-12 10:00:59-->allstate,ctcState:32,ctcEvent:1
+2014-05-12 10:00:59-->in offhook evtent  StationJFSign:1 HasTTSGH：0 ZJRequestSign:0         Talking:11021063 DialNumber:80008 CalledID:80008 CallRecived:1
+2014-05-12 10:00:59-->Offhook para refId:7422 otherParty(null) thirdParty:(null)         calledParty:(null) 
+2014-05-12 10:00:59-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 10:00:59-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 10:00:59-->CncallCtc1Offhook事件，开始振铃时刻:-685916868
+2014-05-12 10:00:59-->allstate,ctcState:32,ctcEvent:1
+2014-05-12 10:00:59-->in offhook evtent  StationJFSign:1 HasTTSGH：0 ZJRequestSign:0         Talking:11021063 DialNumber:80008 CalledID:80008 CallRecived:1
+2014-05-12 10:00:59-->Offhook para refId:7422 otherParty(null) thirdParty:(null)         calledParty:14092 
+2014-05-12 10:00:59-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 10:00:59-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 10:00:59-->CncallCtc1Offhook事件，开始振铃时刻:-685916868
+2014-05-12 10:00:59-->allstate,ctcState:4,ctcEvent:2
+2014-05-12 10:00:59-->allstate,ctcState:16,ctcEvent:5
+2014-05-12 10:00:59--> OpDisconnected in StationJFSign:1 JFSign:1 ZJRequestSign:0,otherParty:40334, thirdParty:(null), calledParty:(null) refId:7411 oldRefId:0
+2014-05-12 10:00:59-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 10:00:59-->新录音加入后，开始应答会触发一次OpDisconnected
+2014-05-12 10:01:04-->allstate,ctcState:2,ctcEvent:3
+2014-05-12 10:01:04-->Ctc1OpAnswered refId:7422 oldRefId:0 EnableTTSGH:1 RequestIVRTTS:0 ZJRequestSign:0 HasTTSGH:0 thirdParty:80008 calledParty:14092 otherParty:80019 CallType:转接 CalledNum:80008
+2014-05-12 10:01:04-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 10:01:04--> OpAnswered in StationJFSign:1 
+2014-05-12 10:01:04-->OpAnswered 转接呼叫
+2014-05-12 10:01:04-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 10:01:04-->通话结束时间：2014-05-12 10:01:04
+2014-05-12 10:01:04-->setjsk  Caller: 08728525072 JFSign:1 StationJFSign:1
+2014-05-12 10:01:04-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 10:01:04-->座席记录：  Caller:08728525072 CalledNum:80008 CallType:转接 MSI_StationOwner:13890
+2014-05-12 10:01:04--> OpAnswered out StationJFSign:0 RequestIVRTTS:0
+2014-05-12 10:01:04-->allstate,ctcState:128,ctcEvent:4
+2014-05-12 10:01:04--> TpDisconnected in StationJFSign:0 JFSign:0 ZJRequestSign:0 EnableTTSGH:1 refId:7422 oldRefId:7411
+2014-05-12 10:01:04--> TpDisconnected otherParty:80019, thirdParty:(null), calledParty:(null)
+2014-05-12 10:01:04-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 10:01:04-->调用StationTimeCount时通话开始时间已经为0，不能写数据库
+2014-05-12 10:01:04-->AgentModeChange:挂机后，非就绪
+2014-05-12 10:01:05--> TpDisconnected out StationJFSign:0  
+2014-05-12 10:01:05-->allstate,ctcState:128,ctcEvent:4
+2014-05-12 10:01:05--> TpDisconnected in StationJFSign:0 JFSign:0 ZJRequestSign:0 EnableTTSGH:1 refId:7424 oldRefId:0
+2014-05-12 10:01:05--> TpDisconnected otherParty:(null), thirdParty:(null), calledParty:(null)
+2014-05-12 10:01:05-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 10:01:05-->调用StationTimeCount时通话开始时间已经为0，不能写数据库
+2014-05-12 10:01:05--> TpDisconnected out StationJFSign:0  
+2014-05-12 10:01:15-->话后强制就绪！当前话后时长：11
+2014-05-12 10:04:36-->allstate,ctcState:256,ctcEvent:6
+2014-05-12 10:04:36-->CncallCtc1InboundCall refId:7484 oldRefId:0 secOldRefId:0 thirdParty:(null) calledParty:40113 otherParty:40210 
+2014-05-12 10:04:36-->Have Called In AppData:08735228267 TTSGH:1 refID:7484
+2014-05-12 10:04:36-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 10:04:36-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 10:04:36-->通话开始时间：2014-05-12 10:04:36
+2014-05-12 10:04:36-->CncallCtc1InboundCall事件：开始振铃时刻:-685916620
+2014-05-12 10:04:37-->sql:select top 1 ucid from CallDetail where calling = '08735228267' and called = '40210' and skillnum = '40113' order by servicetime desc
+2014-05-12 10:04:37-->callid:00001074791399860851
+2014-05-12 10:04:37-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 10:04:37-->http://10.111.0.79:9080/popWindow.jsp?para=08735228267%5E123%5E%E6%9D%8E%E4%BA%91%5E00001074791399860851%5E20140512100437%5E12
+2014-05-12 10:04:42-->allstate,ctcState:2,ctcEvent:7
+2014-05-12 10:04:42-->Ctc1TpAnswered refId:7484 oldRefId:0 EnableTTSGH:1 RequestIVRTTS:0 ZJRequestSign:0 thirdParty:(null) calledParty:40113 otherParty:40210 CallType:呼入 CalledNum:80008
+2014-05-12 10:04:42-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 10:04:42--> TpAnswered in StationJFSign:0 
+2014-05-12 10:04:42-->CncallCtc1TpAnswered事件：计算振铃时长，当前时间点:-685916614，                开始振铃时刻：-685916620,计算后振铃时长:6
+2014-05-12 10:04:42-->TpAnswered 正常呼入应答
+2014-05-12 10:04:42-->TPAnswer Transfer GH TO IVR:40409AppData:ivr^13890%AppData+flow:2100-
+2014-05-12 10:04:43--> TpAnswered out StationJFSign:1 RequestIVRTTS:1
+2014-05-12 10:04:43-->allstate,ctcState:16,ctcEvent:17
+2014-05-12 10:04:43-->allstate,ctcState:32,ctcEvent:1
+2014-05-12 10:04:43-->in offhook evtent  StationJFSign:1 HasTTSGH：0 ZJRequestSign:0         Talking:11021062 DialNumber:80008 CalledID:80008 CallRecived:1
+2014-05-12 10:04:43-->Offhook para refId:7486 otherParty(null) thirdParty:(null)         calledParty:(null) 
+2014-05-12 10:04:43-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 10:04:43-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 10:04:43-->CncallCtc1Offhook事件，开始振铃时刻:-685916620
+2014-05-12 10:04:43-->allstate,ctcState:32,ctcEvent:1
+2014-05-12 10:04:43-->in offhook evtent  StationJFSign:1 HasTTSGH：0 ZJRequestSign:0         Talking:11021062 DialNumber:80008 CalledID:80008 CallRecived:1
+2014-05-12 10:04:43-->Offhook para refId:7486 otherParty(null) thirdParty:(null)         calledParty:40409 
+2014-05-12 10:04:43-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 10:04:43-->ivr tts gh CncallCtc1Offhook  return
+2014-05-12 10:04:43-->allstate,ctcState:4,ctcEvent:2
+2014-05-12 10:04:43-->allstate,ctcState:2,ctcEvent:13
+2014-05-12 10:04:43-->allstate,ctcState:2,ctcEvent:3
+2014-05-12 10:04:43-->Ctc1OpAnswered refId:7486 oldRefId:0 EnableTTSGH:1 RequestIVRTTS:0 ZJRequestSign:0 HasTTSGH:0 thirdParty:80008 calledParty:40409 otherParty:40234 CallType:呼入 CalledNum:80008
+2014-05-12 10:04:43-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 10:04:43--> OpAnswered in StationJFSign:1 
+2014-05-12 10:04:43--> OpAnswered out StationJFSign:1 RequestIVRTTS:0
+2014-05-12 10:04:44-->allstate,ctcState:2,ctcEvent:5
+2014-05-12 10:04:44--> OpDisconnected in StationJFSign:1 JFSign:1 ZJRequestSign:0,otherParty:40210, thirdParty:(null), calledParty:(null) refId:7486 oldRefId:0
+2014-05-12 10:04:44-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 10:04:44-->ivr tts gh  hangup return
+2014-05-12 10:04:44-->报号异常，时间太短
+2014-05-12 10:04:45-->allstate,ctcState:2,ctcEvent:5
+2014-05-12 10:04:45--> OpDisconnected in StationJFSign:1 JFSign:1 ZJRequestSign:0,otherParty:40234, thirdParty:(null), calledParty:(null) refId:7486 oldRefId:0
+2014-05-12 10:04:45-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 10:04:45-->ivr tts gh  hangup return
+2014-05-12 10:04:45-->报号异常，时间太短
+2014-05-12 10:04:45-->allstate,ctcState:128,ctcEvent:4
+2014-05-12 10:04:45--> TpDisconnected in StationJFSign:1 JFSign:1 ZJRequestSign:0 EnableTTSGH:1 refId:7486 oldRefId:0
+2014-05-12 10:04:45--> TpDisconnected otherParty:(null), thirdParty:(null), calledParty:(null)
+2014-05-12 10:04:45-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 10:04:45-->通话结束时间：2014-05-12 10:04:45
+2014-05-12 10:04:45-->setjsk  Caller: 08735228267 JFSign:1 StationJFSign:1
+2014-05-12 10:04:45-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 10:04:45-->座席记录：  Caller:08735228267 CalledNum:80008 CallType:呼入 MSI_StationOwner:13890
+2014-05-12 10:04:45-->AgentModeChange:挂机后，非就绪
+2014-05-12 10:04:46--> TpDisconnected out StationJFSign:0  
+2014-05-12 10:04:46-->allstate,ctcState:128,ctcEvent:4
+2014-05-12 10:04:46--> TpDisconnected in StationJFSign:0 JFSign:0 ZJRequestSign:0 EnableTTSGH:1 refId:7487 oldRefId:0
+2014-05-12 10:04:46--> TpDisconnected otherParty:(null), thirdParty:(null), calledParty:(null)
+2014-05-12 10:04:46-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 10:04:46-->调用StationTimeCount时通话开始时间已经为0，不能写数据库
+2014-05-12 10:04:46--> TpDisconnected out StationJFSign:0  
+2014-05-12 10:04:55-->话后强制就绪！当前话后时长：11
+2014-05-12 10:05:03-->登出 !
+2014-05-12 10:18:11-->话后强制就绪！当前话后时长：11
+2014-05-12 10:18:26-->allstate,ctcState:256,ctcEvent:6
+2014-05-12 10:18:26-->CncallCtc1InboundCall refId:7760 oldRefId:0 secOldRefId:0 thirdParty:(null) calledParty:40113 otherParty:40224 
+2014-05-12 10:18:26-->Have Called In AppData:013988826122 TTSGH:1 refID:7760
+2014-05-12 10:18:26-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 10:18:26-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 10:18:26-->通话开始时间：2014-05-12 10:18:26
+2014-05-12 10:18:26-->CncallCtc1InboundCall事件：开始振铃时刻:-685915790
+2014-05-12 10:18:26-->sql:select top 1 ucid from CallDetail where calling = '013988826122' and called = '40224' and skillnum = '40113' order by servicetime desc
+2014-05-12 10:18:26-->callid:00001077201399861623
+2014-05-12 10:18:26-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 10:18:26-->http://10.111.0.79:9080/popWindow.jsp?para=013988826122%5E123%5E%E6%9D%8E%E4%BA%91%5E00001077201399861623%5E20140512101826%5E12
+2014-05-12 10:18:35-->allstate,ctcState:256,ctcEvent:5
+2014-05-12 10:18:35--> OpDisconnected in StationJFSign:0 JFSign:1 ZJRequestSign:0,otherParty:40224, thirdParty:(null), calledParty:(null) refId:7760 oldRefId:0
+2014-05-12 10:18:35-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 10:18:35-->ivr tts gh  hangup return
+2014-05-12 10:18:35-->allstate,ctcState:128,ctcEvent:4
+2014-05-12 10:18:35--> TpDisconnected in StationJFSign:0 JFSign:1 ZJRequestSign:0 EnableTTSGH:1 refId:7760 oldRefId:0
+2014-05-12 10:18:35--> TpDisconnected otherParty:(null), thirdParty:(null), calledParty:(null)
+2014-05-12 10:18:35-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 10:18:35-->通话结束时间：2014-05-12 10:18:35
+2014-05-12 10:18:35-->setjsk  Caller: 013988826122 JFSign:1 StationJFSign:0
+2014-05-12 10:18:35-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 10:18:35-->SetJSK触发，电话未接时：计算振铃时长，当前时间点:-685915781，            开始振铃时刻：-685915790,计算后振铃时长:9
+2014-05-12 10:18:35-->座席记录：  Caller:013988826122 CalledNum:80008 CallType:呼入 MSI_StationOwner:13890
+2014-05-12 10:18:35--> TpDisconnected out StationJFSign:0  
+2014-05-12 10:18:37-->allstate,ctcState:32,ctcEvent:1
+2014-05-12 10:18:37-->in offhook evtent  StationJFSign:0 HasTTSGH：0 ZJRequestSign:0         Talking:11021058 DialNumber:80008 CalledID:80008 CallRecived:4
+2014-05-12 10:18:37-->Offhook para refId:7762 otherParty(null) thirdParty:(null)         calledParty:(null) 
+2014-05-12 10:18:37-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 10:18:37-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 10:18:37-->通话开始时间：2014-05-12 10:18:37
+2014-05-12 10:18:37-->CncallCtc1Offhook事件，开始振铃时刻:-685915779
+2014-05-12 10:18:39-->allstate,ctcState:128,ctcEvent:4
+2014-05-12 10:18:39--> TpDisconnected in StationJFSign:0 JFSign:1 ZJRequestSign:0 EnableTTSGH:1 refId:7762 oldRefId:0
+2014-05-12 10:18:39--> TpDisconnected otherParty:(null), thirdParty:(null), calledParty:(null)
+2014-05-12 10:18:39-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 10:18:39-->通话结束时间：2014-05-12 10:18:39
+2014-05-12 10:18:39-->setjsk  Caller: 80008 JFSign:1 StationJFSign:0
+2014-05-12 10:18:39-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 10:18:39-->SetJSK触发，电话未接时：计算振铃时长，当前时间点:-685915777，            开始振铃时刻：-685915779,计算后振铃时长:2
+2014-05-12 10:18:39-->座席记录：  Caller:80008 CalledNum:80008 CallType:呼出 MSI_StationOwner:13890
+2014-05-12 10:18:39--> TpDisconnected out StationJFSign:0  
+2014-05-12 10:22:40-->allstate,ctcState:32,ctcEvent:1
+2014-05-12 10:22:40-->in offhook evtent  StationJFSign:0 HasTTSGH：0 ZJRequestSign:0         Talking:11021062 DialNumber:80008 CalledID:63069730 CallRecived:2
+2014-05-12 10:22:40-->Offhook para refId:7848 otherParty(null) thirdParty:(null)         calledParty:(null) 
+2014-05-12 10:22:40-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 10:22:40-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 10:22:40-->通话开始时间：2014-05-12 10:22:40
+2014-05-12 10:22:40-->CncallCtc1Offhook事件，开始振铃时刻:-685915536
+2014-05-12 10:22:40-->allstate,ctcState:32,ctcEvent:1
+2014-05-12 10:22:40-->in offhook evtent  StationJFSign:0 HasTTSGH：0 ZJRequestSign:0         Talking:11021062 DialNumber:80008 CalledID:63069730 CallRecived:2
+2014-05-12 10:22:40-->Offhook para refId:7848 otherParty(null) thirdParty:(null)         calledParty:63069730 
+2014-05-12 10:22:40-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 10:22:40-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 10:22:40-->CncallCtc1Offhook事件，开始振铃时刻:-685915536
+2014-05-12 10:22:41-->allstate,ctcState:4,ctcEvent:2
+2014-05-12 10:22:54-->allstate,ctcState:2,ctcEvent:3
+2014-05-12 10:22:54-->Ctc1OpAnswered refId:7848 oldRefId:0 EnableTTSGH:1 RequestIVRTTS:0 ZJRequestSign:0 HasTTSGH:0 thirdParty:80008 calledParty:063069730 otherParty:087163391076 CallType:呼出 CalledNum:63069730
+2014-05-12 10:22:54-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 10:22:54--> OpAnswered in StationJFSign:0 
+2014-05-12 10:22:54-->OpAnswered 正常呼出应答
+2014-05-12 10:22:54-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 10:22:54-->CncallCtc1OpAnswered事件：计算振铃时长，当前时间点:-685915522，            开始振铃时刻：-685915536,计算后振铃时长:14
+2014-05-12 10:22:54--> OpAnswered out StationJFSign:1 RequestIVRTTS:0
+2014-05-12 10:22:54-->allstate,ctcState:2,ctcEvent:3
+2014-05-12 10:22:54-->Ctc1OpAnswered refId:7848 oldRefId:0 EnableTTSGH:1 RequestIVRTTS:0 ZJRequestSign:0 HasTTSGH:0 thirdParty:80008 calledParty:087163391076 otherParty:40320 CallType:呼出 CalledNum:63069730
+2014-05-12 10:22:54-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 10:22:54-->新录音加入后，开始应答会触发一次OpAnswer
+2014-05-12 10:22:54-->allstate,ctcState:2,ctcEvent:14
+2014-05-12 10:23:13-->allstate,ctcState:128,ctcEvent:4
+2014-05-12 10:23:13--> TpDisconnected in StationJFSign:1 JFSign:1 ZJRequestSign:0 EnableTTSGH:1 refId:7848 oldRefId:0
+2014-05-12 10:23:13--> TpDisconnected otherParty:(null), thirdParty:(null), calledParty:(null)
+2014-05-12 10:23:13-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 10:23:13-->通话结束时间：2014-05-12 10:23:13
+2014-05-12 10:23:13-->setjsk  Caller: 80008 JFSign:1 StationJFSign:1
+2014-05-12 10:23:13-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 10:23:13-->座席记录：  Caller:80008 CalledNum:63069730 CallType:呼出 MSI_StationOwner:13890
+2014-05-12 10:23:13-->AgentModeChange:挂机后，非就绪
+2014-05-12 10:23:14--> TpDisconnected out StationJFSign:0  
+2014-05-12 10:23:24-->话后强制就绪！当前话后时长：11
+2014-05-12 10:28:33-->allstate,ctcState:32,ctcEvent:1
+2014-05-12 10:28:33-->in offhook evtent  StationJFSign:0 HasTTSGH：0 ZJRequestSign:0         Talking:11021062 DialNumber:80008 CalledID:6812053 CallRecived:2
+2014-05-12 10:28:33-->Offhook para refId:7954 otherParty(null) thirdParty:(null)         calledParty:(null) 
+2014-05-12 10:28:33-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 10:28:33-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 10:28:33-->通话开始时间：2014-05-12 10:28:33
+2014-05-12 10:28:33-->CncallCtc1Offhook事件，开始振铃时刻:-685915183
+2014-05-12 10:28:33-->allstate,ctcState:32,ctcEvent:1
+2014-05-12 10:28:33-->in offhook evtent  StationJFSign:0 HasTTSGH：0 ZJRequestSign:0         Talking:11021062 DialNumber:80008 CalledID:6812053 CallRecived:2
+2014-05-12 10:28:33-->Offhook para refId:7954 otherParty(null) thirdParty:(null)         calledParty:6812053 
+2014-05-12 10:28:33-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 10:28:33-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 10:28:33-->CncallCtc1Offhook事件，开始振铃时刻:-685915183
+2014-05-12 10:28:33-->allstate,ctcState:4,ctcEvent:2
+2014-05-12 10:28:38-->allstate,ctcState:2,ctcEvent:3
+2014-05-12 10:28:38-->Ctc1OpAnswered refId:7954 oldRefId:0 EnableTTSGH:1 RequestIVRTTS:0 ZJRequestSign:0 HasTTSGH:0 thirdParty:80008 calledParty:6812053 otherParty:2053 CallType:呼出 CalledNum:6812053
+2014-05-12 10:28:38-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 10:28:38--> OpAnswered in StationJFSign:0 
+2014-05-12 10:28:38-->OpAnswered 正常呼出应答
+2014-05-12 10:28:38-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 10:28:38-->CncallCtc1OpAnswered事件：计算振铃时长，当前时间点:-685915178，            开始振铃时刻：-685915183,计算后振铃时长:5
+2014-05-12 10:28:38--> OpAnswered out StationJFSign:1 RequestIVRTTS:0
+2014-05-12 10:28:38-->allstate,ctcState:2,ctcEvent:3
+2014-05-12 10:28:38-->Ctc1OpAnswered refId:7954 oldRefId:0 EnableTTSGH:1 RequestIVRTTS:0 ZJRequestSign:0 HasTTSGH:0 thirdParty:80008 calledParty:2053 otherParty:40303 CallType:呼出 CalledNum:6812053
+2014-05-12 10:28:38-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 10:28:38-->新录音加入后，开始应答会触发一次OpAnswer
+2014-05-12 10:28:38-->allstate,ctcState:2,ctcEvent:14
+2014-05-12 10:30:00-->allstate,ctcState:128,ctcEvent:4
+2014-05-12 10:30:00--> TpDisconnected in StationJFSign:1 JFSign:1 ZJRequestSign:0 EnableTTSGH:1 refId:7954 oldRefId:0
+2014-05-12 10:30:00--> TpDisconnected otherParty:(null), thirdParty:(null), calledParty:(null)
+2014-05-12 10:30:00-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 10:30:00-->通话结束时间：2014-05-12 10:30:00
+2014-05-12 10:30:00-->setjsk  Caller: 80008 JFSign:1 StationJFSign:1
+2014-05-12 10:30:00-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 10:30:00-->座席记录：  Caller:80008 CalledNum:6812053 CallType:呼出 MSI_StationOwner:13890
+2014-05-12 10:30:00-->AgentModeChange:挂机后，非就绪
+2014-05-12 10:30:01--> TpDisconnected out StationJFSign:0  
+2014-05-12 10:30:11-->话后强制就绪！当前话后时长：11
+2014-05-12 10:31:32-->allstate,ctcState:256,ctcEvent:6
+2014-05-12 10:31:32-->CncallCtc1InboundCall refId:8022 oldRefId:0 secOldRefId:0 thirdParty:(null) calledParty:40113 otherParty:40241 
+2014-05-12 10:31:32-->Have Called In AppData:6280815 TTSGH:1 refID:8022
+2014-05-12 10:31:32-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 10:31:32-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 10:31:32-->通话开始时间：2014-05-12 10:31:32
+2014-05-12 10:31:32-->CncallCtc1InboundCall事件：开始振铃时刻:-685915004
+2014-05-12 10:31:33-->sql:select top 1 ucid from CallDetail where calling = '6280815' and called = '40241' and skillnum = '40113' order by servicetime desc
+2014-05-12 10:31:33-->callid:00001080191399862485
+2014-05-12 10:31:33-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 10:31:33-->http://10.111.0.79:9080/popWindow.jsp?para=6280815%5E123%5E%E6%9D%8E%E4%BA%91%5E00001080191399862485%5E20140512103133%5E12
+2014-05-12 10:31:38-->allstate,ctcState:2,ctcEvent:7
+2014-05-12 10:31:38-->Ctc1TpAnswered refId:8022 oldRefId:0 EnableTTSGH:1 RequestIVRTTS:0 ZJRequestSign:0 thirdParty:(null) calledParty:40113 otherParty:40241 CallType:呼入 CalledNum:6812053
+2014-05-12 10:31:38-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 10:31:38--> TpAnswered in StationJFSign:0 
+2014-05-12 10:31:38-->CncallCtc1TpAnswered事件：计算振铃时长，当前时间点:-685914998，                开始振铃时刻：-685915004,计算后振铃时长:6
+2014-05-12 10:31:38-->TpAnswered 正常呼入应答
+2014-05-12 10:31:38-->TPAnswer Transfer GH TO IVR:40409AppData:ivr^13890%AppData+flow:2100-
+2014-05-12 10:31:39--> TpAnswered out StationJFSign:1 RequestIVRTTS:1
+2014-05-12 10:31:39-->allstate,ctcState:2,ctcEvent:23
+2014-05-12 10:31:39-->allstate,ctcState:2,ctcEvent:3
+2014-05-12 10:31:39-->Ctc1OpAnswered refId:8022 oldRefId:0 EnableTTSGH:1 RequestIVRTTS:1 ZJRequestSign:0 HasTTSGH:0 thirdParty:6280815 calledParty:40113 otherParty:40329 CallType:呼入 CalledNum:80008
+2014-05-12 10:31:39-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 10:31:39-->新录音加入后，开始应答会触发一次OpAnswer
+2014-05-12 10:31:39-->allstate,ctcState:2,ctcEvent:14
+2014-05-12 10:31:39-->allstate,ctcState:16,ctcEvent:17
+2014-05-12 10:31:39-->allstate,ctcState:32,ctcEvent:1
+2014-05-12 10:31:39-->in offhook evtent  StationJFSign:1 HasTTSGH：0 ZJRequestSign:0         Talking:11021062 DialNumber:80008 CalledID:80008 CallRecived:1
+2014-05-12 10:31:39-->Offhook para refId:8023 otherParty(null) thirdParty:(null)         calledParty:(null) 
+2014-05-12 10:31:39-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 10:31:39-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 10:31:39-->CncallCtc1Offhook事件，开始振铃时刻:-685915004
+2014-05-12 10:31:39-->allstate,ctcState:32,ctcEvent:1
+2014-05-12 10:31:39-->in offhook evtent  StationJFSign:1 HasTTSGH：0 ZJRequestSign:0         Talking:11021062 DialNumber:80008 CalledID:80008 CallRecived:1
+2014-05-12 10:31:39-->Offhook para refId:8023 otherParty(null) thirdParty:(null)         calledParty:40409 
+2014-05-12 10:31:39-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 10:31:39-->ivr tts gh CncallCtc1Offhook  return
+2014-05-12 10:31:39-->allstate,ctcState:4,ctcEvent:2
+2014-05-12 10:31:39-->allstate,ctcState:2,ctcEvent:13
+2014-05-12 10:31:39-->allstate,ctcState:2,ctcEvent:3
+2014-05-12 10:31:39-->Ctc1OpAnswered refId:8023 oldRefId:0 EnableTTSGH:1 RequestIVRTTS:0 ZJRequestSign:0 HasTTSGH:0 thirdParty:80008 calledParty:40409 otherParty:40212 CallType:呼入 CalledNum:80008
+2014-05-12 10:31:39-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 10:31:39--> OpAnswered in StationJFSign:1 
+2014-05-12 10:31:39--> OpAnswered out StationJFSign:1 RequestIVRTTS:0
+2014-05-12 10:31:49-->allstate,ctcState:2,ctcEvent:5
+2014-05-12 10:31:49--> OpDisconnected in StationJFSign:1 JFSign:1 ZJRequestSign:0,otherParty:40212, thirdParty:(null), calledParty:(null) refId:8023 oldRefId:0
+2014-05-12 10:31:49-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 10:31:49-->ivr tts gh  hangup return
+2014-05-12 10:32:33-->ivr^0801913998%AppData+flow:2400-
+2014-05-12 10:32:33-->allstate,ctcState:16,ctcEvent:17
+2014-05-12 10:32:33-->allstate,ctcState:32,ctcEvent:1
+2014-05-12 10:32:33-->in offhook evtent  StationJFSign:1 HasTTSGH：0 ZJRequestSign:0         Talking:11021058 DialNumber:80008 CalledID:80008 CallRecived:3
+2014-05-12 10:32:33-->Offhook para refId:8041 otherParty(null) thirdParty:(null)         calledParty:(null) 
+2014-05-12 10:32:33-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 10:32:33-->是转接评价触发的offhook，不做处理。
+2014-05-12 10:32:33-->allstate,ctcState:32,ctcEvent:1
+2014-05-12 10:32:33-->in offhook evtent  StationJFSign:1 HasTTSGH：0 ZJRequestSign:0         Talking:11021058 DialNumber:80008 CalledID:80008 CallRecived:3
+2014-05-12 10:32:33-->Offhook para refId:8041 otherParty(null) thirdParty:(null)         calledParty:40408 
+2014-05-12 10:32:33-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 10:32:33-->是转接评价触发的offhook，不做处理。
+2014-05-12 10:32:33-->allstate,ctcState:4,ctcEvent:2
+2014-05-12 10:32:33-->allstate,ctcState:2,ctcEvent:3
+2014-05-12 10:32:33-->Ctc1OpAnswered refId:8041 oldRefId:0 EnableTTSGH:1 RequestIVRTTS:0 ZJRequestSign:0 HasTTSGH:0 thirdParty:80008 calledParty:40408 otherParty:40203 CallType:呼入 CalledNum:80008
+2014-05-12 10:32:33-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 10:32:33--> OpAnswered in StationJFSign:1 
+2014-05-12 10:32:33-->进入转接评价呼叫
+2014-05-12 10:32:35-->OpAnswered:isZJPJ
+2014-05-12 10:32:35-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 10:32:35-->通话结束时间：2014-05-12 10:32:35
+2014-05-12 10:32:35-->setjsk  Caller: 6280815 JFSign:1 StationJFSign:1
+2014-05-12 10:32:35-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 10:32:35-->座席记录：  Caller:6280815 CalledNum:80008 CallType:呼入 MSI_StationOwner:13890
+2014-05-12 10:32:36-->allstate,ctcState:16,ctcEvent:5
+2014-05-12 10:32:36--> OpDisconnected in StationJFSign:0 JFSign:0 ZJRequestSign:0,otherParty:40329, thirdParty:(null), calledParty:(null) refId:8023 oldRefId:0
+2014-05-12 10:32:36-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 10:32:36-->新录音加入后，开始应答会触发一次OpDisconnected
+2014-05-12 10:32:36-->allstate,ctcState:16,ctcEvent:5
+2014-05-12 10:32:36--> OpDisconnected in StationJFSign:0 JFSign:0 ZJRequestSign:0,otherParty:6280815, thirdParty:(null), calledParty:(null) refId:8023 oldRefId:0
+2014-05-12 10:32:36-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 10:32:36-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 10:32:36-->调用StationTimeCount时通话开始时间已经为0，不能写数据库
+2014-05-12 10:32:36--> OpDisconnected out StationJFSign: 0
+2014-05-12 10:32:36-->allstate,ctcState:128,ctcEvent:4
+2014-05-12 10:32:36--> TpDisconnected in StationJFSign:0 JFSign:0 ZJRequestSign:0 EnableTTSGH:1 refId:8023 oldRefId:0
+2014-05-12 10:32:36--> TpDisconnected otherParty:(null), thirdParty:(null), calledParty:(null)
+2014-05-12 10:32:36-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 10:32:36-->调用StationTimeCount时通话开始时间已经为0，不能写数据库
+2014-05-12 10:32:36--> TpDisconnected out StationJFSign:0  
+2014-05-12 10:32:36-->allstate,ctcState:128,ctcEvent:4
+2014-05-12 10:32:36--> TpDisconnected in StationJFSign:0 JFSign:0 ZJRequestSign:0 EnableTTSGH:1 refId:8041 oldRefId:0
+2014-05-12 10:32:36--> TpDisconnected otherParty:(null), thirdParty:(null), calledParty:(null)
+2014-05-12 10:32:36-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 10:32:36-->调用StationTimeCount时通话开始时间已经为0，不能写数据库
+2014-05-12 10:32:36--> TpDisconnected out StationJFSign:0  
+2014-05-12 10:32:46-->话后强制就绪！当前话后时长：11
+2014-05-12 10:44:25-->allstate,ctcState:256,ctcEvent:6
+2014-05-12 10:44:25-->CncallCtc1InboundCall refId:8225 oldRefId:0 secOldRefId:0 thirdParty:(null) calledParty:40113 otherParty:40246 
+2014-05-12 10:44:25-->Have Called In AppData:08735320549 TTSGH:1 refID:8225
+2014-05-12 10:44:25-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 10:44:25-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 10:44:25-->通话开始时间：2014-05-12 10:44:25
+2014-05-12 10:44:25-->CncallCtc1InboundCall事件：开始振铃时刻:-685914231
+2014-05-12 10:44:26-->sql:select top 1 ucid from CallDetail where calling = '08735320549' and called = '40246' and skillnum = '40113' order by servicetime desc
+2014-05-12 10:44:26-->callid:00001082211399863255
+2014-05-12 10:44:26-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 10:44:26-->http://10.111.0.79:9080/popWindow.jsp?para=08735320549%5E123%5E%E6%9D%8E%E4%BA%91%5E00001082211399863255%5E20140512104426%5E12
+2014-05-12 10:44:28-->allstate,ctcState:2,ctcEvent:7
+2014-05-12 10:44:28-->Ctc1TpAnswered refId:8225 oldRefId:0 EnableTTSGH:1 RequestIVRTTS:0 ZJRequestSign:0 thirdParty:(null) calledParty:40113 otherParty:40246 CallType:呼入 CalledNum:80008
+2014-05-12 10:44:28-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 10:44:28--> TpAnswered in StationJFSign:0 
+2014-05-12 10:44:28-->CncallCtc1TpAnswered事件：计算振铃时长，当前时间点:-685914228，                开始振铃时刻：-685914231,计算后振铃时长:3
+2014-05-12 10:44:28-->TpAnswered 正常呼入应答
+2014-05-12 10:44:28-->TPAnswer Transfer GH TO IVR:40409AppData:ivr^13890%AppData+flow:2100-
+2014-05-12 10:44:28--> TpAnswered out StationJFSign:1 RequestIVRTTS:1
+2014-05-12 10:44:28-->allstate,ctcState:2,ctcEvent:23
+2014-05-12 10:44:28-->allstate,ctcState:2,ctcEvent:3
+2014-05-12 10:44:28-->Ctc1OpAnswered refId:8225 oldRefId:0 EnableTTSGH:1 RequestIVRTTS:1 ZJRequestSign:0 HasTTSGH:0 thirdParty:08735320549 calledParty:40113 otherParty:40325 CallType:呼入 CalledNum:80008
+2014-05-12 10:44:28-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 10:44:28-->新录音加入后，开始应答会触发一次OpAnswer
+2014-05-12 10:44:28-->allstate,ctcState:2,ctcEvent:14
+2014-05-12 10:44:28-->allstate,ctcState:16,ctcEvent:17
+2014-05-12 10:44:28-->allstate,ctcState:32,ctcEvent:1
+2014-05-12 10:44:28-->in offhook evtent  StationJFSign:1 HasTTSGH：0 ZJRequestSign:0         Talking:11021062 DialNumber:80008 CalledID:80008 CallRecived:1
+2014-05-12 10:44:28-->Offhook para refId:8226 otherParty(null) thirdParty:(null)         calledParty:(null) 
+2014-05-12 10:44:28-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 10:44:28-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 10:44:28-->CncallCtc1Offhook事件，开始振铃时刻:-685914231
+2014-05-12 10:44:28-->allstate,ctcState:32,ctcEvent:1
+2014-05-12 10:44:28-->in offhook evtent  StationJFSign:1 HasTTSGH：0 ZJRequestSign:0         Talking:11021062 DialNumber:80008 CalledID:80008 CallRecived:1
+2014-05-12 10:44:28-->Offhook para refId:8226 otherParty(null) thirdParty:(null)         calledParty:40409 
+2014-05-12 10:44:28-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 10:44:28-->ivr tts gh CncallCtc1Offhook  return
+2014-05-12 10:44:28-->allstate,ctcState:4,ctcEvent:2
+2014-05-12 10:44:28-->allstate,ctcState:2,ctcEvent:13
+2014-05-12 10:44:28-->allstate,ctcState:2,ctcEvent:3
+2014-05-12 10:44:28-->Ctc1OpAnswered refId:8226 oldRefId:0 EnableTTSGH:1 RequestIVRTTS:0 ZJRequestSign:0 HasTTSGH:0 thirdParty:80008 calledParty:40409 otherParty:40239 CallType:呼入 CalledNum:80008
+2014-05-12 10:44:28-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 10:44:28--> OpAnswered in StationJFSign:1 
+2014-05-12 10:44:28--> OpAnswered out StationJFSign:1 RequestIVRTTS:0
+2014-05-12 10:44:38-->allstate,ctcState:2,ctcEvent:5
+2014-05-12 10:44:38--> OpDisconnected in StationJFSign:1 JFSign:1 ZJRequestSign:0,otherParty:40239, thirdParty:(null), calledParty:(null) refId:8226 oldRefId:0
+2014-05-12 10:44:38-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 10:44:38-->ivr tts gh  hangup return
+2014-05-12 10:48:04-->allstate,ctcState:128,ctcEvent:4
+2014-05-12 10:48:04--> TpDisconnected in StationJFSign:1 JFSign:1 ZJRequestSign:0 EnableTTSGH:1 refId:8226 oldRefId:0
+2014-05-12 10:48:04--> TpDisconnected otherParty:(null), thirdParty:(null), calledParty:(null)
+2014-05-12 10:48:04-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 10:48:04-->通话结束时间：2014-05-12 10:48:04
+2014-05-12 10:48:04-->setjsk  Caller: 08735320549 JFSign:1 StationJFSign:1
+2014-05-12 10:48:04-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 10:48:04-->座席记录：  Caller:08735320549 CalledNum:80008 CallType:呼入 MSI_StationOwner:13890
+2014-05-12 10:48:04-->AgentModeChange:挂机后，非就绪
+2014-05-12 10:48:04--> TpDisconnected out StationJFSign:0  
+2014-05-12 10:48:15-->话后强制就绪！当前话后时长：11
+2014-05-12 10:56:44-->allstate,ctcState:256,ctcEvent:6
+2014-05-12 10:56:44-->CncallCtc1InboundCall refId:8454 oldRefId:0 secOldRefId:0 thirdParty:(null) calledParty:40113 otherParty:40232 
+2014-05-12 10:56:44-->Have Called In AppData:015911603643 TTSGH:1 refID:8454
+2014-05-12 10:56:44-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 10:56:44-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 10:56:44-->通话开始时间：2014-05-12 10:56:44
+2014-05-12 10:56:44-->CncallCtc1InboundCall事件：开始振铃时刻:-685913492
+2014-05-12 10:56:45-->sql:select top 1 ucid from CallDetail where calling = '015911603643' and called = '40232' and skillnum = '40113' order by servicetime desc
+2014-05-12 10:56:45-->callid:00001084461399863984
+2014-05-12 10:56:45-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 10:56:45-->http://10.111.0.79:9080/popWindow.jsp?para=015911603643%5E123%5E%E6%9D%8E%E4%BA%91%5E00001084461399863984%5E20140512105645%5E12
+2014-05-12 10:56:50-->allstate,ctcState:2,ctcEvent:7
+2014-05-12 10:56:50-->Ctc1TpAnswered refId:8454 oldRefId:0 EnableTTSGH:1 RequestIVRTTS:0 ZJRequestSign:0 thirdParty:(null) calledParty:40113 otherParty:40232 CallType:呼入 CalledNum:80008
+2014-05-12 10:56:50-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 10:56:50--> TpAnswered in StationJFSign:0 
+2014-05-12 10:56:50-->CncallCtc1TpAnswered事件：计算振铃时长，当前时间点:-685913486，                开始振铃时刻：-685913492,计算后振铃时长:6
+2014-05-12 10:56:50-->TpAnswered 正常呼入应答
+2014-05-12 10:56:50-->TPAnswer Transfer GH TO IVR:40409AppData:ivr^13890%AppData+flow:2100-
+2014-05-12 10:56:51--> TpAnswered out StationJFSign:1 RequestIVRTTS:1
+2014-05-12 10:56:51-->allstate,ctcState:2,ctcEvent:23
+2014-05-12 10:56:51-->allstate,ctcState:2,ctcEvent:3
+2014-05-12 10:56:51-->Ctc1OpAnswered refId:8454 oldRefId:0 EnableTTSGH:1 RequestIVRTTS:1 ZJRequestSign:0 HasTTSGH:0 thirdParty:015911603643 calledParty:40113 otherParty:40305 CallType:呼入 CalledNum:80008
+2014-05-12 10:56:51-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 10:56:51-->新录音加入后，开始应答会触发一次OpAnswer
+2014-05-12 10:56:51-->allstate,ctcState:2,ctcEvent:14
+2014-05-12 10:56:51-->allstate,ctcState:16,ctcEvent:17
+2014-05-12 10:56:51-->allstate,ctcState:32,ctcEvent:1
+2014-05-12 10:56:51-->in offhook evtent  StationJFSign:1 HasTTSGH：0 ZJRequestSign:0         Talking:11021062 DialNumber:80008 CalledID:80008 CallRecived:1
+2014-05-12 10:56:51-->Offhook para refId:8460 otherParty(null) thirdParty:(null)         calledParty:(null) 
+2014-05-12 10:56:51-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 10:56:51-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 10:56:51-->CncallCtc1Offhook事件，开始振铃时刻:-685913492
+2014-05-12 10:56:51-->allstate,ctcState:32,ctcEvent:1
+2014-05-12 10:56:51-->in offhook evtent  StationJFSign:1 HasTTSGH：0 ZJRequestSign:0         Talking:11021062 DialNumber:80008 CalledID:80008 CallRecived:1
+2014-05-12 10:56:51-->Offhook para refId:8460 otherParty(null) thirdParty:(null)         calledParty:40409 
+2014-05-12 10:56:51-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 10:56:51-->ivr tts gh CncallCtc1Offhook  return
+2014-05-12 10:56:51-->allstate,ctcState:4,ctcEvent:2
+2014-05-12 10:56:51-->allstate,ctcState:2,ctcEvent:13
+2014-05-12 10:56:51-->allstate,ctcState:2,ctcEvent:3
+2014-05-12 10:56:51-->Ctc1OpAnswered refId:8460 oldRefId:0 EnableTTSGH:1 RequestIVRTTS:0 ZJRequestSign:0 HasTTSGH:0 thirdParty:80008 calledParty:40409 otherParty:40246 CallType:呼入 CalledNum:80008
+2014-05-12 10:56:51-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 10:56:51--> OpAnswered in StationJFSign:1 
+2014-05-12 10:56:51--> OpAnswered out StationJFSign:1 RequestIVRTTS:0
+2014-05-12 10:57:01-->allstate,ctcState:2,ctcEvent:5
+2014-05-12 10:57:01--> OpDisconnected in StationJFSign:1 JFSign:1 ZJRequestSign:0,otherParty:40246, thirdParty:(null), calledParty:(null) refId:8460 oldRefId:0
+2014-05-12 10:57:01-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 10:57:01-->ivr tts gh  hangup return
+2014-05-12 10:59:21-->allstate,ctcState:2,ctcEvent:5
+2014-05-12 10:59:21--> OpDisconnected in StationJFSign:1 JFSign:1 ZJRequestSign:0,otherParty:015911603643, thirdParty:(null), calledParty:(null) refId:8460 oldRefId:0
+2014-05-12 10:59:21-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 10:59:21-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 10:59:21-->通话结束时间：2014-05-12 10:59:21
+2014-05-12 10:59:21-->setjsk  Caller: 015911603643 JFSign:1 StationJFSign:1
+2014-05-12 10:59:21-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 10:59:21-->座席记录：  Caller:015911603643 CalledNum:80008 CallType:呼入 MSI_StationOwner:13890
+2014-05-12 10:59:21-->AgentModeChange:挂机后，非就绪
+2014-05-12 10:59:22--> OpDisconnected out StationJFSign: 0
+2014-05-12 10:59:22-->allstate,ctcState:128,ctcEvent:4
+2014-05-12 10:59:22--> TpDisconnected in StationJFSign:0 JFSign:0 ZJRequestSign:0 EnableTTSGH:1 refId:8460 oldRefId:0
+2014-05-12 10:59:22--> TpDisconnected otherParty:(null), thirdParty:(null), calledParty:(null)
+2014-05-12 10:59:22-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 10:59:22-->调用StationTimeCount时通话开始时间已经为0，不能写数据库
+2014-05-12 10:59:22-->AgentModeChange:挂机后，非就绪
+2014-05-12 10:59:22--> TpDisconnected out StationJFSign:0  
+2014-05-12 10:59:22-->allstate,ctcState:128,ctcEvent:4
+2014-05-12 10:59:22--> TpDisconnected in StationJFSign:0 JFSign:0 ZJRequestSign:0 EnableTTSGH:1 refId:8530 oldRefId:0
+2014-05-12 10:59:22--> TpDisconnected otherParty:(null), thirdParty:(null), calledParty:(null)
+2014-05-12 10:59:22-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 10:59:22-->调用StationTimeCount时通话开始时间已经为0，不能写数据库
+2014-05-12 10:59:22--> TpDisconnected out StationJFSign:0  
+2014-05-12 10:59:22-->allstate,ctcState:256,ctcEvent:6
+2014-05-12 10:59:22-->CncallCtc1InboundCall refId:8527 oldRefId:0 secOldRefId:0 thirdParty:40113 calledParty:40113 otherParty:40234 
+2014-05-12 10:59:22-->Have Called In AppData:6663331 TTSGH:1 refID:8527
+2014-05-12 10:59:22-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 10:59:22-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 10:59:22-->通话开始时间：2014-05-12 10:59:22
+2014-05-12 10:59:22-->CncallCtc1InboundCall事件：开始振铃时刻:-685913334
+2014-05-12 10:59:23-->sql:select top 1 ucid from CallDetail where calling = '6663331' and called = '40234' and skillnum = '40113' order by servicetime desc
+2014-05-12 10:59:23-->callid:00001085211399864156
+2014-05-12 10:59:23-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 10:59:23-->http://10.111.0.79:9080/popWindow.jsp?para=6663331%5E123%5E%E6%9D%8E%E4%BA%91%5E00001085211399864156%5E20140512105923%5E12
+2014-05-12 10:59:24-->allstate,ctcState:2,ctcEvent:7
+2014-05-12 10:59:24-->Ctc1TpAnswered refId:8527 oldRefId:0 EnableTTSGH:1 RequestIVRTTS:0 ZJRequestSign:0 thirdParty:40113 calledParty:40113 otherParty:40234 CallType:呼入 CalledNum:80008
+2014-05-12 10:59:24-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 10:59:24--> TpAnswered in StationJFSign:0 
+2014-05-12 10:59:24-->CncallCtc1TpAnswered事件：计算振铃时长，当前时间点:-685913332，                开始振铃时刻：-685913334,计算后振铃时长:2
+2014-05-12 10:59:24-->TpAnswered 正常呼入应答
+2014-05-12 10:59:24-->TPAnswer Transfer GH TO IVR:40409AppData:ivr^13890%AppData+flow:2100-
+2014-05-12 10:59:25--> TpAnswered out StationJFSign:1 RequestIVRTTS:1
+2014-05-12 10:59:25-->allstate,ctcState:2,ctcEvent:23
+2014-05-12 10:59:25-->allstate,ctcState:2,ctcEvent:3
+2014-05-12 10:59:25-->Ctc1OpAnswered refId:8527 oldRefId:0 EnableTTSGH:1 RequestIVRTTS:1 ZJRequestSign:0 HasTTSGH:0 thirdParty:6663331 calledParty:40113 otherParty:40315 CallType:呼入 CalledNum:80008
+2014-05-12 10:59:25-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 10:59:25-->新录音加入后，开始应答会触发一次OpAnswer
+2014-05-12 10:59:25-->allstate,ctcState:2,ctcEvent:14
+2014-05-12 10:59:25-->allstate,ctcState:16,ctcEvent:17
+2014-05-12 10:59:25-->allstate,ctcState:32,ctcEvent:1
+2014-05-12 10:59:25-->in offhook evtent  StationJFSign:1 HasTTSGH：0 ZJRequestSign:0         Talking:11021062 DialNumber:80008 CalledID:80008 CallRecived:1
+2014-05-12 10:59:25-->Offhook para refId:8532 otherParty(null) thirdParty:(null)         calledParty:(null) 
+2014-05-12 10:59:25-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 10:59:25-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 10:59:25-->CncallCtc1Offhook事件，开始振铃时刻:-685913334
+2014-05-12 10:59:25-->allstate,ctcState:32,ctcEvent:1
+2014-05-12 10:59:25-->in offhook evtent  StationJFSign:1 HasTTSGH：0 ZJRequestSign:0         Talking:11021062 DialNumber:80008 CalledID:80008 CallRecived:1
+2014-05-12 10:59:25-->Offhook para refId:8532 otherParty(null) thirdParty:(null)         calledParty:40409 
+2014-05-12 10:59:25-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 10:59:25-->ivr tts gh CncallCtc1Offhook  return
+2014-05-12 10:59:25-->allstate,ctcState:4,ctcEvent:2
+2014-05-12 10:59:25-->allstate,ctcState:2,ctcEvent:13
+2014-05-12 10:59:25-->allstate,ctcState:2,ctcEvent:3
+2014-05-12 10:59:25-->Ctc1OpAnswered refId:8532 oldRefId:0 EnableTTSGH:1 RequestIVRTTS:0 ZJRequestSign:0 HasTTSGH:0 thirdParty:80008 calledParty:40409 otherParty:40215 CallType:呼入 CalledNum:80008
+2014-05-12 10:59:25-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 10:59:25--> OpAnswered in StationJFSign:1 
+2014-05-12 10:59:25--> OpAnswered out StationJFSign:1 RequestIVRTTS:0
+2014-05-12 10:59:35-->allstate,ctcState:2,ctcEvent:5
+2014-05-12 10:59:35--> OpDisconnected in StationJFSign:1 JFSign:1 ZJRequestSign:0,otherParty:40215, thirdParty:(null), calledParty:(null) refId:8532 oldRefId:0
+2014-05-12 10:59:35-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 10:59:35-->ivr tts gh  hangup return
+2014-05-12 11:04:49-->ivr^0852113998%AppData+flow:2400-
+2014-05-12 11:04:50-->allstate,ctcState:16,ctcEvent:17
+2014-05-12 11:04:50-->allstate,ctcState:32,ctcEvent:1
+2014-05-12 11:04:50-->in offhook evtent  StationJFSign:1 HasTTSGH：0 ZJRequestSign:0         Talking:11021058 DialNumber:80008 CalledID:80008 CallRecived:3
+2014-05-12 11:04:50-->Offhook para refId:8671 otherParty(null) thirdParty:(null)         calledParty:(null) 
+2014-05-12 11:04:50-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 11:04:50-->是转接评价触发的offhook，不做处理。
+2014-05-12 11:04:50-->allstate,ctcState:32,ctcEvent:1
+2014-05-12 11:04:50-->in offhook evtent  StationJFSign:1 HasTTSGH：0 ZJRequestSign:0         Talking:11021058 DialNumber:80008 CalledID:80008 CallRecived:3
+2014-05-12 11:04:50-->Offhook para refId:8671 otherParty(null) thirdParty:(null)         calledParty:40408 
+2014-05-12 11:04:50-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 11:04:50-->是转接评价触发的offhook，不做处理。
+2014-05-12 11:04:50-->allstate,ctcState:4,ctcEvent:2
+2014-05-12 11:04:50-->allstate,ctcState:2,ctcEvent:3
+2014-05-12 11:04:50-->Ctc1OpAnswered refId:8671 oldRefId:0 EnableTTSGH:1 RequestIVRTTS:0 ZJRequestSign:0 HasTTSGH:0 thirdParty:80008 calledParty:40408 otherParty:40216 CallType:呼入 CalledNum:80008
+2014-05-12 11:04:50-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 11:04:50--> OpAnswered in StationJFSign:1 
+2014-05-12 11:04:50-->进入转接评价呼叫
+2014-05-12 11:04:52-->OpAnswered:isZJPJ
+2014-05-12 11:04:52-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 11:04:52-->通话结束时间：2014-05-12 11:04:52
+2014-05-12 11:04:52-->setjsk  Caller: 6663331 JFSign:1 StationJFSign:1
+2014-05-12 11:04:52-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 11:04:52-->座席记录：  Caller:6663331 CalledNum:80008 CallType:呼入 MSI_StationOwner:13890
+2014-05-12 11:04:53-->allstate,ctcState:16,ctcEvent:5
+2014-05-12 11:04:53--> OpDisconnected in StationJFSign:0 JFSign:0 ZJRequestSign:0,otherParty:40315, thirdParty:(null), calledParty:(null) refId:8532 oldRefId:0
+2014-05-12 11:04:53-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 11:04:53-->新录音加入后，开始应答会触发一次OpDisconnected
+2014-05-12 11:04:53-->allstate,ctcState:16,ctcEvent:5
+2014-05-12 11:04:53--> OpDisconnected in StationJFSign:0 JFSign:0 ZJRequestSign:0,otherParty:6663331, thirdParty:(null), calledParty:(null) refId:8532 oldRefId:0
+2014-05-12 11:04:53-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 11:04:53-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 11:04:53-->调用StationTimeCount时通话开始时间已经为0，不能写数据库
+2014-05-12 11:04:53--> OpDisconnected out StationJFSign: 0
+2014-05-12 11:04:53-->allstate,ctcState:128,ctcEvent:4
+2014-05-12 11:04:53--> TpDisconnected in StationJFSign:0 JFSign:0 ZJRequestSign:0 EnableTTSGH:1 refId:8532 oldRefId:0
+2014-05-12 11:04:53--> TpDisconnected otherParty:(null), thirdParty:(null), calledParty:(null)
+2014-05-12 11:04:53-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 11:04:53-->调用StationTimeCount时通话开始时间已经为0，不能写数据库
+2014-05-12 11:04:53--> TpDisconnected out StationJFSign:0  
+2014-05-12 11:04:53-->allstate,ctcState:128,ctcEvent:4
+2014-05-12 11:04:53--> TpDisconnected in StationJFSign:0 JFSign:0 ZJRequestSign:0 EnableTTSGH:1 refId:8671 oldRefId:0
+2014-05-12 11:04:53--> TpDisconnected otherParty:(null), thirdParty:(null), calledParty:(null)
+2014-05-12 11:04:53-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 11:04:53-->调用StationTimeCount时通话开始时间已经为0，不能写数据库
+2014-05-12 11:04:53--> TpDisconnected out StationJFSign:0  
+2014-05-12 11:05:03-->话后强制就绪！当前话后时长：11
+2014-05-12 11:14:13-->登出 !
+2014-05-12 11:43:28-->话后强制就绪！当前话后时长：11
+2014-05-12 11:58:40-->登出 !
+2014-05-12 13:43:33-->执行sql失败：Insert into agentstatus(dtime,status,agentnumber ,agentname, sdbz)             values(getdate(),'话后','13890','李云','0')
+2014-05-12 13:43:33-->执行sql失败：Insert into agentstatus(dtime,status,agentnumber ,agentname, sdbz)             values(getdate(),'登录','13890','李云','1')
+2014-05-12 13:43:34-->执行sql失败：Insert into agentstatus(dtime,status,agentnumber ,agentname, sdbz)             values(getdate(),'话后','13890','李云','0')
+2014-05-12 13:43:34-->执行sql失败：Insert into agentstatus(dtime,status,agentnumber ,agentname, sdbz)             values(getdate(),'话后','13890','李云','0')
+2014-05-12 13:43:37-->登出 !
+2014-05-12 13:43:37-->执行sql失败：Insert into agentstatus(dtime,status,agentnumber ,agentname, sdbz)             values(getdate(),'登出','13890','李云','0')
+2014-05-12 13:49:36-->数据库已连接！
+2014-05-12 13:49:44-->接收到ITSM的消息,document:/crossdomain.xml
+2014-05-12 13:49:44-->接收到ITSM的消息,document:/CZYLogin
+2014-05-12 13:49:44-->接收到ITSM的消息,params:ip=10.111.34.253&lockerurl=http://10.111.0.78:9084/pMonitor&user=13890&sysuserid=123&sysusername=李云&sysurl=10.111.0.79:9080&orgid=12&phonegroup=tfoms|&buttonlist=7777^回总台|&sysusernameencode=%E6%9D%8E%E4%BA%91
+2014-05-12 13:49:51-->allstate,ctcState:32,ctcEvent:1
+2014-05-12 13:49:51-->in offhook evtent  StationJFSign:0 HasTTSGH：0 ZJRequestSign:0         Talking:29371142 DialNumber:80008 CalledID:13759438133 CallRecived:2
+2014-05-12 13:49:51-->Offhook para refId:9824 otherParty(null) thirdParty:(null)         calledParty:(null) 
+2014-05-12 13:49:51-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 13:49:51-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 13:49:51-->通话开始时间：2014-05-12 13:49:51
+2014-05-12 13:49:51-->CncallCtc1Offhook事件，开始振铃时刻:-685903105
+2014-05-12 13:49:51-->allstate,ctcState:32,ctcEvent:1
+2014-05-12 13:49:51-->in offhook evtent  StationJFSign:0 HasTTSGH：0 ZJRequestSign:0         Talking:29371142 DialNumber:80008 CalledID:13759438133 CallRecived:2
+2014-05-12 13:49:51-->Offhook para refId:9824 otherParty(null) thirdParty:(null)         calledParty:13759438133 
+2014-05-12 13:49:51-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 13:49:51-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 13:49:51-->CncallCtc1Offhook事件，开始振铃时刻:-685903105
+2014-05-12 13:50:05-->allstate,ctcState:4,ctcEvent:2
+2014-05-12 13:50:09-->allstate,ctcState:2,ctcEvent:3
+2014-05-12 13:50:09-->Ctc1OpAnswered refId:9824 oldRefId:0 EnableTTSGH:1 RequestIVRTTS:0 ZJRequestSign:0 HasTTSGH:0 thirdParty:80008 calledParty:013759438133 otherParty:(null) CallType:呼出 CalledNum:13759438133
+2014-05-12 13:50:09-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 13:50:09--> OpAnswered in StationJFSign:0 
+2014-05-12 13:50:09-->OpAnswered 正常呼出应答
+2014-05-12 13:50:09-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 13:50:09-->CncallCtc1OpAnswered事件：计算振铃时长，当前时间点:-685903087，            开始振铃时刻：-685903105,计算后振铃时长:18
+2014-05-12 13:50:09--> OpAnswered out StationJFSign:1 RequestIVRTTS:0
+2014-05-12 13:50:09-->allstate,ctcState:2,ctcEvent:3
+2014-05-12 13:50:09-->Ctc1OpAnswered refId:9824 oldRefId:0 EnableTTSGH:1 RequestIVRTTS:0 ZJRequestSign:0 HasTTSGH:0 thirdParty:80008 calledParty:013759438133 otherParty:40329 CallType:呼出 CalledNum:13759438133
+2014-05-12 13:50:09-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 13:50:09-->新录音加入后，开始应答会触发一次OpAnswer
+2014-05-12 13:50:09-->allstate,ctcState:2,ctcEvent:14
+2014-05-12 13:55:51-->allstate,ctcState:128,ctcEvent:4
+2014-05-12 13:55:51--> TpDisconnected in StationJFSign:1 JFSign:1 ZJRequestSign:0 EnableTTSGH:1 refId:9824 oldRefId:0
+2014-05-12 13:55:51--> TpDisconnected otherParty:(null), thirdParty:(null), calledParty:(null)
+2014-05-12 13:55:51-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 13:55:51-->通话结束时间：2014-05-12 13:55:51
+2014-05-12 13:55:51-->setjsk  Caller: 80008 JFSign:1 StationJFSign:1
+2014-05-12 13:55:51-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 13:55:51-->座席记录：  Caller:80008 CalledNum:13759438133 CallType:呼出 MSI_StationOwner:13890
+2014-05-12 13:55:51-->AgentModeChange:挂机后，非就绪
+2014-05-12 13:55:52--> TpDisconnected out StationJFSign:0  
+2014-05-12 13:56:02-->话后强制就绪！当前话后时长：11
+2014-05-12 14:05:29-->allstate,ctcState:32,ctcEvent:1
+2014-05-12 14:05:29-->in offhook evtent  StationJFSign:0 HasTTSGH：0 ZJRequestSign:0         Talking:29371138 DialNumber:80008 CalledID:13759438133 CallRecived:4
+2014-05-12 14:05:29-->Offhook para refId:9938 otherParty(null) thirdParty:(null)         calledParty:(null) 
+2014-05-12 14:05:29-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 14:05:29-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 14:05:29-->通话开始时间：2014-05-12 14:05:29
+2014-05-12 14:05:29-->CncallCtc1Offhook事件，开始振铃时刻:-685902167
+2014-05-12 14:05:30-->allstate,ctcState:32,ctcEvent:1
+2014-05-12 14:05:30-->in offhook evtent  StationJFSign:0 HasTTSGH：0 ZJRequestSign:0         Talking:29371138 DialNumber:80008 CalledID:13759438133 CallRecived:4
+2014-05-12 14:05:30-->Offhook para refId:9938 otherParty(null) thirdParty:(null)         calledParty:13759438133 
+2014-05-12 14:05:30-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 14:05:30-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 14:05:30-->CncallCtc1Offhook事件，开始振铃时刻:-685902166
+2014-05-12 14:05:36-->allstate,ctcState:4,ctcEvent:2
+2014-05-12 14:05:41-->allstate,ctcState:2,ctcEvent:3
+2014-05-12 14:05:41-->Ctc1OpAnswered refId:9938 oldRefId:0 EnableTTSGH:1 RequestIVRTTS:0 ZJRequestSign:0 HasTTSGH:0 thirdParty:80008 calledParty:013759438133 otherParty:(null) CallType:呼出 CalledNum:13759438133
+2014-05-12 14:05:41-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 14:05:41--> OpAnswered in StationJFSign:0 
+2014-05-12 14:05:41-->OpAnswered 正常呼出应答
+2014-05-12 14:05:41-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 14:05:41-->CncallCtc1OpAnswered事件：计算振铃时长，当前时间点:-685902155，            开始振铃时刻：-685902166,计算后振铃时长:11
+2014-05-12 14:05:41--> OpAnswered out StationJFSign:1 RequestIVRTTS:0
+2014-05-12 14:05:41-->allstate,ctcState:2,ctcEvent:3
+2014-05-12 14:05:41-->Ctc1OpAnswered refId:9938 oldRefId:0 EnableTTSGH:1 RequestIVRTTS:0 ZJRequestSign:0 HasTTSGH:0 thirdParty:80008 calledParty:013759438133 otherParty:40304 CallType:呼出 CalledNum:13759438133
+2014-05-12 14:05:41-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 14:05:41-->新录音加入后，开始应答会触发一次OpAnswer
+2014-05-12 14:05:41-->allstate,ctcState:2,ctcEvent:14
+2014-05-12 14:08:22-->allstate,ctcState:128,ctcEvent:4
+2014-05-12 14:08:22--> TpDisconnected in StationJFSign:1 JFSign:1 ZJRequestSign:0 EnableTTSGH:1 refId:9938 oldRefId:0
+2014-05-12 14:08:22--> TpDisconnected otherParty:(null), thirdParty:(null), calledParty:(null)
+2014-05-12 14:08:22-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 14:08:22-->通话结束时间：2014-05-12 14:08:22
+2014-05-12 14:08:22-->setjsk  Caller: 80008 JFSign:1 StationJFSign:1
+2014-05-12 14:08:22-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 14:08:22-->座席记录：  Caller:80008 CalledNum:13759438133 CallType:呼出 MSI_StationOwner:13890
+2014-05-12 14:08:22-->AgentModeChange:挂机后，非就绪
+2014-05-12 14:08:23--> TpDisconnected out StationJFSign:0  
+2014-05-12 14:08:33-->话后强制就绪！当前话后时长：11
+2014-05-12 14:09:45-->allstate,ctcState:32,ctcEvent:1
+2014-05-12 14:09:45-->in offhook evtent  StationJFSign:0 HasTTSGH：0 ZJRequestSign:0         Talking:29371138 DialNumber:80008 CalledID:13759438133 CallRecived:4
+2014-05-12 14:09:45-->Offhook para refId:10002 otherParty(null) thirdParty:(null)         calledParty:(null) 
+2014-05-12 14:09:45-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 14:09:45-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 14:09:45-->通话开始时间：2014-05-12 14:09:45
+2014-05-12 14:09:45-->CncallCtc1Offhook事件，开始振铃时刻:-685901911
+2014-05-12 14:09:45-->allstate,ctcState:32,ctcEvent:1
+2014-05-12 14:09:45-->in offhook evtent  StationJFSign:0 HasTTSGH：0 ZJRequestSign:0         Talking:29371138 DialNumber:80008 CalledID:13759438133 CallRecived:4
+2014-05-12 14:09:45-->Offhook para refId:10002 otherParty(null) thirdParty:(null)         calledParty:13759438133 
+2014-05-12 14:09:45-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 14:09:45-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 14:09:45-->CncallCtc1Offhook事件，开始振铃时刻:-685901911
+2014-05-12 14:09:51-->allstate,ctcState:4,ctcEvent:2
+2014-05-12 14:09:55-->allstate,ctcState:2,ctcEvent:3
+2014-05-12 14:09:55-->Ctc1OpAnswered refId:10002 oldRefId:0 EnableTTSGH:1 RequestIVRTTS:0 ZJRequestSign:0 HasTTSGH:0 thirdParty:80008 calledParty:013759438133 otherParty:(null) CallType:呼出 CalledNum:13759438133
+2014-05-12 14:09:55-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 14:09:55--> OpAnswered in StationJFSign:0 
+2014-05-12 14:09:55-->OpAnswered 正常呼出应答
+2014-05-12 14:09:55-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 14:09:55-->CncallCtc1OpAnswered事件：计算振铃时长，当前时间点:-685901901，            开始振铃时刻：-685901911,计算后振铃时长:10
+2014-05-12 14:09:55--> OpAnswered out StationJFSign:1 RequestIVRTTS:0
+2014-05-12 14:09:55-->allstate,ctcState:2,ctcEvent:3
+2014-05-12 14:09:55-->Ctc1OpAnswered refId:10002 oldRefId:0 EnableTTSGH:1 RequestIVRTTS:0 ZJRequestSign:0 HasTTSGH:0 thirdParty:80008 calledParty:013759438133 otherParty:40329 CallType:呼出 CalledNum:13759438133
+2014-05-12 14:09:55-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 14:09:55-->新录音加入后，开始应答会触发一次OpAnswer
+2014-05-12 14:09:55-->allstate,ctcState:2,ctcEvent:14
+2014-05-12 14:12:01-->allstate,ctcState:128,ctcEvent:4
+2014-05-12 14:12:01--> TpDisconnected in StationJFSign:1 JFSign:1 ZJRequestSign:0 EnableTTSGH:1 refId:10002 oldRefId:0
+2014-05-12 14:12:01--> TpDisconnected otherParty:(null), thirdParty:(null), calledParty:(null)
+2014-05-12 14:12:01-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 14:12:01-->通话结束时间：2014-05-12 14:12:01
+2014-05-12 14:12:01-->setjsk  Caller: 80008 JFSign:1 StationJFSign:1
+2014-05-12 14:12:01-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 14:12:01-->座席记录：  Caller:80008 CalledNum:13759438133 CallType:呼出 MSI_StationOwner:13890
+2014-05-12 14:12:01-->AgentModeChange:挂机后，非就绪
+2014-05-12 14:12:02--> TpDisconnected out StationJFSign:0  
+2014-05-12 14:12:12-->话后强制就绪！当前话后时长：11
+2014-05-12 14:18:30-->allstate,ctcState:256,ctcEvent:6
+2014-05-12 14:18:30-->CncallCtc1InboundCall refId:10128 oldRefId:0 secOldRefId:0 thirdParty:(null) calledParty:40113 otherParty:40231 
+2014-05-12 14:18:30-->Have Called In AppData:08744062035 TTSGH:1 refID:10128
+2014-05-12 14:18:30-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 14:18:30-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 14:18:30-->通话开始时间：2014-05-12 14:18:30
+2014-05-12 14:18:30-->CncallCtc1InboundCall事件：开始振铃时刻:-685901386
+2014-05-12 14:18:30-->sql:select top 1 ucid from CallDetail where calling = '08744062035' and called = '40231' and skillnum = '40113' order by servicetime desc
+2014-05-12 14:18:30-->callid:00001101171399876101
+2014-05-12 14:18:30-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 14:18:30-->http://10.111.0.79:9080/popWindow.jsp?para=08744062035%5E123%5E%E6%9D%8E%E4%BA%91%5E00001101171399876101%5E20140512141830%5E12
+2014-05-12 14:18:36-->allstate,ctcState:2,ctcEvent:7
+2014-05-12 14:18:36-->Ctc1TpAnswered refId:10128 oldRefId:0 EnableTTSGH:1 RequestIVRTTS:0 ZJRequestSign:0 thirdParty:(null) calledParty:40113 otherParty:40231 CallType:呼入 CalledNum:13759438133
+2014-05-12 14:18:36-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 14:18:36--> TpAnswered in StationJFSign:0 
+2014-05-12 14:18:36-->CncallCtc1TpAnswered事件：计算振铃时长，当前时间点:-685901380，                开始振铃时刻：-685901386,计算后振铃时长:6
+2014-05-12 14:18:36-->TpAnswered 正常呼入应答
+2014-05-12 14:18:36-->TPAnswer Transfer GH TO IVR:40409AppData:ivr^13890%AppData+flow:2100-
+2014-05-12 14:18:37--> TpAnswered out StationJFSign:1 RequestIVRTTS:1
+2014-05-12 14:18:37-->allstate,ctcState:2,ctcEvent:23
+2014-05-12 14:18:37-->allstate,ctcState:2,ctcEvent:3
+2014-05-12 14:18:37-->Ctc1OpAnswered refId:10128 oldRefId:0 EnableTTSGH:1 RequestIVRTTS:1 ZJRequestSign:0 HasTTSGH:0 thirdParty:08744062035 calledParty:40113 otherParty:40314 CallType:呼入 CalledNum:80008
+2014-05-12 14:18:37-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 14:18:37-->新录音加入后，开始应答会触发一次OpAnswer
+2014-05-12 14:18:37-->allstate,ctcState:2,ctcEvent:14
+2014-05-12 14:18:37-->allstate,ctcState:16,ctcEvent:17
+2014-05-12 14:18:37-->allstate,ctcState:32,ctcEvent:1
+2014-05-12 14:18:37-->in offhook evtent  StationJFSign:1 HasTTSGH：0 ZJRequestSign:0         Talking:29371142 DialNumber:80008 CalledID:80008 CallRecived:1
+2014-05-12 14:18:37-->Offhook para refId:10134 otherParty(null) thirdParty:(null)         calledParty:(null) 
+2014-05-12 14:18:37-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 14:18:37-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 14:18:37-->CncallCtc1Offhook事件，开始振铃时刻:-685901386
+2014-05-12 14:18:37-->allstate,ctcState:32,ctcEvent:1
+2014-05-12 14:18:37-->in offhook evtent  StationJFSign:1 HasTTSGH：0 ZJRequestSign:0         Talking:29371142 DialNumber:80008 CalledID:80008 CallRecived:1
+2014-05-12 14:18:37-->Offhook para refId:10134 otherParty(null) thirdParty:(null)         calledParty:40409 
+2014-05-12 14:18:37-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 14:18:37-->ivr tts gh CncallCtc1Offhook  return
+2014-05-12 14:18:37-->allstate,ctcState:4,ctcEvent:2
+2014-05-12 14:18:37-->allstate,ctcState:2,ctcEvent:13
+2014-05-12 14:18:37-->allstate,ctcState:2,ctcEvent:3
+2014-05-12 14:18:37-->Ctc1OpAnswered refId:10134 oldRefId:0 EnableTTSGH:1 RequestIVRTTS:0 ZJRequestSign:0 HasTTSGH:0 thirdParty:80008 calledParty:40409 otherParty:40203 CallType:呼入 CalledNum:80008
+2014-05-12 14:18:37-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 14:18:37--> OpAnswered in StationJFSign:1 
+2014-05-12 14:18:37--> OpAnswered out StationJFSign:1 RequestIVRTTS:0
+2014-05-12 14:18:47-->allstate,ctcState:2,ctcEvent:5
+2014-05-12 14:18:47--> OpDisconnected in StationJFSign:1 JFSign:1 ZJRequestSign:0,otherParty:40203, thirdParty:(null), calledParty:(null) refId:10134 oldRefId:0
+2014-05-12 14:18:47-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 14:18:47-->ivr tts gh  hangup return
+2014-05-12 14:23:21-->ivr^1011713998%AppData+flow:2400-
+2014-05-12 14:23:21-->allstate,ctcState:16,ctcEvent:17
+2014-05-12 14:23:21-->allstate,ctcState:32,ctcEvent:1
+2014-05-12 14:23:21-->in offhook evtent  StationJFSign:1 HasTTSGH：0 ZJRequestSign:0         Talking:29371138 DialNumber:80008 CalledID:80008 CallRecived:3
+2014-05-12 14:23:21-->Offhook para refId:10213 otherParty(null) thirdParty:(null)         calledParty:(null) 
+2014-05-12 14:23:21-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 14:23:21-->是转接评价触发的offhook，不做处理。
+2014-05-12 14:23:21-->allstate,ctcState:32,ctcEvent:1
+2014-05-12 14:23:21-->in offhook evtent  StationJFSign:1 HasTTSGH：0 ZJRequestSign:0         Talking:29371138 DialNumber:80008 CalledID:80008 CallRecived:3
+2014-05-12 14:23:21-->Offhook para refId:10213 otherParty(null) thirdParty:(null)         calledParty:40408 
+2014-05-12 14:23:21-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 14:23:21-->是转接评价触发的offhook，不做处理。
+2014-05-12 14:23:21-->allstate,ctcState:4,ctcEvent:2
+2014-05-12 14:23:21-->allstate,ctcState:2,ctcEvent:3
+2014-05-12 14:23:21-->Ctc1OpAnswered refId:10213 oldRefId:0 EnableTTSGH:1 RequestIVRTTS:0 ZJRequestSign:0 HasTTSGH:0 thirdParty:80008 calledParty:40408 otherParty:40232 CallType:呼入 CalledNum:80008
+2014-05-12 14:23:21-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 14:23:21--> OpAnswered in StationJFSign:1 
+2014-05-12 14:23:21-->进入转接评价呼叫
+2014-05-12 14:23:23-->OpAnswered:isZJPJ
+2014-05-12 14:23:23-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 14:23:23-->通话结束时间：2014-05-12 14:23:23
+2014-05-12 14:23:23-->setjsk  Caller: 08744062035 JFSign:1 StationJFSign:1
+2014-05-12 14:23:23-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 14:23:23-->座席记录：  Caller:08744062035 CalledNum:80008 CallType:呼入 MSI_StationOwner:13890
+2014-05-12 14:23:24-->allstate,ctcState:16,ctcEvent:5
+2014-05-12 14:23:24--> OpDisconnected in StationJFSign:0 JFSign:0 ZJRequestSign:0,otherParty:40314, thirdParty:(null), calledParty:(null) refId:10134 oldRefId:0
+2014-05-12 14:23:24-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 14:23:24-->新录音加入后，开始应答会触发一次OpDisconnected
+2014-05-12 14:23:24-->allstate,ctcState:16,ctcEvent:5
+2014-05-12 14:23:24--> OpDisconnected in StationJFSign:0 JFSign:0 ZJRequestSign:0,otherParty:08744062035, thirdParty:(null), calledParty:(null) refId:10134 oldRefId:0
+2014-05-12 14:23:24-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 14:23:24-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 14:23:24-->调用StationTimeCount时通话开始时间已经为0，不能写数据库
+2014-05-12 14:23:24--> OpDisconnected out StationJFSign: 0
+2014-05-12 14:23:24-->allstate,ctcState:128,ctcEvent:4
+2014-05-12 14:23:24--> TpDisconnected in StationJFSign:0 JFSign:0 ZJRequestSign:0 EnableTTSGH:1 refId:10134 oldRefId:0
+2014-05-12 14:23:24--> TpDisconnected otherParty:(null), thirdParty:(null), calledParty:(null)
+2014-05-12 14:23:24-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 14:23:24-->调用StationTimeCount时通话开始时间已经为0，不能写数据库
+2014-05-12 14:23:24--> TpDisconnected out StationJFSign:0  
+2014-05-12 14:23:24-->allstate,ctcState:128,ctcEvent:4
+2014-05-12 14:23:24--> TpDisconnected in StationJFSign:0 JFSign:0 ZJRequestSign:0 EnableTTSGH:1 refId:10213 oldRefId:0
+2014-05-12 14:23:24--> TpDisconnected otherParty:(null), thirdParty:(null), calledParty:(null)
+2014-05-12 14:23:24-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 14:23:24-->调用StationTimeCount时通话开始时间已经为0，不能写数据库
+2014-05-12 14:23:24--> TpDisconnected out StationJFSign:0  
+2014-05-12 14:23:34-->话后强制就绪！当前话后时长：11
+2014-05-12 14:28:12-->allstate,ctcState:256,ctcEvent:6
+2014-05-12 14:28:12-->CncallCtc1InboundCall refId:10272 oldRefId:0 secOldRefId:0 thirdParty:(null) calledParty:40113 otherParty:40221 
+2014-05-12 14:28:12-->Have Called In AppData:6623270 TTSGH:1 refID:10272
+2014-05-12 14:28:12-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 14:28:12-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 14:28:12-->通话开始时间：2014-05-12 14:28:12
+2014-05-12 14:28:12-->CncallCtc1InboundCall事件：开始振铃时刻:-685900804
+2014-05-12 14:28:12-->sql:select top 1 ucid from CallDetail where calling = '6623270' and called = '40221' and skillnum = '40113' order by servicetime desc
+2014-05-12 14:28:12-->callid:00001102701399876691
+2014-05-12 14:28:12-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 14:28:12-->http://10.111.0.79:9080/popWindow.jsp?para=6623270%5E123%5E%E6%9D%8E%E4%BA%91%5E00001102701399876691%5E20140512142812%5E12
+2014-05-12 14:28:18-->allstate,ctcState:2,ctcEvent:7
+2014-05-12 14:28:18-->Ctc1TpAnswered refId:10272 oldRefId:0 EnableTTSGH:1 RequestIVRTTS:0 ZJRequestSign:0 thirdParty:(null) calledParty:40113 otherParty:40221 CallType:呼入 CalledNum:80008
+2014-05-12 14:28:18-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 14:28:18--> TpAnswered in StationJFSign:0 
+2014-05-12 14:28:18-->CncallCtc1TpAnswered事件：计算振铃时长，当前时间点:-685900798，                开始振铃时刻：-685900804,计算后振铃时长:6
+2014-05-12 14:28:18-->TpAnswered 正常呼入应答
+2014-05-12 14:28:18-->TPAnswer Transfer GH TO IVR:40409AppData:ivr^13890%AppData+flow:2100-
+2014-05-12 14:28:18--> TpAnswered out StationJFSign:1 RequestIVRTTS:1
+2014-05-12 14:28:18-->allstate,ctcState:2,ctcEvent:23
+2014-05-12 14:28:18-->allstate,ctcState:2,ctcEvent:3
+2014-05-12 14:28:18-->Ctc1OpAnswered refId:10272 oldRefId:0 EnableTTSGH:1 RequestIVRTTS:1 ZJRequestSign:0 HasTTSGH:0 thirdParty:6623270 calledParty:40113 otherParty:40327 CallType:呼入 CalledNum:80008
+2014-05-12 14:28:18-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 14:28:18-->新录音加入后，开始应答会触发一次OpAnswer
+2014-05-12 14:28:18-->allstate,ctcState:2,ctcEvent:14
+2014-05-12 14:28:18-->allstate,ctcState:16,ctcEvent:17
+2014-05-12 14:28:18-->allstate,ctcState:32,ctcEvent:1
+2014-05-12 14:28:18-->in offhook evtent  StationJFSign:1 HasTTSGH：0 ZJRequestSign:0         Talking:29371142 DialNumber:80008 CalledID:80008 CallRecived:1
+2014-05-12 14:28:18-->Offhook para refId:10274 otherParty(null) thirdParty:(null)         calledParty:(null) 
+2014-05-12 14:28:18-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 14:28:18-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 14:28:18-->CncallCtc1Offhook事件，开始振铃时刻:-685900804
+2014-05-12 14:28:18-->allstate,ctcState:32,ctcEvent:1
+2014-05-12 14:28:18-->in offhook evtent  StationJFSign:1 HasTTSGH：0 ZJRequestSign:0         Talking:29371142 DialNumber:80008 CalledID:80008 CallRecived:1
+2014-05-12 14:28:18-->Offhook para refId:10274 otherParty(null) thirdParty:(null)         calledParty:40409 
+2014-05-12 14:28:18-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 14:28:18-->ivr tts gh CncallCtc1Offhook  return
+2014-05-12 14:28:18-->allstate,ctcState:4,ctcEvent:2
+2014-05-12 14:28:18-->allstate,ctcState:2,ctcEvent:13
+2014-05-12 14:28:18-->allstate,ctcState:2,ctcEvent:3
+2014-05-12 14:28:18-->Ctc1OpAnswered refId:10274 oldRefId:0 EnableTTSGH:1 RequestIVRTTS:0 ZJRequestSign:0 HasTTSGH:0 thirdParty:80008 calledParty:40409 otherParty:40220 CallType:呼入 CalledNum:80008
+2014-05-12 14:28:18-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 14:28:18--> OpAnswered in StationJFSign:1 
+2014-05-12 14:28:18--> OpAnswered out StationJFSign:1 RequestIVRTTS:0
+2014-05-12 14:28:28-->allstate,ctcState:2,ctcEvent:5
+2014-05-12 14:28:28--> OpDisconnected in StationJFSign:1 JFSign:1 ZJRequestSign:0,otherParty:40220, thirdParty:(null), calledParty:(null) refId:10274 oldRefId:0
+2014-05-12 14:28:28-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 14:28:28-->ivr tts gh  hangup return
+2014-05-12 14:31:09-->ivr^1027013998%AppData+flow:2400-
+2014-05-12 14:31:09-->allstate,ctcState:16,ctcEvent:17
+2014-05-12 14:31:09-->allstate,ctcState:32,ctcEvent:1
+2014-05-12 14:31:09-->in offhook evtent  StationJFSign:1 HasTTSGH：0 ZJRequestSign:0         Talking:29371138 DialNumber:80008 CalledID:80008 CallRecived:3
+2014-05-12 14:31:09-->Offhook para refId:10316 otherParty(null) thirdParty:(null)         calledParty:(null) 
+2014-05-12 14:31:09-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 14:31:09-->是转接评价触发的offhook，不做处理。
+2014-05-12 14:31:09-->allstate,ctcState:32,ctcEvent:1
+2014-05-12 14:31:09-->in offhook evtent  StationJFSign:1 HasTTSGH：0 ZJRequestSign:0         Talking:29371138 DialNumber:80008 CalledID:80008 CallRecived:3
+2014-05-12 14:31:09-->Offhook para refId:10316 otherParty(null) thirdParty:(null)         calledParty:40408 
+2014-05-12 14:31:09-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 14:31:09-->是转接评价触发的offhook，不做处理。
+2014-05-12 14:31:09-->allstate,ctcState:4,ctcEvent:2
+2014-05-12 14:31:09-->allstate,ctcState:2,ctcEvent:3
+2014-05-12 14:31:09-->Ctc1OpAnswered refId:10316 oldRefId:0 EnableTTSGH:1 RequestIVRTTS:0 ZJRequestSign:0 HasTTSGH:0 thirdParty:80008 calledParty:40408 otherParty:40241 CallType:呼入 CalledNum:80008
+2014-05-12 14:31:09-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 14:31:09--> OpAnswered in StationJFSign:1 
+2014-05-12 14:31:09-->进入转接评价呼叫
+2014-05-12 14:31:11-->OpAnswered:isZJPJ
+2014-05-12 14:31:11-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 14:31:11-->通话结束时间：2014-05-12 14:31:11
+2014-05-12 14:31:11-->setjsk  Caller: 6623270 JFSign:1 StationJFSign:1
+2014-05-12 14:31:11-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 14:31:11-->座席记录：  Caller:6623270 CalledNum:80008 CallType:呼入 MSI_StationOwner:13890
+2014-05-12 14:31:12-->allstate,ctcState:16,ctcEvent:5
+2014-05-12 14:31:12--> OpDisconnected in StationJFSign:0 JFSign:0 ZJRequestSign:0,otherParty:40327, thirdParty:(null), calledParty:(null) refId:10274 oldRefId:0
+2014-05-12 14:31:12-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 14:31:12-->新录音加入后，开始应答会触发一次OpDisconnected
+2014-05-12 14:31:12-->allstate,ctcState:128,ctcEvent:4
+2014-05-12 14:31:12--> TpDisconnected in StationJFSign:0 JFSign:0 ZJRequestSign:0 EnableTTSGH:1 refId:10316 oldRefId:10274
+2014-05-12 14:31:12--> TpDisconnected otherParty:40241, thirdParty:(null), calledParty:(null)
+2014-05-12 14:31:12-->IVR与坐席中断，可能是转评价后评价的IVR与坐席结束通话，不处理
+2014-05-12 14:31:12-->allstate,ctcState:128,ctcEvent:4
+2014-05-12 14:31:12--> TpDisconnected in StationJFSign:0 JFSign:0 ZJRequestSign:0 EnableTTSGH:1 refId:10317 oldRefId:0
+2014-05-12 14:31:12--> TpDisconnected otherParty:(null), thirdParty:(null), calledParty:(null)
+2014-05-12 14:31:12-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 14:31:12-->调用StationTimeCount时通话开始时间已经为0，不能写数据库
+2014-05-12 14:31:12--> TpDisconnected out StationJFSign:0  
+2014-05-12 14:31:22-->话后强制就绪！当前话后时长：11
+2014-05-12 15:42:08-->allstate,ctcState:256,ctcEvent:6
+2014-05-12 15:42:08-->CncallCtc1InboundCall refId:11382 oldRefId:0 secOldRefId:0 thirdParty:(null) calledParty:40113 otherParty:40204 
+2014-05-12 15:42:08-->Have Called In AppData:6628126 TTSGH:1 refID:11382
+2014-05-12 15:42:08-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 15:42:08-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 15:42:08-->通话开始时间：2014-05-12 15:42:08
+2014-05-12 15:42:08-->CncallCtc1InboundCall事件：开始振铃时刻:-685896368
+2014-05-12 15:42:09-->sql:select top 1 ucid from CallDetail where calling = '6628126' and called = '40204' and skillnum = '40113' order by servicetime desc
+2014-05-12 15:42:09-->callid:00001113731399881132
+2014-05-12 15:42:09-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 15:42:09-->http://10.111.0.79:9080/popWindow.jsp?para=6628126%5E123%5E%E6%9D%8E%E4%BA%91%5E00001113731399881132%5E20140512154209%5E12
+2014-05-12 15:42:16-->allstate,ctcState:2,ctcEvent:7
+2014-05-12 15:42:16-->Ctc1TpAnswered refId:11382 oldRefId:0 EnableTTSGH:1 RequestIVRTTS:0 ZJRequestSign:0 thirdParty:(null) calledParty:40113 otherParty:40204 CallType:呼入 CalledNum:80008
+2014-05-12 15:42:16-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 15:42:16--> TpAnswered in StationJFSign:0 
+2014-05-12 15:42:16-->CncallCtc1TpAnswered事件：计算振铃时长，当前时间点:-685896360，                开始振铃时刻：-685896368,计算后振铃时长:8
+2014-05-12 15:42:16-->TpAnswered 正常呼入应答
+2014-05-12 15:42:16-->TPAnswer Transfer GH TO IVR:40409AppData:ivr^13890%AppData+flow:2100-
+2014-05-12 15:42:17--> TpAnswered out StationJFSign:1 RequestIVRTTS:1
+2014-05-12 15:42:17-->allstate,ctcState:2,ctcEvent:23
+2014-05-12 15:42:17-->allstate,ctcState:2,ctcEvent:3
+2014-05-12 15:42:17-->Ctc1OpAnswered refId:11382 oldRefId:0 EnableTTSGH:1 RequestIVRTTS:1 ZJRequestSign:0 HasTTSGH:0 thirdParty:6628126 calledParty:40113 otherParty:40319 CallType:呼入 CalledNum:80008
+2014-05-12 15:42:17-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 15:42:17-->新录音加入后，开始应答会触发一次OpAnswer
+2014-05-12 15:42:17-->allstate,ctcState:2,ctcEvent:14
+2014-05-12 15:42:17-->allstate,ctcState:16,ctcEvent:17
+2014-05-12 15:42:17-->allstate,ctcState:32,ctcEvent:1
+2014-05-12 15:42:17-->in offhook evtent  StationJFSign:1 HasTTSGH：0 ZJRequestSign:0         Talking:29371142 DialNumber:80008 CalledID:80008 CallRecived:1
+2014-05-12 15:42:17-->Offhook para refId:11385 otherParty(null) thirdParty:(null)         calledParty:(null) 
+2014-05-12 15:42:17-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 15:42:17-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 15:42:17-->CncallCtc1Offhook事件，开始振铃时刻:-685896368
+2014-05-12 15:42:17-->allstate,ctcState:32,ctcEvent:1
+2014-05-12 15:42:17-->in offhook evtent  StationJFSign:1 HasTTSGH：0 ZJRequestSign:0         Talking:29371142 DialNumber:80008 CalledID:80008 CallRecived:1
+2014-05-12 15:42:17-->Offhook para refId:11385 otherParty(null) thirdParty:(null)         calledParty:40409 
+2014-05-12 15:42:17-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 15:42:17-->ivr tts gh CncallCtc1Offhook  return
+2014-05-12 15:42:17-->allstate,ctcState:4,ctcEvent:2
+2014-05-12 15:42:17-->allstate,ctcState:2,ctcEvent:13
+2014-05-12 15:42:17-->allstate,ctcState:2,ctcEvent:3
+2014-05-12 15:42:17-->Ctc1OpAnswered refId:11385 oldRefId:0 EnableTTSGH:1 RequestIVRTTS:0 ZJRequestSign:0 HasTTSGH:0 thirdParty:80008 calledParty:40409 otherParty:40217 CallType:呼入 CalledNum:80008
+2014-05-12 15:42:17-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 15:42:17--> OpAnswered in StationJFSign:1 
+2014-05-12 15:42:17--> OpAnswered out StationJFSign:1 RequestIVRTTS:0
+2014-05-12 15:42:27-->allstate,ctcState:2,ctcEvent:5
+2014-05-12 15:42:27--> OpDisconnected in StationJFSign:1 JFSign:1 ZJRequestSign:0,otherParty:40217, thirdParty:(null), calledParty:(null) refId:11385 oldRefId:0
+2014-05-12 15:42:27-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 15:42:27-->ivr tts gh  hangup return
+2014-05-12 15:43:26-->ivr^1137313998%AppData+flow:2400-
+2014-05-12 15:43:26-->allstate,ctcState:16,ctcEvent:17
+2014-05-12 15:43:26-->allstate,ctcState:32,ctcEvent:1
+2014-05-12 15:43:26-->in offhook evtent  StationJFSign:1 HasTTSGH：0 ZJRequestSign:0         Talking:29371138 DialNumber:80008 CalledID:80008 CallRecived:3
+2014-05-12 15:43:26-->Offhook para refId:11415 otherParty(null) thirdParty:(null)         calledParty:(null) 
+2014-05-12 15:43:26-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 15:43:26-->是转接评价触发的offhook，不做处理。
+2014-05-12 15:43:26-->allstate,ctcState:32,ctcEvent:1
+2014-05-12 15:43:26-->in offhook evtent  StationJFSign:1 HasTTSGH：0 ZJRequestSign:0         Talking:29371138 DialNumber:80008 CalledID:80008 CallRecived:3
+2014-05-12 15:43:26-->Offhook para refId:11415 otherParty(null) thirdParty:(null)         calledParty:40408 
+2014-05-12 15:43:26-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 15:43:26-->是转接评价触发的offhook，不做处理。
+2014-05-12 15:43:26-->allstate,ctcState:4,ctcEvent:2
+2014-05-12 15:43:27-->allstate,ctcState:2,ctcEvent:3
+2014-05-12 15:43:27-->Ctc1OpAnswered refId:11415 oldRefId:0 EnableTTSGH:1 RequestIVRTTS:0 ZJRequestSign:0 HasTTSGH:0 thirdParty:80008 calledParty:40408 otherParty:40229 CallType:呼入 CalledNum:80008
+2014-05-12 15:43:27-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 15:43:27--> OpAnswered in StationJFSign:1 
+2014-05-12 15:43:27-->进入转接评价呼叫
+2014-05-12 15:43:29-->OpAnswered:isZJPJ
+2014-05-12 15:43:29-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 15:43:29-->通话结束时间：2014-05-12 15:43:29
+2014-05-12 15:43:29-->setjsk  Caller: 6628126 JFSign:1 StationJFSign:1
+2014-05-12 15:43:29-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 15:43:29-->座席记录：  Caller:6628126 CalledNum:80008 CallType:呼入 MSI_StationOwner:13890
+2014-05-12 15:43:30-->allstate,ctcState:16,ctcEvent:5
+2014-05-12 15:43:30--> OpDisconnected in StationJFSign:0 JFSign:0 ZJRequestSign:0,otherParty:40319, thirdParty:(null), calledParty:(null) refId:11385 oldRefId:0
+2014-05-12 15:43:30-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 15:43:30-->新录音加入后，开始应答会触发一次OpDisconnected
+2014-05-12 15:43:30-->allstate,ctcState:16,ctcEvent:5
+2014-05-12 15:43:30--> OpDisconnected in StationJFSign:0 JFSign:0 ZJRequestSign:0,otherParty:6628126, thirdParty:(null), calledParty:(null) refId:11385 oldRefId:0
+2014-05-12 15:43:30-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 15:43:30-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 15:43:30-->调用StationTimeCount时通话开始时间已经为0，不能写数据库
+2014-05-12 15:43:30--> OpDisconnected out StationJFSign: 0
+2014-05-12 15:43:30-->allstate,ctcState:128,ctcEvent:4
+2014-05-12 15:43:30--> TpDisconnected in StationJFSign:0 JFSign:0 ZJRequestSign:0 EnableTTSGH:1 refId:11385 oldRefId:0
+2014-05-12 15:43:30--> TpDisconnected otherParty:(null), thirdParty:(null), calledParty:(null)
+2014-05-12 15:43:30-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 15:43:30-->调用StationTimeCount时通话开始时间已经为0，不能写数据库
+2014-05-12 15:43:30--> TpDisconnected out StationJFSign:0  
+2014-05-12 15:43:30-->allstate,ctcState:128,ctcEvent:4
+2014-05-12 15:43:30--> TpDisconnected in StationJFSign:0 JFSign:0 ZJRequestSign:0 EnableTTSGH:1 refId:11415 oldRefId:0
+2014-05-12 15:43:30--> TpDisconnected otherParty:(null), thirdParty:(null), calledParty:(null)
+2014-05-12 15:43:30-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 15:43:30-->调用StationTimeCount时通话开始时间已经为0，不能写数据库
+2014-05-12 15:43:30--> TpDisconnected out StationJFSign:0  
+2014-05-12 15:43:39-->话后强制就绪！当前话后时长：11
+2014-05-12 15:43:39-->allstate,ctcState:256,ctcEvent:6
+2014-05-12 15:43:39-->CncallCtc1InboundCall refId:11420 oldRefId:0 secOldRefId:0 thirdParty:40113 calledParty:40113 otherParty:40233 
+2014-05-12 15:43:39-->Have Called In AppData:015706951629 TTSGH:1 refID:11420
+2014-05-12 15:43:39-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 15:43:39-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 15:43:39-->通话开始时间：2014-05-12 15:43:39
+2014-05-12 15:43:39-->CncallCtc1InboundCall事件：开始振铃时刻:-685896277
+2014-05-12 15:43:40-->sql:select top 1 ucid from CallDetail where calling = '015706951629' and called = '40233' and skillnum = '40113' order by servicetime desc
+2014-05-12 15:43:40-->callid:00001114021399881197
+2014-05-12 15:43:40-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 15:43:40-->http://10.111.0.79:9080/popWindow.jsp?para=015706951629%5E123%5E%E6%9D%8E%E4%BA%91%5E00001114021399881197%5E20140512154340%5E12
+2014-05-12 15:43:45-->allstate,ctcState:256,ctcEvent:5
+2014-05-12 15:43:45--> OpDisconnected in StationJFSign:0 JFSign:1 ZJRequestSign:0,otherParty:40233, thirdParty:(null), calledParty:(null) refId:11420 oldRefId:0
+2014-05-12 15:43:45-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 15:43:45-->ivr tts gh  hangup return
+2014-05-12 15:43:45-->allstate,ctcState:128,ctcEvent:4
+2014-05-12 15:43:45--> TpDisconnected in StationJFSign:0 JFSign:1 ZJRequestSign:0 EnableTTSGH:1 refId:11420 oldRefId:0
+2014-05-12 15:43:45--> TpDisconnected otherParty:(null), thirdParty:(null), calledParty:(null)
+2014-05-12 15:43:45-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 15:43:45-->通话结束时间：2014-05-12 15:43:45
+2014-05-12 15:43:45-->setjsk  Caller: 015706951629 JFSign:1 StationJFSign:0
+2014-05-12 15:43:45-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 15:43:45-->SetJSK触发，电话未接时：计算振铃时长，当前时间点:-685896271，            开始振铃时刻：-685896277,计算后振铃时长:6
+2014-05-12 15:43:45-->座席记录：  Caller:015706951629 CalledNum:80008 CallType:呼入 MSI_StationOwner:13890
+2014-05-12 15:43:45--> TpDisconnected out StationJFSign:0  
+2014-05-12 15:48:59-->allstate,ctcState:256,ctcEvent:6
+2014-05-12 15:48:59-->CncallCtc1InboundCall refId:11510 oldRefId:0 secOldRefId:0 thirdParty:(null) calledParty:40113 otherParty:40208 
+2014-05-12 15:48:59-->Have Called In AppData:08886521673 TTSGH:1 refID:11510
+2014-05-12 15:48:59-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 15:48:59-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 15:48:59-->通话开始时间：2014-05-12 15:48:59
+2014-05-12 15:48:59-->CncallCtc1InboundCall事件：开始振铃时刻:-685895957
+2014-05-12 15:49:00-->sql:select top 1 ucid from CallDetail where calling = '08886521673' and called = '40208' and skillnum = '40113' order by servicetime desc
+2014-05-12 15:49:00-->callid:00001115021399881523
+2014-05-12 15:49:00-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 15:49:00-->http://10.111.0.79:9080/popWindow.jsp?para=08886521673%5E123%5E%E6%9D%8E%E4%BA%91%5E00001115021399881523%5E20140512154900%5E12
+2014-05-12 15:49:04-->allstate,ctcState:2,ctcEvent:7
+2014-05-12 15:49:04-->Ctc1TpAnswered refId:11510 oldRefId:0 EnableTTSGH:1 RequestIVRTTS:0 ZJRequestSign:0 thirdParty:(null) calledParty:40113 otherParty:40208 CallType:呼入 CalledNum:80008
+2014-05-12 15:49:04-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 15:49:04--> TpAnswered in StationJFSign:0 
+2014-05-12 15:49:04-->CncallCtc1TpAnswered事件：计算振铃时长，当前时间点:-685895952，                开始振铃时刻：-685895957,计算后振铃时长:5
+2014-05-12 15:49:04-->TpAnswered 正常呼入应答
+2014-05-12 15:49:04-->TPAnswer Transfer GH TO IVR:40409AppData:ivr^13890%AppData+flow:2100-
+2014-05-12 15:49:04--> TpAnswered out StationJFSign:1 RequestIVRTTS:1
+2014-05-12 15:49:04-->allstate,ctcState:2,ctcEvent:23
+2014-05-12 15:49:04-->allstate,ctcState:2,ctcEvent:3
+2014-05-12 15:49:04-->Ctc1OpAnswered refId:11510 oldRefId:0 EnableTTSGH:1 RequestIVRTTS:1 ZJRequestSign:0 HasTTSGH:0 thirdParty:08886521673 calledParty:40113 otherParty:40325 CallType:呼入 CalledNum:80008
+2014-05-12 15:49:04-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 15:49:04-->新录音加入后，开始应答会触发一次OpAnswer
+2014-05-12 15:49:04-->allstate,ctcState:2,ctcEvent:14
+2014-05-12 15:49:04-->allstate,ctcState:16,ctcEvent:17
+2014-05-12 15:49:04-->allstate,ctcState:32,ctcEvent:1
+2014-05-12 15:49:04-->in offhook evtent  StationJFSign:1 HasTTSGH：0 ZJRequestSign:0         Talking:29371142 DialNumber:80008 CalledID:80008 CallRecived:1
+2014-05-12 15:49:04-->Offhook para refId:11513 otherParty(null) thirdParty:(null)         calledParty:(null) 
+2014-05-12 15:49:04-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 15:49:04-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 15:49:04-->CncallCtc1Offhook事件，开始振铃时刻:-685895957
+2014-05-12 15:49:04-->allstate,ctcState:32,ctcEvent:1
+2014-05-12 15:49:04-->in offhook evtent  StationJFSign:1 HasTTSGH：0 ZJRequestSign:0         Talking:29371142 DialNumber:80008 CalledID:80008 CallRecived:1
+2014-05-12 15:49:04-->Offhook para refId:11513 otherParty(null) thirdParty:(null)         calledParty:40409 
+2014-05-12 15:49:04-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 15:49:05-->ivr tts gh CncallCtc1Offhook  return
+2014-05-12 15:49:05-->allstate,ctcState:4,ctcEvent:2
+2014-05-12 15:49:05-->allstate,ctcState:2,ctcEvent:13
+2014-05-12 15:49:05-->allstate,ctcState:2,ctcEvent:3
+2014-05-12 15:49:05-->Ctc1OpAnswered refId:11513 oldRefId:0 EnableTTSGH:1 RequestIVRTTS:0 ZJRequestSign:0 HasTTSGH:0 thirdParty:80008 calledParty:40409 otherParty:40204 CallType:呼入 CalledNum:80008
+2014-05-12 15:49:05-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 15:49:05--> OpAnswered in StationJFSign:1 
+2014-05-12 15:49:05--> OpAnswered out StationJFSign:1 RequestIVRTTS:0
+2014-05-12 15:49:15-->allstate,ctcState:2,ctcEvent:5
+2014-05-12 15:49:15--> OpDisconnected in StationJFSign:1 JFSign:1 ZJRequestSign:0,otherParty:40204, thirdParty:(null), calledParty:(null) refId:11513 oldRefId:0
+2014-05-12 15:49:15-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 15:49:15-->ivr tts gh  hangup return
+2014-05-12 15:49:34-->allstate,ctcState:16,ctcEvent:17
+2014-05-12 15:49:34-->allstate,ctcState:32,ctcEvent:1
+2014-05-12 15:49:34-->in offhook evtent  StationJFSign:1 HasTTSGH：0 ZJRequestSign:0         Talking:29371143 DialNumber:80008 CalledID:80008 CallRecived:1
+2014-05-12 15:49:34-->Offhook para refId:11523 otherParty(null) thirdParty:(null)         calledParty:(null) 
+2014-05-12 15:49:34-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 15:49:34-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 15:49:34-->CncallCtc1Offhook事件，开始振铃时刻:-685895957
+2014-05-12 15:49:34-->allstate,ctcState:32,ctcEvent:1
+2014-05-12 15:49:34-->in offhook evtent  StationJFSign:1 HasTTSGH：0 ZJRequestSign:0         Talking:29371143 DialNumber:80008 CalledID:80008 CallRecived:1
+2014-05-12 15:49:34-->Offhook para refId:11523 otherParty(null) thirdParty:(null)         calledParty:14088 
+2014-05-12 15:49:34-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 15:49:34-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 15:49:34-->CncallCtc1Offhook事件，开始振铃时刻:-685895957
+2014-05-12 15:49:34-->allstate,ctcState:4,ctcEvent:2
+2014-05-12 15:49:34-->allstate,ctcState:16,ctcEvent:5
+2014-05-12 15:49:34--> OpDisconnected in StationJFSign:1 JFSign:1 ZJRequestSign:0,otherParty:40325, thirdParty:(null), calledParty:(null) refId:11513 oldRefId:0
+2014-05-12 15:49:34-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 15:49:34-->新录音加入后，开始应答会触发一次OpDisconnected
+2014-05-12 15:49:38-->allstate,ctcState:2,ctcEvent:3
+2014-05-12 15:49:38-->Ctc1OpAnswered refId:11523 oldRefId:0 EnableTTSGH:1 RequestIVRTTS:0 ZJRequestSign:0 HasTTSGH:0 thirdParty:80008 calledParty:14088 otherParty:80018 CallType:转接 CalledNum:80008
+2014-05-12 15:49:38-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 15:49:38--> OpAnswered in StationJFSign:1 
+2014-05-12 15:49:38-->OpAnswered 转接呼叫
+2014-05-12 15:49:38-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 15:49:38-->通话结束时间：2014-05-12 15:49:38
+2014-05-12 15:49:38-->setjsk  Caller: 08886521673 JFSign:1 StationJFSign:1
+2014-05-12 15:49:38-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 15:49:38-->座席记录：  Caller:08886521673 CalledNum:80008 CallType:转接 MSI_StationOwner:13890
+2014-05-12 15:49:39--> OpAnswered out StationJFSign:0 RequestIVRTTS:0
+2014-05-12 15:49:39-->allstate,ctcState:128,ctcEvent:4
+2014-05-12 15:49:39--> TpDisconnected in StationJFSign:0 JFSign:0 ZJRequestSign:0 EnableTTSGH:1 refId:11523 oldRefId:11513
+2014-05-12 15:49:39--> TpDisconnected otherParty:80018, thirdParty:(null), calledParty:(null)
+2014-05-12 15:49:39-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 15:49:39-->调用StationTimeCount时通话开始时间已经为0，不能写数据库
+2014-05-12 15:49:39-->AgentModeChange:挂机后，非就绪
+2014-05-12 15:49:39--> TpDisconnected out StationJFSign:0  
+2014-05-12 15:49:39-->allstate,ctcState:128,ctcEvent:4
+2014-05-12 15:49:39--> TpDisconnected in StationJFSign:0 JFSign:0 ZJRequestSign:0 EnableTTSGH:1 refId:11524 oldRefId:0
+2014-05-12 15:49:39--> TpDisconnected otherParty:(null), thirdParty:(null), calledParty:(null)
+2014-05-12 15:49:39-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 15:49:39-->调用StationTimeCount时通话开始时间已经为0，不能写数据库
+2014-05-12 15:49:39--> TpDisconnected out StationJFSign:0  
+2014-05-12 15:49:50-->话后强制就绪！当前话后时长：11
+2014-05-12 15:57:00-->allstate,ctcState:256,ctcEvent:6
+2014-05-12 15:57:00-->CncallCtc1InboundCall refId:11649 oldRefId:0 secOldRefId:0 thirdParty:(null) calledParty:40113 otherParty:40206 
+2014-05-12 15:57:00-->Have Called In AppData:63011525 TTSGH:1 refID:11649
+2014-05-12 15:57:00-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 15:57:00-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 15:57:00-->通话开始时间：2014-05-12 15:57:00
+2014-05-12 15:57:00-->CncallCtc1InboundCall事件：开始振铃时刻:-685895476
+2014-05-12 15:57:00-->sql:select top 1 ucid from CallDetail where calling = '63011525' and called = '40206' and skillnum = '40113' order by servicetime desc
+2014-05-12 15:57:00-->callid:00001116381399882013
+2014-05-12 15:57:00-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 15:57:00-->http://10.111.0.79:9080/popWindow.jsp?para=63011525%5E123%5E%E6%9D%8E%E4%BA%91%5E00001116381399882013%5E20140512155700%5E12
+2014-05-12 15:57:05-->allstate,ctcState:2,ctcEvent:7
+2014-05-12 15:57:05-->Ctc1TpAnswered refId:11649 oldRefId:0 EnableTTSGH:1 RequestIVRTTS:0 ZJRequestSign:0 thirdParty:(null) calledParty:40113 otherParty:40206 CallType:呼入 CalledNum:80008
+2014-05-12 15:57:05-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 15:57:05--> TpAnswered in StationJFSign:0 
+2014-05-12 15:57:05-->CncallCtc1TpAnswered事件：计算振铃时长，当前时间点:-685895471，                开始振铃时刻：-685895476,计算后振铃时长:5
+2014-05-12 15:57:05-->TpAnswered 正常呼入应答
+2014-05-12 15:57:05-->TPAnswer Transfer GH TO IVR:40409AppData:ivr^13890%AppData+flow:2100-
+2014-05-12 15:57:06--> TpAnswered out StationJFSign:1 RequestIVRTTS:1
+2014-05-12 15:57:06-->allstate,ctcState:2,ctcEvent:23
+2014-05-12 15:57:06-->allstate,ctcState:2,ctcEvent:3
+2014-05-12 15:57:06-->Ctc1OpAnswered refId:11649 oldRefId:0 EnableTTSGH:1 RequestIVRTTS:1 ZJRequestSign:0 HasTTSGH:0 thirdParty:63011525 calledParty:40113 otherParty:40335 CallType:呼入 CalledNum:80008
+2014-05-12 15:57:06-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 15:57:06-->新录音加入后，开始应答会触发一次OpAnswer
+2014-05-12 15:57:06-->allstate,ctcState:2,ctcEvent:14
+2014-05-12 15:57:06-->allstate,ctcState:16,ctcEvent:17
+2014-05-12 15:57:06-->allstate,ctcState:32,ctcEvent:1
+2014-05-12 15:57:06-->in offhook evtent  StationJFSign:1 HasTTSGH：0 ZJRequestSign:0         Talking:29371142 DialNumber:80008 CalledID:80008 CallRecived:1
+2014-05-12 15:57:06-->Offhook para refId:11650 otherParty(null) thirdParty:(null)         calledParty:(null) 
+2014-05-12 15:57:06-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 15:57:06-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 15:57:06-->CncallCtc1Offhook事件，开始振铃时刻:-685895476
+2014-05-12 15:57:06-->allstate,ctcState:32,ctcEvent:1
+2014-05-12 15:57:06-->in offhook evtent  StationJFSign:1 HasTTSGH：0 ZJRequestSign:0         Talking:29371142 DialNumber:80008 CalledID:80008 CallRecived:1
+2014-05-12 15:57:06-->Offhook para refId:11650 otherParty(null) thirdParty:(null)         calledParty:40409 
+2014-05-12 15:57:06-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 15:57:06-->ivr tts gh CncallCtc1Offhook  return
+2014-05-12 15:57:06-->allstate,ctcState:4,ctcEvent:2
+2014-05-12 15:57:06-->allstate,ctcState:2,ctcEvent:3
+2014-05-12 15:57:06-->Ctc1OpAnswered refId:11650 oldRefId:0 EnableTTSGH:1 RequestIVRTTS:0 ZJRequestSign:0 HasTTSGH:0 thirdParty:80008 calledParty:40409 otherParty:40226 CallType:呼入 CalledNum:80008
+2014-05-12 15:57:06-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 15:57:06--> OpAnswered in StationJFSign:1 
+2014-05-12 15:57:06--> OpAnswered out StationJFSign:1 RequestIVRTTS:0
+2014-05-12 15:57:06-->allstate,ctcState:2,ctcEvent:13
+2014-05-12 15:57:16-->allstate,ctcState:2,ctcEvent:5
+2014-05-12 15:57:16--> OpDisconnected in StationJFSign:1 JFSign:1 ZJRequestSign:0,otherParty:40226, thirdParty:(null), calledParty:(null) refId:11650 oldRefId:0
+2014-05-12 15:57:16-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 15:57:16-->ivr tts gh  hangup return
+2014-05-12 16:00:29-->ivr^1163813998%AppData+flow:2400-
+2014-05-12 16:00:29-->allstate,ctcState:16,ctcEvent:17
+2014-05-12 16:00:29-->allstate,ctcState:32,ctcEvent:1
+2014-05-12 16:00:29-->in offhook evtent  StationJFSign:1 HasTTSGH：0 ZJRequestSign:0         Talking:29371138 DialNumber:80008 CalledID:80008 CallRecived:3
+2014-05-12 16:00:29-->Offhook para refId:11689 otherParty(null) thirdParty:(null)         calledParty:(null) 
+2014-05-12 16:00:29-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 16:00:29-->是转接评价触发的offhook，不做处理。
+2014-05-12 16:00:29-->allstate,ctcState:32,ctcEvent:1
+2014-05-12 16:00:29-->in offhook evtent  StationJFSign:1 HasTTSGH：0 ZJRequestSign:0         Talking:29371138 DialNumber:80008 CalledID:80008 CallRecived:3
+2014-05-12 16:00:29-->Offhook para refId:11689 otherParty(null) thirdParty:(null)         calledParty:40408 
+2014-05-12 16:00:29-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 16:00:29-->是转接评价触发的offhook，不做处理。
+2014-05-12 16:00:29-->allstate,ctcState:4,ctcEvent:2
+2014-05-12 16:00:29-->allstate,ctcState:2,ctcEvent:3
+2014-05-12 16:00:29-->Ctc1OpAnswered refId:11689 oldRefId:0 EnableTTSGH:1 RequestIVRTTS:0 ZJRequestSign:0 HasTTSGH:0 thirdParty:80008 calledParty:40408 otherParty:40211 CallType:呼入 CalledNum:80008
+2014-05-12 16:00:29-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 16:00:29--> OpAnswered in StationJFSign:1 
+2014-05-12 16:00:29-->进入转接评价呼叫
+2014-05-12 16:00:31-->OpAnswered:isZJPJ
+2014-05-12 16:00:31-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 16:00:31-->通话结束时间：2014-05-12 16:00:31
+2014-05-12 16:00:31-->setjsk  Caller: 63011525 JFSign:1 StationJFSign:1
+2014-05-12 16:00:31-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 16:00:31-->座席记录：  Caller:63011525 CalledNum:80008 CallType:呼入 MSI_StationOwner:13890
+2014-05-12 16:00:33-->allstate,ctcState:16,ctcEvent:5
+2014-05-12 16:00:33--> OpDisconnected in StationJFSign:0 JFSign:0 ZJRequestSign:0,otherParty:40335, thirdParty:(null), calledParty:(null) refId:11650 oldRefId:0
+2014-05-12 16:00:33-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 16:00:33-->新录音加入后，开始应答会触发一次OpDisconnected
+2014-05-12 16:00:33-->allstate,ctcState:16,ctcEvent:5
+2014-05-12 16:00:33--> OpDisconnected in StationJFSign:0 JFSign:0 ZJRequestSign:0,otherParty:63011525, thirdParty:(null), calledParty:(null) refId:11650 oldRefId:0
+2014-05-12 16:00:33-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 16:00:33-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 16:00:33-->调用StationTimeCount时通话开始时间已经为0，不能写数据库
+2014-05-12 16:00:33--> OpDisconnected out StationJFSign: 0
+2014-05-12 16:00:33-->allstate,ctcState:128,ctcEvent:4
+2014-05-12 16:00:33--> TpDisconnected in StationJFSign:0 JFSign:0 ZJRequestSign:0 EnableTTSGH:1 refId:11650 oldRefId:0
+2014-05-12 16:00:33--> TpDisconnected otherParty:(null), thirdParty:(null), calledParty:(null)
+2014-05-12 16:00:33-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 16:00:33-->调用StationTimeCount时通话开始时间已经为0，不能写数据库
+2014-05-12 16:00:33--> TpDisconnected out StationJFSign:0  
+2014-05-12 16:00:33-->allstate,ctcState:128,ctcEvent:4
+2014-05-12 16:00:33--> TpDisconnected in StationJFSign:0 JFSign:0 ZJRequestSign:0 EnableTTSGH:1 refId:11689 oldRefId:0
+2014-05-12 16:00:33--> TpDisconnected otherParty:(null), thirdParty:(null), calledParty:(null)
+2014-05-12 16:00:33-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 16:00:33-->调用StationTimeCount时通话开始时间已经为0，不能写数据库
+2014-05-12 16:00:33--> TpDisconnected out StationJFSign:0  
+2014-05-12 16:00:43-->话后强制就绪！当前话后时长：11
+2014-05-12 16:09:26-->allstate,ctcState:256,ctcEvent:6
+2014-05-12 16:09:26-->CncallCtc1InboundCall refId:11834 oldRefId:0 secOldRefId:0 thirdParty:(null) calledParty:40113 otherParty:40204 
+2014-05-12 16:09:26-->Have Called In AppData:63011525 TTSGH:1 refID:11834
+2014-05-12 16:09:26-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 16:09:26-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 16:09:26-->通话开始时间：2014-05-12 16:09:26
+2014-05-12 16:09:26-->CncallCtc1InboundCall事件：开始振铃时刻:-685894730
+2014-05-12 16:09:27-->sql:select top 1 ucid from CallDetail where calling = '63011525' and called = '40204' and skillnum = '40113' order by servicetime desc
+2014-05-12 16:09:27-->callid:00001118241399882772
+2014-05-12 16:09:27-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 16:09:27-->http://10.111.0.79:9080/popWindow.jsp?para=63011525%5E123%5E%E6%9D%8E%E4%BA%91%5E00001118241399882772%5E20140512160927%5E12
+2014-05-12 16:09:35-->allstate,ctcState:2,ctcEvent:7
+2014-05-12 16:09:35-->Ctc1TpAnswered refId:11834 oldRefId:0 EnableTTSGH:1 RequestIVRTTS:0 ZJRequestSign:0 thirdParty:(null) calledParty:40113 otherParty:40204 CallType:呼入 CalledNum:80008
+2014-05-12 16:09:35-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 16:09:35--> TpAnswered in StationJFSign:0 
+2014-05-12 16:09:35-->CncallCtc1TpAnswered事件：计算振铃时长，当前时间点:-685894721，                开始振铃时刻：-685894730,计算后振铃时长:9
+2014-05-12 16:09:35-->TpAnswered 正常呼入应答
+2014-05-12 16:09:35-->TPAnswer Transfer GH TO IVR:40409AppData:ivr^13890%AppData+flow:2100-
+2014-05-12 16:09:36--> TpAnswered out StationJFSign:1 RequestIVRTTS:1
+2014-05-12 16:09:36-->allstate,ctcState:2,ctcEvent:23
+2014-05-12 16:09:36-->allstate,ctcState:2,ctcEvent:3
+2014-05-12 16:09:36-->Ctc1OpAnswered refId:11834 oldRefId:0 EnableTTSGH:1 RequestIVRTTS:1 ZJRequestSign:0 HasTTSGH:0 thirdParty:63011525 calledParty:40113 otherParty:40317 CallType:呼入 CalledNum:80008
+2014-05-12 16:09:36-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 16:09:36-->新录音加入后，开始应答会触发一次OpAnswer
+2014-05-12 16:09:36-->allstate,ctcState:2,ctcEvent:14
+2014-05-12 16:09:36-->allstate,ctcState:16,ctcEvent:17
+2014-05-12 16:09:36-->allstate,ctcState:32,ctcEvent:1
+2014-05-12 16:09:36-->in offhook evtent  StationJFSign:1 HasTTSGH：0 ZJRequestSign:0         Talking:29371142 DialNumber:80008 CalledID:80008 CallRecived:1
+2014-05-12 16:09:36-->Offhook para refId:11837 otherParty(null) thirdParty:(null)         calledParty:(null) 
+2014-05-12 16:09:36-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 16:09:36-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 16:09:36-->CncallCtc1Offhook事件，开始振铃时刻:-685894730
+2014-05-12 16:09:36-->allstate,ctcState:32,ctcEvent:1
+2014-05-12 16:09:36-->in offhook evtent  StationJFSign:1 HasTTSGH：0 ZJRequestSign:0         Talking:29371142 DialNumber:80008 CalledID:80008 CallRecived:1
+2014-05-12 16:09:36-->Offhook para refId:11837 otherParty(null) thirdParty:(null)         calledParty:40409 
+2014-05-12 16:09:36-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 16:09:36-->ivr tts gh CncallCtc1Offhook  return
+2014-05-12 16:09:36-->allstate,ctcState:4,ctcEvent:2
+2014-05-12 16:09:36-->allstate,ctcState:2,ctcEvent:13
+2014-05-12 16:09:36-->allstate,ctcState:2,ctcEvent:3
+2014-05-12 16:09:36-->Ctc1OpAnswered refId:11837 oldRefId:0 EnableTTSGH:1 RequestIVRTTS:0 ZJRequestSign:0 HasTTSGH:0 thirdParty:80008 calledParty:40409 otherParty:40231 CallType:呼入 CalledNum:80008
+2014-05-12 16:09:36-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 16:09:36--> OpAnswered in StationJFSign:1 
+2014-05-12 16:09:36--> OpAnswered out StationJFSign:1 RequestIVRTTS:0
+2014-05-12 16:09:46-->allstate,ctcState:2,ctcEvent:5
+2014-05-12 16:09:46--> OpDisconnected in StationJFSign:1 JFSign:1 ZJRequestSign:0,otherParty:40231, thirdParty:(null), calledParty:(null) refId:11837 oldRefId:0
+2014-05-12 16:09:46-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 16:09:46-->ivr tts gh  hangup return
+2014-05-12 16:12:53-->ivr^1182413998%AppData+flow:2400-
+2014-05-12 16:12:53-->allstate,ctcState:16,ctcEvent:17
+2014-05-12 16:12:53-->allstate,ctcState:32,ctcEvent:1
+2014-05-12 16:12:53-->in offhook evtent  StationJFSign:1 HasTTSGH：0 ZJRequestSign:0         Talking:29371138 DialNumber:80008 CalledID:80008 CallRecived:3
+2014-05-12 16:12:53-->Offhook para refId:11884 otherParty(null) thirdParty:(null)         calledParty:(null) 
+2014-05-12 16:12:53-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 16:12:53-->是转接评价触发的offhook，不做处理。
+2014-05-12 16:12:53-->allstate,ctcState:32,ctcEvent:1
+2014-05-12 16:12:53-->in offhook evtent  StationJFSign:1 HasTTSGH：0 ZJRequestSign:0         Talking:29371138 DialNumber:80008 CalledID:80008 CallRecived:3
+2014-05-12 16:12:53-->Offhook para refId:11884 otherParty(null) thirdParty:(null)         calledParty:40408 
+2014-05-12 16:12:53-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 16:12:53-->是转接评价触发的offhook，不做处理。
+2014-05-12 16:12:53-->allstate,ctcState:4,ctcEvent:2
+2014-05-12 16:12:53-->allstate,ctcState:2,ctcEvent:3
+2014-05-12 16:12:53-->Ctc1OpAnswered refId:11884 oldRefId:0 EnableTTSGH:1 RequestIVRTTS:0 ZJRequestSign:0 HasTTSGH:0 thirdParty:80008 calledParty:40408 otherParty:40229 CallType:呼入 CalledNum:80008
+2014-05-12 16:12:53-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 16:12:53--> OpAnswered in StationJFSign:1 
+2014-05-12 16:12:53-->进入转接评价呼叫
+2014-05-12 16:12:55-->OpAnswered:isZJPJ
+2014-05-12 16:12:55-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 16:12:55-->通话结束时间：2014-05-12 16:12:55
+2014-05-12 16:12:55-->setjsk  Caller: 63011525 JFSign:1 StationJFSign:1
+2014-05-12 16:12:55-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 16:12:55-->座席记录：  Caller:63011525 CalledNum:80008 CallType:呼入 MSI_StationOwner:13890
+2014-05-12 16:12:56-->allstate,ctcState:16,ctcEvent:5
+2014-05-12 16:12:56--> OpDisconnected in StationJFSign:0 JFSign:0 ZJRequestSign:0,otherParty:40317, thirdParty:(null), calledParty:(null) refId:11837 oldRefId:0
+2014-05-12 16:12:56-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 16:12:56-->新录音加入后，开始应答会触发一次OpDisconnected
+2014-05-12 16:12:56-->allstate,ctcState:128,ctcEvent:4
+2014-05-12 16:12:56--> TpDisconnected in StationJFSign:0 JFSign:0 ZJRequestSign:0 EnableTTSGH:1 refId:11884 oldRefId:11837
+2014-05-12 16:12:56--> TpDisconnected otherParty:40229, thirdParty:(null), calledParty:(null)
+2014-05-12 16:12:56-->IVR与坐席中断，可能是转评价后评价的IVR与坐席结束通话，不处理
+2014-05-12 16:12:56-->allstate,ctcState:128,ctcEvent:4
+2014-05-12 16:12:56--> TpDisconnected in StationJFSign:0 JFSign:0 ZJRequestSign:0 EnableTTSGH:1 refId:11885 oldRefId:0
+2014-05-12 16:12:56--> TpDisconnected otherParty:(null), thirdParty:(null), calledParty:(null)
+2014-05-12 16:12:56-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 16:12:56-->调用StationTimeCount时通话开始时间已经为0，不能写数据库
+2014-05-12 16:12:56--> TpDisconnected out StationJFSign:0  
+2014-05-12 16:13:06-->话后强制就绪！当前话后时长：11
+2014-05-12 16:26:41-->allstate,ctcState:256,ctcEvent:6
+2014-05-12 16:26:41-->CncallCtc1InboundCall refId:12025 oldRefId:0 secOldRefId:0 thirdParty:(null) calledParty:40113 otherParty:40233 
+2014-05-12 16:26:41-->Have Called In AppData:013577490379 TTSGH:1 refID:12025
+2014-05-12 16:26:41-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 16:26:41-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 16:26:41-->通话开始时间：2014-05-12 16:26:41
+2014-05-12 16:26:41-->CncallCtc1InboundCall事件：开始振铃时刻:-685893695
+2014-05-12 16:26:42-->sql:select top 1 ucid from CallDetail where calling = '013577490379' and called = '40233' and skillnum = '40113' order by servicetime desc
+2014-05-12 16:26:42-->callid:00001120231399883801
+2014-05-12 16:26:42-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 16:26:42-->http://10.111.0.79:9080/popWindow.jsp?para=013577490379%5E123%5E%E6%9D%8E%E4%BA%91%5E00001120231399883801%5E20140512162642%5E12
+2014-05-12 16:26:48-->allstate,ctcState:2,ctcEvent:7
+2014-05-12 16:26:48-->Ctc1TpAnswered refId:12025 oldRefId:0 EnableTTSGH:1 RequestIVRTTS:0 ZJRequestSign:0 thirdParty:(null) calledParty:40113 otherParty:40233 CallType:呼入 CalledNum:80008
+2014-05-12 16:26:48-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 16:26:48--> TpAnswered in StationJFSign:0 
+2014-05-12 16:26:48-->CncallCtc1TpAnswered事件：计算振铃时长，当前时间点:-685893688，                开始振铃时刻：-685893695,计算后振铃时长:7
+2014-05-12 16:26:48-->TpAnswered 正常呼入应答
+2014-05-12 16:26:48-->TPAnswer Transfer GH TO IVR:40409AppData:ivr^13890%AppData+flow:2100-
+2014-05-12 16:26:48--> TpAnswered out StationJFSign:1 RequestIVRTTS:1
+2014-05-12 16:26:48-->allstate,ctcState:2,ctcEvent:23
+2014-05-12 16:26:48-->allstate,ctcState:2,ctcEvent:3
+2014-05-12 16:26:48-->Ctc1OpAnswered refId:12025 oldRefId:0 EnableTTSGH:1 RequestIVRTTS:1 ZJRequestSign:0 HasTTSGH:0 thirdParty:013577490379 calledParty:40113 otherParty:40316 CallType:呼入 CalledNum:80008
+2014-05-12 16:26:48-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 16:26:48-->新录音加入后，开始应答会触发一次OpAnswer
+2014-05-12 16:26:48-->allstate,ctcState:2,ctcEvent:14
+2014-05-12 16:26:48-->allstate,ctcState:16,ctcEvent:17
+2014-05-12 16:26:48-->allstate,ctcState:32,ctcEvent:1
+2014-05-12 16:26:48-->in offhook evtent  StationJFSign:1 HasTTSGH：0 ZJRequestSign:0         Talking:29371142 DialNumber:80008 CalledID:80008 CallRecived:1
+2014-05-12 16:26:48-->Offhook para refId:12028 otherParty(null) thirdParty:(null)         calledParty:(null) 
+2014-05-12 16:26:48-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 16:26:48-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 16:26:48-->CncallCtc1Offhook事件，开始振铃时刻:-685893695
+2014-05-12 16:26:48-->allstate,ctcState:32,ctcEvent:1
+2014-05-12 16:26:48-->in offhook evtent  StationJFSign:1 HasTTSGH：0 ZJRequestSign:0         Talking:29371142 DialNumber:80008 CalledID:80008 CallRecived:1
+2014-05-12 16:26:48-->Offhook para refId:12028 otherParty(null) thirdParty:(null)         calledParty:40409 
+2014-05-12 16:26:48-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 16:26:48-->ivr tts gh CncallCtc1Offhook  return
+2014-05-12 16:26:48-->allstate,ctcState:4,ctcEvent:2
+2014-05-12 16:26:48-->allstate,ctcState:2,ctcEvent:13
+2014-05-12 16:26:48-->allstate,ctcState:2,ctcEvent:3
+2014-05-12 16:26:48-->Ctc1OpAnswered refId:12028 oldRefId:0 EnableTTSGH:1 RequestIVRTTS:0 ZJRequestSign:0 HasTTSGH:0 thirdParty:80008 calledParty:40409 otherParty:40219 CallType:呼入 CalledNum:80008
+2014-05-12 16:26:48-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 16:26:48--> OpAnswered in StationJFSign:1 
+2014-05-12 16:26:48--> OpAnswered out StationJFSign:1 RequestIVRTTS:0
+2014-05-12 16:26:58-->allstate,ctcState:2,ctcEvent:5
+2014-05-12 16:26:58--> OpDisconnected in StationJFSign:1 JFSign:1 ZJRequestSign:0,otherParty:40219, thirdParty:(null), calledParty:(null) refId:12028 oldRefId:0
+2014-05-12 16:26:58-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 16:26:58-->ivr tts gh  hangup return
+2014-05-12 16:37:40-->ivr^1202313998%AppData+flow:2400-
+2014-05-12 16:37:40-->allstate,ctcState:16,ctcEvent:17
+2014-05-12 16:37:40-->allstate,ctcState:32,ctcEvent:1
+2014-05-12 16:37:40-->in offhook evtent  StationJFSign:1 HasTTSGH：0 ZJRequestSign:0         Talking:29371138 DialNumber:80008 CalledID:80008 CallRecived:3
+2014-05-12 16:37:40-->Offhook para refId:12172 otherParty(null) thirdParty:(null)         calledParty:(null) 
+2014-05-12 16:37:40-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 16:37:40-->是转接评价触发的offhook，不做处理。
+2014-05-12 16:37:40-->allstate,ctcState:32,ctcEvent:1
+2014-05-12 16:37:40-->in offhook evtent  StationJFSign:1 HasTTSGH：0 ZJRequestSign:0         Talking:29371138 DialNumber:80008 CalledID:80008 CallRecived:3
+2014-05-12 16:37:40-->Offhook para refId:12172 otherParty(null) thirdParty:(null)         calledParty:40408 
+2014-05-12 16:37:40-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 16:37:40-->是转接评价触发的offhook，不做处理。
+2014-05-12 16:37:40-->allstate,ctcState:4,ctcEvent:2
+2014-05-12 16:37:40-->allstate,ctcState:2,ctcEvent:3
+2014-05-12 16:37:40-->Ctc1OpAnswered refId:12172 oldRefId:0 EnableTTSGH:1 RequestIVRTTS:0 ZJRequestSign:0 HasTTSGH:0 thirdParty:80008 calledParty:40408 otherParty:40220 CallType:呼入 CalledNum:80008
+2014-05-12 16:37:40-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 16:37:40--> OpAnswered in StationJFSign:1 
+2014-05-12 16:37:40-->进入转接评价呼叫
+2014-05-12 16:37:42-->OpAnswered:isZJPJ
+2014-05-12 16:37:42-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 16:37:42-->通话结束时间：2014-05-12 16:37:42
+2014-05-12 16:37:42-->setjsk  Caller: 013577490379 JFSign:1 StationJFSign:1
+2014-05-12 16:37:42-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 16:37:42-->座席记录：  Caller:013577490379 CalledNum:80008 CallType:呼入 MSI_StationOwner:13890
+2014-05-12 16:37:44-->allstate,ctcState:16,ctcEvent:5
+2014-05-12 16:37:44--> OpDisconnected in StationJFSign:0 JFSign:0 ZJRequestSign:0,otherParty:40316, thirdParty:(null), calledParty:(null) refId:12028 oldRefId:0
+2014-05-12 16:37:44-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 16:37:44-->新录音加入后，开始应答会触发一次OpDisconnected
+2014-05-12 16:37:44-->allstate,ctcState:16,ctcEvent:5
+2014-05-12 16:37:44--> OpDisconnected in StationJFSign:0 JFSign:0 ZJRequestSign:0,otherParty:013577490379, thirdParty:(null), calledParty:(null) refId:12028 oldRefId:0
+2014-05-12 16:37:44-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 16:37:44-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 16:37:44-->调用StationTimeCount时通话开始时间已经为0，不能写数据库
+2014-05-12 16:37:44--> OpDisconnected out StationJFSign: 0
+2014-05-12 16:37:44-->allstate,ctcState:128,ctcEvent:4
+2014-05-12 16:37:44--> TpDisconnected in StationJFSign:0 JFSign:0 ZJRequestSign:0 EnableTTSGH:1 refId:12028 oldRefId:0
+2014-05-12 16:37:44--> TpDisconnected otherParty:(null), thirdParty:(null), calledParty:(null)
+2014-05-12 16:37:44-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 16:37:44-->调用StationTimeCount时通话开始时间已经为0，不能写数据库
+2014-05-12 16:37:44--> TpDisconnected out StationJFSign:0  
+2014-05-12 16:37:44-->allstate,ctcState:128,ctcEvent:4
+2014-05-12 16:37:44--> TpDisconnected in StationJFSign:0 JFSign:0 ZJRequestSign:0 EnableTTSGH:1 refId:12172 oldRefId:0
+2014-05-12 16:37:44--> TpDisconnected otherParty:(null), thirdParty:(null), calledParty:(null)
+2014-05-12 16:37:44-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 16:37:44-->调用StationTimeCount时通话开始时间已经为0，不能写数据库
+2014-05-12 16:37:44--> TpDisconnected out StationJFSign:0  
+2014-05-12 16:37:53-->话后强制就绪！当前话后时长：11
+2014-05-12 17:00:06-->登出 !
+2014-05-12 17:17:45-->话后强制就绪！当前话后时长：11
+2014-05-12 17:18:03-->allstate,ctcState:256,ctcEvent:6
+2014-05-12 17:18:03-->CncallCtc1InboundCall refId:12715 oldRefId:0 secOldRefId:0 thirdParty:(null) calledParty:40113 otherParty:40220 
+2014-05-12 17:18:03-->Have Called In AppData:6629647 TTSGH:1 refID:12715
+2014-05-12 17:18:03-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 17:18:03-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 17:18:03-->通话开始时间：2014-05-12 17:18:03
+2014-05-12 17:18:03-->CncallCtc1InboundCall事件：开始振铃时刻:-685890613
+2014-05-12 17:18:04-->sql:select top 1 ucid from CallDetail where calling = '6629647' and called = '40220' and skillnum = '40113' order by servicetime desc
+2014-05-12 17:18:04-->callid:00001127061399886877
+2014-05-12 17:18:04-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 17:18:04-->http://10.111.0.79:9080/popWindow.jsp?para=6629647%5E123%5E%E6%9D%8E%E4%BA%91%5E00001127061399886877%5E20140512171804%5E12
+2014-05-12 17:18:12-->allstate,ctcState:2,ctcEvent:7
+2014-05-12 17:18:12-->Ctc1TpAnswered refId:12715 oldRefId:0 EnableTTSGH:1 RequestIVRTTS:0 ZJRequestSign:0 thirdParty:(null) calledParty:40113 otherParty:40220 CallType:呼入 CalledNum:80008
+2014-05-12 17:18:12-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 17:18:12--> TpAnswered in StationJFSign:0 
+2014-05-12 17:18:12-->CncallCtc1TpAnswered事件：计算振铃时长，当前时间点:-685890604，                开始振铃时刻：-685890613,计算后振铃时长:9
+2014-05-12 17:18:12-->TpAnswered 正常呼入应答
+2014-05-12 17:18:12-->TPAnswer Transfer GH TO IVR:40409AppData:ivr^13890%AppData+flow:2100-
+2014-05-12 17:18:12--> TpAnswered out StationJFSign:1 RequestIVRTTS:1
+2014-05-12 17:18:12-->allstate,ctcState:2,ctcEvent:23
+2014-05-12 17:18:12-->allstate,ctcState:2,ctcEvent:3
+2014-05-12 17:18:12-->Ctc1OpAnswered refId:12715 oldRefId:0 EnableTTSGH:1 RequestIVRTTS:1 ZJRequestSign:0 HasTTSGH:0 thirdParty:6629647 calledParty:40113 otherParty:40311 CallType:呼入 CalledNum:80008
+2014-05-12 17:18:12-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 17:18:12-->新录音加入后，开始应答会触发一次OpAnswer
+2014-05-12 17:18:12-->allstate,ctcState:2,ctcEvent:14
+2014-05-12 17:18:12-->allstate,ctcState:16,ctcEvent:17
+2014-05-12 17:18:12-->allstate,ctcState:32,ctcEvent:1
+2014-05-12 17:18:12-->in offhook evtent  StationJFSign:1 HasTTSGH：0 ZJRequestSign:0         Talking:29371142 DialNumber:80008 CalledID:80008 CallRecived:1
+2014-05-12 17:18:12-->Offhook para refId:12716 otherParty(null) thirdParty:(null)         calledParty:(null) 
+2014-05-12 17:18:12-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 17:18:12-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 17:18:12-->CncallCtc1Offhook事件，开始振铃时刻:-685890613
+2014-05-12 17:18:12-->allstate,ctcState:32,ctcEvent:1
+2014-05-12 17:18:12-->in offhook evtent  StationJFSign:1 HasTTSGH：0 ZJRequestSign:0         Talking:29371142 DialNumber:80008 CalledID:80008 CallRecived:1
+2014-05-12 17:18:12-->Offhook para refId:12716 otherParty(null) thirdParty:(null)         calledParty:40409 
+2014-05-12 17:18:12-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 17:18:12-->ivr tts gh CncallCtc1Offhook  return
+2014-05-12 17:18:12-->allstate,ctcState:4,ctcEvent:2
+2014-05-12 17:18:12-->allstate,ctcState:2,ctcEvent:13
+2014-05-12 17:18:12-->allstate,ctcState:2,ctcEvent:3
+2014-05-12 17:18:12-->Ctc1OpAnswered refId:12716 oldRefId:0 EnableTTSGH:1 RequestIVRTTS:0 ZJRequestSign:0 HasTTSGH:0 thirdParty:80008 calledParty:40409 otherParty:40222 CallType:呼入 CalledNum:80008
+2014-05-12 17:18:12-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 17:18:12--> OpAnswered in StationJFSign:1 
+2014-05-12 17:18:12--> OpAnswered out StationJFSign:1 RequestIVRTTS:0
+2014-05-12 17:18:22-->allstate,ctcState:2,ctcEvent:5
+2014-05-12 17:18:22--> OpDisconnected in StationJFSign:1 JFSign:1 ZJRequestSign:0,otherParty:40222, thirdParty:(null), calledParty:(null) refId:12716 oldRefId:0
+2014-05-12 17:18:22-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 17:18:22-->ivr tts gh  hangup return
+2014-05-12 17:20:02-->ivr^1270613998%AppData+flow:2400-
+2014-05-12 17:20:02-->allstate,ctcState:16,ctcEvent:17
+2014-05-12 17:20:02-->allstate,ctcState:32,ctcEvent:1
+2014-05-12 17:20:02-->in offhook evtent  StationJFSign:1 HasTTSGH：0 ZJRequestSign:0         Talking:29371138 DialNumber:80008 CalledID:80008 CallRecived:3
+2014-05-12 17:20:02-->Offhook para refId:12749 otherParty(null) thirdParty:(null)         calledParty:(null) 
+2014-05-12 17:20:02-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 17:20:02-->是转接评价触发的offhook，不做处理。
+2014-05-12 17:20:02-->allstate,ctcState:32,ctcEvent:1
+2014-05-12 17:20:02-->in offhook evtent  StationJFSign:1 HasTTSGH：0 ZJRequestSign:0         Talking:29371138 DialNumber:80008 CalledID:80008 CallRecived:3
+2014-05-12 17:20:02-->Offhook para refId:12749 otherParty(null) thirdParty:(null)         calledParty:40408 
+2014-05-12 17:20:02-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 17:20:02-->是转接评价触发的offhook，不做处理。
+2014-05-12 17:20:02-->allstate,ctcState:4,ctcEvent:2
+2014-05-12 17:20:02-->allstate,ctcState:2,ctcEvent:3
+2014-05-12 17:20:02-->Ctc1OpAnswered refId:12749 oldRefId:0 EnableTTSGH:1 RequestIVRTTS:0 ZJRequestSign:0 HasTTSGH:0 thirdParty:80008 calledParty:40408 otherParty:40216 CallType:呼入 CalledNum:80008
+2014-05-12 17:20:02-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 17:20:02--> OpAnswered in StationJFSign:1 
+2014-05-12 17:20:02-->进入转接评价呼叫
+2014-05-12 17:20:04-->OpAnswered:isZJPJ
+2014-05-12 17:20:04-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 17:20:04-->通话结束时间：2014-05-12 17:20:04
+2014-05-12 17:20:04-->setjsk  Caller: 6629647 JFSign:1 StationJFSign:1
+2014-05-12 17:20:04-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 17:20:04-->座席记录：  Caller:6629647 CalledNum:80008 CallType:呼入 MSI_StationOwner:13890
+2014-05-12 17:20:05-->allstate,ctcState:16,ctcEvent:5
+2014-05-12 17:20:05--> OpDisconnected in StationJFSign:0 JFSign:0 ZJRequestSign:0,otherParty:40311, thirdParty:(null), calledParty:(null) refId:12716 oldRefId:0
+2014-05-12 17:20:05-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 17:20:05-->新录音加入后，开始应答会触发一次OpDisconnected
+2014-05-12 17:20:05-->allstate,ctcState:16,ctcEvent:5
+2014-05-12 17:20:05--> OpDisconnected in StationJFSign:0 JFSign:0 ZJRequestSign:0,otherParty:6629647, thirdParty:(null), calledParty:(null) refId:12716 oldRefId:0
+2014-05-12 17:20:05-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 17:20:05-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 17:20:05-->调用StationTimeCount时通话开始时间已经为0，不能写数据库
+2014-05-12 17:20:05--> OpDisconnected out StationJFSign: 0
+2014-05-12 17:20:05-->allstate,ctcState:128,ctcEvent:4
+2014-05-12 17:20:05--> TpDisconnected in StationJFSign:0 JFSign:0 ZJRequestSign:0 EnableTTSGH:1 refId:12716 oldRefId:0
+2014-05-12 17:20:05--> TpDisconnected otherParty:(null), thirdParty:(null), calledParty:(null)
+2014-05-12 17:20:05-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 17:20:05-->调用StationTimeCount时通话开始时间已经为0，不能写数据库
+2014-05-12 17:20:05--> TpDisconnected out StationJFSign:0  
+2014-05-12 17:20:05-->allstate,ctcState:128,ctcEvent:4
+2014-05-12 17:20:05--> TpDisconnected in StationJFSign:0 JFSign:0 ZJRequestSign:0 EnableTTSGH:1 refId:12749 oldRefId:0
+2014-05-12 17:20:05--> TpDisconnected otherParty:(null), thirdParty:(null), calledParty:(null)
+2014-05-12 17:20:05-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 17:20:05-->调用StationTimeCount时通话开始时间已经为0，不能写数据库
+2014-05-12 17:20:05--> TpDisconnected out StationJFSign:0  
+2014-05-12 17:20:15-->话后强制就绪！当前话后时长：11
+2014-05-12 17:44:43-->allstate,ctcState:256,ctcEvent:6
+2014-05-12 17:44:43-->CncallCtc1InboundCall refId:12963 oldRefId:0 secOldRefId:0 thirdParty:(null) calledParty:13890 otherParty:80018 
+2014-05-12 17:44:43-->Have Called In AppData:08735644556 TTSGH:1 refID:12963
+2014-05-12 17:44:43-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 17:44:43-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 17:44:43-->通话开始时间：2014-05-12 17:44:43
+2014-05-12 17:44:43-->CncallCtc1InboundCall事件：开始振铃时刻:-685889013
+2014-05-12 17:44:44-->sql:select top 1 ucid from CallDetail where calling = '08735644556' and agentnum = '80018' order by servicetime desc
+2014-05-12 17:44:44-->callid:00001129551399888435
+2014-05-12 17:44:44-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 17:44:44-->http://10.111.0.79:9080/popWindow.jsp?para=08735644556%5E123%5E%E6%9D%8E%E4%BA%91%5E00001129551399888435%5E20140512174444%5E12
+2014-05-12 17:44:49-->allstate,ctcState:2,ctcEvent:7
+2014-05-12 17:44:49-->Ctc1TpAnswered refId:12963 oldRefId:0 EnableTTSGH:1 RequestIVRTTS:0 ZJRequestSign:0 thirdParty:(null) calledParty:13890 otherParty:80018 CallType:转入 CalledNum:80008
+2014-05-12 17:44:49-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 17:44:49--> TpAnswered in StationJFSign:0 
+2014-05-12 17:44:49-->CncallCtc1TpAnswered事件：计算振铃时长，当前时间点:-685889007，                开始振铃时刻：-685889013,计算后振铃时长:6
+2014-05-12 17:44:49-->TpAnswered 正常呼入应答
+2014-05-12 17:44:49-->TPAnswer Transfer GH TO IVR:40409AppData:ivr^13890%AppData+flow:2100-
+2014-05-12 17:44:50--> TpAnswered out StationJFSign:1 RequestIVRTTS:1
+2014-05-12 17:44:50-->allstate,ctcState:2,ctcEvent:23
+2014-05-12 17:44:50-->allstate,ctcState:2,ctcEvent:3
+2014-05-12 17:44:50-->Ctc1OpAnswered refId:12963 oldRefId:0 EnableTTSGH:1 RequestIVRTTS:1 ZJRequestSign:0 HasTTSGH:0 thirdParty:08735644556 calledParty:13890 otherParty:40325 CallType:转入 CalledNum:80008
+2014-05-12 17:44:50-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 17:44:50-->新录音加入后，开始应答会触发一次OpAnswer
+2014-05-12 17:44:50-->allstate,ctcState:2,ctcEvent:14
+2014-05-12 17:44:50-->allstate,ctcState:16,ctcEvent:17
+2014-05-12 17:44:50-->allstate,ctcState:32,ctcEvent:1
+2014-05-12 17:44:50-->in offhook evtent  StationJFSign:1 HasTTSGH：0 ZJRequestSign:0         Talking:29371142 DialNumber:80008 CalledID:80008 CallRecived:1
+2014-05-12 17:44:50-->Offhook para refId:12965 otherParty(null) thirdParty:(null)         calledParty:(null) 
+2014-05-12 17:44:50-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 17:44:50-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 17:44:50-->CncallCtc1Offhook事件，开始振铃时刻:-685889013
+2014-05-12 17:44:50-->allstate,ctcState:32,ctcEvent:1
+2014-05-12 17:44:50-->in offhook evtent  StationJFSign:1 HasTTSGH：0 ZJRequestSign:0         Talking:29371142 DialNumber:80008 CalledID:80008 CallRecived:1
+2014-05-12 17:44:50-->Offhook para refId:12965 otherParty(null) thirdParty:(null)         calledParty:40409 
+2014-05-12 17:44:50-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 17:44:50-->ivr tts gh CncallCtc1Offhook  return
+2014-05-12 17:44:50-->allstate,ctcState:4,ctcEvent:2
+2014-05-12 17:44:50-->allstate,ctcState:2,ctcEvent:13
+2014-05-12 17:44:50-->allstate,ctcState:2,ctcEvent:3
+2014-05-12 17:44:50-->Ctc1OpAnswered refId:12965 oldRefId:0 EnableTTSGH:1 RequestIVRTTS:0 ZJRequestSign:0 HasTTSGH:0 thirdParty:80008 calledParty:40409 otherParty:40227 CallType:转入 CalledNum:80008
+2014-05-12 17:44:50-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 17:44:50--> OpAnswered in StationJFSign:1 
+2014-05-12 17:44:50--> OpAnswered out StationJFSign:1 RequestIVRTTS:0
+2014-05-12 17:45:00-->allstate,ctcState:2,ctcEvent:5
+2014-05-12 17:45:00--> OpDisconnected in StationJFSign:1 JFSign:1 ZJRequestSign:0,otherParty:40227, thirdParty:(null), calledParty:(null) refId:12965 oldRefId:0
+2014-05-12 17:45:00-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 17:45:00-->ivr tts gh  hangup return
+2014-05-12 17:51:17-->ivr^1295513998%AppData+flow:2400-
+2014-05-12 17:51:18-->allstate,ctcState:16,ctcEvent:17
+2014-05-12 17:51:18-->allstate,ctcState:32,ctcEvent:1
+2014-05-12 17:51:18-->in offhook evtent  StationJFSign:1 HasTTSGH：0 ZJRequestSign:0         Talking:29371138 DialNumber:80008 CalledID:80008 CallRecived:3
+2014-05-12 17:51:18-->Offhook para refId:13002 otherParty(null) thirdParty:(null)         calledParty:(null) 
+2014-05-12 17:51:18-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 17:51:18-->是转接评价触发的offhook，不做处理。
+2014-05-12 17:51:18-->allstate,ctcState:32,ctcEvent:1
+2014-05-12 17:51:18-->in offhook evtent  StationJFSign:1 HasTTSGH：0 ZJRequestSign:0         Talking:29371138 DialNumber:80008 CalledID:80008 CallRecived:3
+2014-05-12 17:51:18-->Offhook para refId:13002 otherParty(null) thirdParty:(null)         calledParty:40408 
+2014-05-12 17:51:18-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 17:51:18-->是转接评价触发的offhook，不做处理。
+2014-05-12 17:51:18-->allstate,ctcState:4,ctcEvent:2
+2014-05-12 17:51:18-->allstate,ctcState:2,ctcEvent:3
+2014-05-12 17:51:18-->Ctc1OpAnswered refId:13002 oldRefId:0 EnableTTSGH:1 RequestIVRTTS:0 ZJRequestSign:0 HasTTSGH:0 thirdParty:80008 calledParty:40408 otherParty:40247 CallType:转入 CalledNum:80008
+2014-05-12 17:51:18-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 17:51:18--> OpAnswered in StationJFSign:1 
+2014-05-12 17:51:18-->进入转接评价呼叫
+2014-05-12 17:51:20-->OpAnswered:isZJPJ
+2014-05-12 17:51:20-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 17:51:20-->通话结束时间：2014-05-12 17:51:20
+2014-05-12 17:51:20-->setjsk  Caller: 08735644556 JFSign:1 StationJFSign:1
+2014-05-12 17:51:20-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 17:51:20-->座席记录：  Caller:08735644556 CalledNum:80008 CallType:转入 MSI_StationOwner:13890
+2014-05-12 17:51:21-->allstate,ctcState:16,ctcEvent:5
+2014-05-12 17:51:21--> OpDisconnected in StationJFSign:0 JFSign:0 ZJRequestSign:0,otherParty:40325, thirdParty:(null), calledParty:(null) refId:12965 oldRefId:0
+2014-05-12 17:51:21-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 17:51:21-->新录音加入后，开始应答会触发一次OpDisconnected
+2014-05-12 17:51:21-->allstate,ctcState:128,ctcEvent:4
+2014-05-12 17:51:21--> TpDisconnected in StationJFSign:0 JFSign:0 ZJRequestSign:0 EnableTTSGH:1 refId:13002 oldRefId:12965
+2014-05-12 17:51:21--> TpDisconnected otherParty:40247, thirdParty:(null), calledParty:(null)
+2014-05-12 17:51:21-->IVR与坐席中断，可能是转评价后评价的IVR与坐席结束通话，不处理
+2014-05-12 17:51:21-->allstate,ctcState:128,ctcEvent:4
+2014-05-12 17:51:21--> TpDisconnected in StationJFSign:0 JFSign:0 ZJRequestSign:0 EnableTTSGH:1 refId:13003 oldRefId:0
+2014-05-12 17:51:21--> TpDisconnected otherParty:(null), thirdParty:(null), calledParty:(null)
+2014-05-12 17:51:21-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 17:51:21-->调用StationTimeCount时通话开始时间已经为0，不能写数据库
+2014-05-12 17:51:21--> TpDisconnected out StationJFSign:0  
+2014-05-12 17:51:31-->话后强制就绪！当前话后时长：11
+2014-05-12 17:52:55-->allstate,ctcState:32,ctcEvent:1
+2014-05-12 17:52:55-->in offhook evtent  StationJFSign:0 HasTTSGH：0 ZJRequestSign:0         Talking:29371142 DialNumber:80008 CalledID:08736220287 CallRecived:2
+2014-05-12 17:52:55-->Offhook para refId:13011 otherParty(null) thirdParty:(null)         calledParty:(null) 
+2014-05-12 17:52:55-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 17:52:55-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 17:52:55-->通话开始时间：2014-05-12 17:52:55
+2014-05-12 17:52:55-->CncallCtc1Offhook事件，开始振铃时刻:-685888521
+2014-05-12 17:52:55-->allstate,ctcState:32,ctcEvent:1
+2014-05-12 17:52:55-->in offhook evtent  StationJFSign:0 HasTTSGH：0 ZJRequestSign:0         Talking:29371142 DialNumber:80008 CalledID:08736220287 CallRecived:2
+2014-05-12 17:52:55-->Offhook para refId:13011 otherParty(null) thirdParty:(null)         calledParty:08736220287 
+2014-05-12 17:52:55-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 17:52:55-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 17:52:55-->CncallCtc1Offhook事件，开始振铃时刻:-685888521
+2014-05-12 17:52:57-->allstate,ctcState:4,ctcEvent:2
+2014-05-12 17:53:06-->allstate,ctcState:2,ctcEvent:3
+2014-05-12 17:53:06-->Ctc1OpAnswered refId:13011 oldRefId:0 EnableTTSGH:1 RequestIVRTTS:0 ZJRequestSign:0 HasTTSGH:0 thirdParty:80008 calledParty:008736220287 otherParty:(null) CallType:呼出 CalledNum:08736220287
+2014-05-12 17:53:06-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 17:53:06--> OpAnswered in StationJFSign:0 
+2014-05-12 17:53:06-->OpAnswered 正常呼出应答
+2014-05-12 17:53:06-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 17:53:06-->CncallCtc1OpAnswered事件：计算振铃时长，当前时间点:-685888510，            开始振铃时刻：-685888521,计算后振铃时长:11
+2014-05-12 17:53:06--> OpAnswered out StationJFSign:1 RequestIVRTTS:0
+2014-05-12 17:53:07-->allstate,ctcState:2,ctcEvent:3
+2014-05-12 17:53:07-->Ctc1OpAnswered refId:13011 oldRefId:0 EnableTTSGH:1 RequestIVRTTS:0 ZJRequestSign:0 HasTTSGH:0 thirdParty:80008 calledParty:008736220287 otherParty:40337 CallType:呼出 CalledNum:08736220287
+2014-05-12 17:53:07-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 17:53:07-->新录音加入后，开始应答会触发一次OpAnswer
+2014-05-12 17:53:07-->allstate,ctcState:2,ctcEvent:14
+2014-05-12 17:53:26-->allstate,ctcState:128,ctcEvent:4
+2014-05-12 17:53:26--> TpDisconnected in StationJFSign:1 JFSign:1 ZJRequestSign:0 EnableTTSGH:1 refId:13011 oldRefId:0
+2014-05-12 17:53:26--> TpDisconnected otherParty:(null), thirdParty:(null), calledParty:(null)
+2014-05-12 17:53:26-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 17:53:26-->通话结束时间：2014-05-12 17:53:26
+2014-05-12 17:53:26-->setjsk  Caller: 80008 JFSign:1 StationJFSign:1
+2014-05-12 17:53:26-->查询sql失败：select CONVERT(varchar(100), GETDATE(), 20) as curtime
+2014-05-12 17:53:26-->座席记录：  Caller:80008 CalledNum:08736220287 CallType:呼出 MSI_StationOwner:13890
+2014-05-12 17:53:26-->AgentModeChange:挂机后，非就绪
+2014-05-12 17:53:27--> TpDisconnected out StationJFSign:0  
+2014-05-12 17:53:36-->话后强制就绪！当前话后时长：11
+2014-05-12 17:59:43-->登出 !
