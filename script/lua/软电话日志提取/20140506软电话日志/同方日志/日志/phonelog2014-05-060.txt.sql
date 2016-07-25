@@ -1,9 +1,0 @@
-Insert into ZXPJ(jgbm,gh,zxxm ,pj, fjh, khdhhm, callid, tjsj)                 values('12',13888,'李月彬',0,'80014','013518792980','00001108561399344308',getdate());
-Insert into agentcdr(servicedate,servicetime,servicetimelen,ringstimelen ,agentname,stopdate,                  stoptime,agentnumber,caller,called,calltype,orgnum,callid)                  values('2014-05-06','10:40:31','167','6','李月彬','2014-05-06','10:43:18','13888','013518792980','80014','转入','12','00001108561399344308');
-Insert into agentcdr(servicedate,servicetime,servicetimelen,ringstimelen ,agentname,stopdate,                  stoptime,agentnumber,caller,called,calltype,orgnum,callid)                  values('2014-05-06','11:00:39','0','10','李月彬','2014-05-06','11:00:49','13888','08725521422','80014','呼入','12','11226');
-Insert into ZXPJ(jgbm,gh,zxxm ,pj, fjh, khdhhm, callid, tjsj)                 values('12',13888,'李月彬',0,'80014','6218165','11382',getdate());
-Insert into agentcdr(servicedate,servicetime,servicetimelen,ringstimelen ,agentname,stopdate,                  stoptime,agentnumber,caller,called,calltype,orgnum,callid)                  values('2014-05-06','11:10:54','117','7','李月彬','2014-05-06','11:12:51','13888','6218165','80014','呼入','12','11382');
-Insert into agentcdr(servicedate,servicetime,servicetimelen,ringstimelen ,agentname,stopdate,              stoptime,agentnumber,caller,called,calltype,orgnum,callid)              values('2014-05-06','11:14:43','273','10','李月彬','2014-05-06','11:19:16','13888','80014','67809761','呼出','12','11438');
-Insert into agentcdr(servicedate,servicetime,servicetimelen,ringstimelen ,agentname,stopdate,              stoptime,agentnumber,caller,called,calltype,orgnum,callid)              values('2014-05-06','11:37:11','33','8','李月彬','2014-05-06','11:37:44','13888','80014','67809761','呼出','12','11778');
---totalagentcdr:5;
---totalZXPJ:2;

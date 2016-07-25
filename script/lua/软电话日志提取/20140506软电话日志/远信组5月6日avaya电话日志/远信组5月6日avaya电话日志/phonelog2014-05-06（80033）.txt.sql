@@ -1,6 +1,0 @@
-Insert into agentcdr(servicedate,servicetime,servicetimelen,ringstimelen ,agentname,stopdate,                  stoptime,agentnumber,caller,called,calltype,orgnum,callid)                  values('2014-05-06','10:45:25','105','9','徐丽','2014-05-06','10:47:10','16104','8090','80033','转入','203','10983');
-Insert into agentcdr(servicedate,servicetime,servicetimelen,ringstimelen ,agentname,stopdate,              stoptime,agentnumber,caller,called,calltype,orgnum,callid)              values('2014-05-06','11:04:33','68','5','徐丽','2014-05-06','11:05:41','16104','80033','63068090','呼出','203','11274');
-Insert into agentcdr(servicedate,servicetime,servicetimelen,ringstimelen ,agentname,stopdate,                          stoptime,agentnumber,caller,called,calltype,orgnum,callid,zjdh)                          values('2014-05-06','11:09:50','47','14','徐丽','2014-05-06','11:10:37','16104','08788216936','80033','转接','203','11357','40115');
-Insert into agentcdr(servicedate,servicetime,servicetimelen,ringstimelen ,agentname,stopdate,              stoptime,agentnumber,caller,called,calltype,orgnum,callid)              values('2014-05-06','11:22:56','661','12','徐丽','2014-05-06','11:33:57','16104','80033','013808780592','呼出','203','11585');
---totalagentcdr:4;
---totalZXPJ:0;
